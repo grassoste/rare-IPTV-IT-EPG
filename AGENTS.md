@@ -22,7 +22,8 @@ HTML on <https://www.telefriuli.it/palinsesto/>.
   test the parser against it, never against the live site. Tests:
   `python3 -m unittest discover -s tests -t .`.
 - **Commit every change.** Small, coherent commits. Never commit `tvit/` (separate upstream
-  clone), `epg.xml` output, or `__pycache__`.
+  clone) or `__pycache__`. `epg.xml` **is** committed: it is the published guide that Dispatcharr
+  reads from the raw URL, and the Action refreshes it daily.
 
 ## Layout
 

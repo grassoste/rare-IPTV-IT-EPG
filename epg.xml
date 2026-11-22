@@ -12,6 +12,10 @@
     <display-name lang="it">Camera dei Deputati</display-name>
     <icon src="https://i.imgur.com/hv4zi9N.png" />
   </channel>
+  <channel id="SenatoTV.it">
+    <display-name lang="it">Senato TV</display-name>
+    <icon src="https://i.imgur.com/h4NyN5d.png" />
+  </channel>
   <programme start="20261122070000 +0100" stop="20261122080000 +0100" channel="IuniorTV.it">
     <title lang="it">CARTOONS STORY</title>
   </programme>
@@ -258,11 +262,17 @@
   <programme start="20261123094400 +0100" stop="20261123104000 +0100" channel="Telefriuli.it">
     <title lang="it">GOAL FVG</title>
   </programme>
+  <programme start="20261123100000 +0100" stop="20261123100500 +0100" channel="SenatoTV.it">
+    <title lang="it">Conferenza stampa: Presentazione del libro "Nadesh… Spirito di speranza"</title>
+  </programme>
   <programme start="20261123100000 +0100" stop="20261123103000 +0100" channel="CameradeiDeputati.it">
     <title lang="it">Riconoscimento al merito per le eccellenze italiane per la pace e lo sviluppo economico</title>
   </programme>
   <programme start="20261123100000 +0100" stop="20261123103000 +0100" channel="IuniorTV.it">
     <title lang="it">CARTONI ANIMATI - KABOOM</title>
+  </programme>
+  <programme start="20261123100000 +0100" stop="20261123110000 +0100" channel="SenatoTV.it">
+    <title lang="it">Convegno: Il 1956 nello specchio della Storia</title>
   </programme>
   <programme start="20261123103000 +0100" stop="20261123103500 +0100" channel="CameradeiDeputati.it">
     <title lang="it">Covid, audizione Conte</title>
@@ -278,6 +288,9 @@
   </programme>
   <programme start="20261123110000 +0100" stop="20261123112000 +0100" channel="IuniorTV.it">
     <title lang="it">TELEFILM STORY</title>
+  </programme>
+  <programme start="20261123110000 +0100" stop="20261123120000 +0100" channel="SenatoTV.it">
+    <title lang="it">Convegno: Oltre le ceneri, il volo</title>
   </programme>
   <programme start="20261123110600 +0100" stop="20261123111200 +0100" channel="Telefriuli.it">
     <title lang="it">ITALPRESS LAVORO WELFARE</title>
@@ -302,6 +315,9 @@
   </programme>
   <programme start="20261123120000 +0100" stop="20261123123000 +0100" channel="IuniorTV.it">
     <title lang="it">SUPER RICHIESTE</title>
+  </programme>
+  <programme start="20261123120000 +0100" stop="20261123140000 +0100" channel="SenatoTV.it">
+    <title lang="it">Conferenza stampa: Presentazione del gruppo di interesse "Governance inclusiva per tutte le società"</title>
   </programme>
   <programme start="20261123122900 +0100" stop="20261123124500 +0100" channel="Telefriuli.it">
     <title lang="it">TELEGIORNALE FVG</title>
@@ -336,6 +352,9 @@
   <programme start="20261123140000 +0100" stop="20261123150000 +0100" channel="CameradeiDeputati.it">
     <title lang="it">AULA, Seduta 750 - Mozioni Giornata internazionale eliminazione violenza contro le donne</title>
   </programme>
+  <programme start="20261123140000 +0100" stop="20261123160000 +0100" channel="SenatoTV.it">
+    <title lang="it">Conferenza stampa: 29^ edizione Pomea d'oro 2026</title>
+  </programme>
   <programme start="20261123141100 +0100" stop="20261123142700 +0100" channel="Telefriuli.it">
     <title lang="it">TELEGIORNALE FVG</title>
   </programme>
@@ -363,11 +382,17 @@
   <programme start="20261123155600 +0100" stop="20261123160100 +0100" channel="Telefriuli.it">
     <title lang="it">ITALPRESS ECONOMIA</title>
   </programme>
+  <programme start="20261123160000 +0100" stop="20261123160500 +0100" channel="SenatoTV.it">
+    <title lang="it">Conferenza stampa: Presentazione del libro "Nelle tenebre dimorano le aquile"</title>
+  </programme>
   <programme start="20261123160000 +0100" stop="20261123160500 +0100" channel="Telefriuli.it">
     <title lang="it">Numaruts - Il salt di Dis</title>
   </programme>
   <programme start="20261123160000 +0100" stop="20261123162500 +0100" channel="IuniorTV.it">
     <title lang="it">TELEFILM STORY</title>
+  </programme>
+  <programme start="20261123160000 +0100" stop="20261123180000 +0100" channel="SenatoTV.it">
+    <title lang="it">Convegno: Primo soccorso pediatrico</title>
   </programme>
   <programme start="20261123160500 +0100" stop="20261123161100 +0100" channel="Telefriuli.it">
     <title lang="it">Numaruts - Doilandie</title>
@@ -410,6 +435,9 @@
   </programme>
   <programme start="20261123175300 +0100" stop="20261123180300 +0100" channel="Telefriuli.it">
     <title lang="it">Spiçut il riçut - Ridi e polsâ ducj insiemi</title>
+  </programme>
+  <programme start="20261123180000 +0100" stop="20261123190000 +0100" channel="SenatoTV.it">
+    <title lang="it">Conferenza stampa: Il giornalismo come servizio</title>
   </programme>
   <programme start="20261123180300 +0100" stop="20261123181800 +0100" channel="Telefriuli.it">
     <title lang="it">ITALPRESS</title>

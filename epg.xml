@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tv generator-info-name="rare-IPTV-IT-EPG" date="20261122">
+<tv generator-info-name="rare-IPTV-IT-EPG" date="20261123">
   <channel id="Telefriuli.it">
     <display-name lang="it">Telefriuli</display-name>
     <icon src="https://i.imgur.com/He3uCs6.png" />
@@ -20,314 +20,72 @@
     <display-name lang="it">Rai Italia</display-name>
     <icon src="https://i.imgur.com/1nN4rEP.png" />
   </channel>
-  <programme start="20261122013100 +0100" stop="20261122034700 +0100" channel="RaiItalia.it">
-    <title lang="it">Pallavolo Femminile: Serie A1 Novara - C</title>
-    <desc lang="it">Pallavolo Femminile: Serie A1 Novara - Chieri - Sport</desc>
+  <programme start="20261123003700 +0100" stop="20261123004900 +0100" channel="Telefriuli.it">
+    <title lang="it">BOLOGNA VS UDINESE</title>
   </programme>
-  <programme start="20261122034700 +0100" stop="20261122070000 +0100" channel="RaiItalia.it">
-    <title lang="it">Rai News 24</title>
-  </programme>
-  <programme start="20261122070000 +0100" stop="20261122070600 +0100" channel="RaiItalia.it">
-    <title lang="it">TG 1</title>
-  </programme>
-  <programme start="20261122070000 +0100" stop="20261122080000 +0100" channel="IuniorTV.it">
-    <title lang="it">CARTOONS STORY</title>
-  </programme>
-  <programme start="20261122070600 +0100" stop="20261122080000 +0100" channel="RaiItalia.it">
-    <title lang="it">UnoMattina in famiglia - Puntata del 22/11/2026</title>
-    <desc lang="it">Il buongiorno di Monica Setta, Beppe Convertini e Ingrid Muccitelli che commentano con gli ospiti l'attualità e i fatti di cronaca più importanti della settimana.</desc>
-  </programme>
-  <programme start="20261122080000 +0100" stop="20261122081800 +0100" channel="RaiItalia.it">
-    <title lang="it">TG1</title>
-  </programme>
-  <programme start="20261122080000 +0100" stop="20261122083000 +0100" channel="IuniorTV.it">
-    <title lang="it">80 NOSTALGIA - Sigle TV</title>
-  </programme>
-  <programme start="20261122081800 +0100" stop="20261122090000 +0100" channel="RaiItalia.it">
-    <title lang="it">UnoMattina in famiglia - Puntata del 22/11/2026</title>
-    <desc lang="it">Il buongiorno di Monica Setta, Beppe Convertini e Ingrid Muccitelli che commentano con gli ospiti l'attualità e i fatti di cronaca più importanti della settimana.</desc>
-  </programme>
-  <programme start="20261122083000 +0100" stop="20261122085500 +0100" channel="IuniorTV.it">
-    <title lang="it">SIGLE E CANZONI TV</title>
-  </programme>
-  <programme start="20261122085500 +0100" stop="20261122090000 +0100" channel="IuniorTV.it">
-    <title lang="it">OROSCOPO</title>
-  </programme>
-  <programme start="20261122090000 +0100" stop="20261122090400 +0100" channel="RaiItalia.it">
-    <title lang="it">TG1</title>
-  </programme>
-  <programme start="20261122090000 +0100" stop="20261122093000 +0100" channel="IuniorTV.it">
-    <title lang="it">CARTONI ANIMATI - KABOOM</title>
-  </programme>
-  <programme start="20261122090400 +0100" stop="20261122092500 +0100" channel="RaiItalia.it">
-    <title lang="it">UnoMattina in famiglia - Puntata del 22/11/2026</title>
-    <desc lang="it">Il buongiorno di Monica Setta, Beppe Convertini e Ingrid Muccitelli che commentano con gli ospiti l'attualità e i fatti di cronaca più importanti della settimana.</desc>
-  </programme>
-  <programme start="20261122092500 +0100" stop="20261122092900 +0100" channel="RaiItalia.it">
-    <title lang="it">TG1 L.I.S.</title>
-  </programme>
-  <programme start="20261122092900 +0100" stop="20261122100000 +0100" channel="RaiItalia.it">
-    <title lang="it">BELLITALIA</title>
-    <desc lang="it">Telegiornali Rubriche Testata.</desc>
-  </programme>
-  <programme start="20261122093000 +0100" stop="20261122100000 +0100" channel="IuniorTV.it">
-    <title lang="it">CARTONI ANIMATI - KABOOM</title>
-  </programme>
-  <programme start="20261122100000 +0100" stop="20261122101300 +0100" channel="RaiItalia.it">
-    <title lang="it">Aspettando Cristianità</title>
-    <desc lang="it">Prog. Religioso.</desc>
-  </programme>
-  <programme start="20261122100000 +0100" stop="20261122103000 +0100" channel="IuniorTV.it">
-    <title lang="it">CARTONI ANIMATI - KABOOM</title>
-  </programme>
-  <programme start="20261122101300 +0100" stop="20261122123200 +0100" channel="RaiItalia.it">
-    <title lang="it">Cristianita' Santa Messa</title>
-    <desc lang="it">Prog. Religioso.</desc>
-  </programme>
-  <programme start="20261122103000 +0100" stop="20261122110000 +0100" channel="IuniorTV.it">
-    <title lang="it">CARTONI ANIMATI - KABOOM</title>
-  </programme>
-  <programme start="20261122110000 +0100" stop="20261122112000 +0100" channel="IuniorTV.it">
-    <title lang="it">TELEFILM STORY</title>
-  </programme>
-  <programme start="20261122112000 +0100" stop="20261122113000 +0100" channel="IuniorTV.it">
-    <title lang="it">IERI E OGGI</title>
-  </programme>
-  <programme start="20261122113000 +0100" stop="20261122120000 +0100" channel="IuniorTV.it">
-    <title lang="it">DOCUMENTARIO</title>
-  </programme>
-  <programme start="20261122120000 +0100" stop="20261122123000 +0100" channel="IuniorTV.it">
-    <title lang="it">SUPER RICHIESTE</title>
-  </programme>
-  <programme start="20261122123000 +0100" stop="20261122130000 +0100" channel="IuniorTV.it">
-    <title lang="it">QUELLI ERAN GIORNI</title>
-  </programme>
-  <programme start="20261122123200 +0100" stop="20261122125800 +0100" channel="RaiItalia.it">
-    <title lang="it">TG2 Mizar</title>
-    <desc lang="it">Telegiornali Rubriche Testata.</desc>
-  </programme>
-  <programme start="20261122125800 +0100" stop="20261122132700 +0100" channel="RaiItalia.it">
-    <title lang="it">Tg2 giorno</title>
-  </programme>
-  <programme start="20261122130000 +0100" stop="20261122133000 +0100" channel="IuniorTV.it">
-    <title lang="it">CARTONI ANIMATI - KABOOM</title>
-  </programme>
-  <programme start="20261122132700 +0100" stop="20261122133900 +0100" channel="RaiItalia.it">
-    <title lang="it">TG2 Sì, Viaggiare</title>
-  </programme>
-  <programme start="20261122133000 +0100" stop="20261122140000 +0100" channel="IuniorTV.it">
-    <title lang="it">CARTONI ANIMATI - KABOOM</title>
-  </programme>
-  <programme start="20261122133900 +0100" stop="20261122142100 +0100" channel="RaiItalia.it">
-    <title lang="it">Il Paradiso delle Signore 11 Puntata 37</title>
-    <desc lang="it">Fiction.</desc>
-  </programme>
-  <programme start="20261122140000 +0100" stop="20261122143000 +0100" channel="IuniorTV.it">
-    <title lang="it">CARTONI ANIMATI - KABOOM</title>
-  </programme>
-  <programme start="20261122142100 +0100" stop="20261122150300 +0100" channel="RaiItalia.it">
-    <title lang="it">Il Paradiso delle Signore 11 Puntata 38</title>
-    <desc lang="it">Fiction.</desc>
-  </programme>
-  <programme start="20261122143000 +0100" stop="20261122150000 +0100" channel="IuniorTV.it">
-    <title lang="it">CARTONI ANIMATI - KABOOM</title>
-  </programme>
-  <programme start="20261122150000 +0100" stop="20261122160000 +0100" channel="IuniorTV.it">
-    <title lang="it">CARTOONS STORY</title>
-  </programme>
-  <programme start="20261122150300 +0100" stop="20261122151400 +0100" channel="RaiItalia.it">
-    <title lang="it">I puffi</title>
-    <desc lang="it">Cartoni Animati.</desc>
-  </programme>
-  <programme start="20261122151400 +0100" stop="20261122152200 +0100" channel="RaiItalia.it">
-    <title lang="it">Le storie di Lupin</title>
-    <desc lang="it">Cartoni Animati.</desc>
-  </programme>
-  <programme start="20261122152200 +0100" stop="20261122154900 +0100" channel="RaiItalia.it">
-    <title lang="it">Clan- Scegli il tuo destino 9a puntata</title>
-    <desc lang="it">TV Ragazzi.</desc>
-  </programme>
-  <programme start="20261122154900 +0100" stop="20261122184200 +0100" channel="RaiItalia.it">
-    <title lang="it">Domenica In - Puntata del 22/11/2026</title>
-    <desc lang="it">Mara Venier, la "signora della domenica", accoglie i protagonisti dell'attualità, i grandi nomi e i nuovi talenti dello spettacolo, per una domenica pomeriggio piena di allegria, ospiti, interviste, musica e storie di vita.</desc>
-  </programme>
-  <programme start="20261122160000 +0100" stop="20261122163000 +0100" channel="IuniorTV.it">
-    <title lang="it">TELEFILM STORY</title>
-  </programme>
-  <programme start="20261122163000 +0100" stop="20261122170000 +0100" channel="IuniorTV.it">
-    <title lang="it">ORAMUSICA</title>
-  </programme>
-  <programme start="20261122170000 +0100" stop="20261122190000 +0100" channel="IuniorTV.it">
-    <title lang="it">CARTOONS STORY</title>
-  </programme>
-  <programme start="20261122184200 +0100" stop="20261122195600 +0100" channel="RaiItalia.it">
-    <title lang="it">L'Eredità Weekend</title>
-    <desc lang="it">Intrattenimento.</desc>
-  </programme>
-  <programme start="20261122190000 +0100" stop="20261122210000 +0100" channel="IuniorTV.it">
-    <title lang="it">FILM WEEKEND DI ANIMAZIONE</title>
-  </programme>
-  <programme start="20261122193000 +0100" stop="20261122202700 +0100" channel="Telefriuli.it">
-    <title lang="it">GOAL FVG</title>
-  </programme>
-  <programme start="20261122195600 +0100" stop="20261122203500 +0100" channel="RaiItalia.it">
-    <title lang="it">Tg1</title>
-  </programme>
-  <programme start="20261122202700 +0100" stop="20261122204300 +0100" channel="Telefriuli.it">
-    <title lang="it">TELEGIORNALE FVG</title>
-  </programme>
-  <programme start="20261122203500 +0100" stop="20261122210500 +0100" channel="RaiItalia.it">
-    <title lang="it">La seconda vita Il Paradiso può attender</title>
-    <desc lang="it">La seconda vita Il Paradiso può attendere - Rubriche Culturali Documentari</desc>
-  </programme>
-  <programme start="20261122204300 +0100" stop="20261122205300 +0100" channel="Telefriuli.it">
-    <title lang="it">SPORT FVG</title>
-  </programme>
-  <programme start="20261122205300 +0100" stop="20261122220100 +0100" channel="Telefriuli.it">
+  <programme start="20261123004900 +0100" stop="20261123014700 +0100" channel="Telefriuli.it">
     <title lang="it">REPLAY</title>
   </programme>
-  <programme start="20261122210000 +0100" stop="20261122213000 +0100" channel="IuniorTV.it">
-    <title lang="it">CARTONI ANIMATI - KABOOM</title>
+  <programme start="20261123013000 +0100" stop="20261123023000 +0100" channel="RaiItalia.it">
+    <title lang="it">Speciale TG1</title>
   </programme>
-  <programme start="20261122210500 +0100" stop="20261122213500 +0100" channel="RaiItalia.it">
-    <title lang="it">Play Report</title>
-    <desc lang="it">Inchiesta.</desc>
-  </programme>
-  <programme start="20261122213000 +0100" stop="20261122220000 +0100" channel="IuniorTV.it">
-    <title lang="it">CARTONI ANIMATI - KABOOM</title>
-  </programme>
-  <programme start="20261122213500 +0100" stop="20261122234200 +0100" channel="RaiItalia.it">
-    <title lang="it">Report</title>
-    <desc lang="it">Inchiesta.</desc>
-  </programme>
-  <programme start="20261122220000 +0100" stop="20261122223000 +0100" channel="IuniorTV.it">
-    <title lang="it">CARTONI ANIMATI - KABOOM</title>
-  </programme>
-  <programme start="20261122220100 +0100" stop="20261122221800 +0100" channel="Telefriuli.it">
-    <title lang="it">START</title>
-  </programme>
-  <programme start="20261122221800 +0100" stop="20261122223400 +0100" channel="Telefriuli.it">
-    <title lang="it">TELEGIORNALE FVG</title>
-  </programme>
-  <programme start="20261122223000 +0100" stop="20261122230000 +0100" channel="IuniorTV.it">
-    <title lang="it">CARTONI ANIMATI - KABOOM</title>
-  </programme>
-  <programme start="20261122223400 +0100" stop="20261122224800 +0100" channel="Telefriuli.it">
-    <title lang="it">L'ALPINO</title>
-  </programme>
-  <programme start="20261122224800 +0100" stop="20261122230600 +0100" channel="Telefriuli.it">
-    <title lang="it">LE PERAULE DE DOMENIE</title>
-  </programme>
-  <programme start="20261122230000 +0100" stop="20261123000000 +0100" channel="IuniorTV.it">
-    <title lang="it">CARTOONS STORY</title>
-  </programme>
-  <programme start="20261122230600 +0100" stop="20261122231200 +0100" channel="Telefriuli.it">
-    <title lang="it">ITALPRESS TURISMO MAGAZINE</title>
-  </programme>
-  <programme start="20261122231200 +0100" stop="20261122232100 +0100" channel="Telefriuli.it">
-    <title lang="it">ITALPRESS AGRIFOOD</title>
-  </programme>
-  <programme start="20261122232100 +0100" stop="20261122235200 +0100" channel="Telefriuli.it">
-    <title lang="it">Settimana Friuli</title>
-  </programme>
-  <programme start="20261122234200 +0100" stop="20261123020800 +0100" channel="RaiItalia.it">
-    <title lang="it">Pallavolo Maschile SuperLega 2026 Piacen</title>
-    <desc lang="it">Pallavolo Maschile SuperLega 2026 Piacenza - Perugia - Sport</desc>
-  </programme>
-  <programme start="20261122235200 +0100" stop="20261123005200 +0100" channel="Telefriuli.it">
-    <title lang="it">TELEGIORNALE FVG</title>
-  </programme>
-  <programme start="20261123000000 +0100" stop="20261123003000 +0100" channel="IuniorTV.it">
-    <title lang="it">TELEFILM STORY</title>
-  </programme>
-  <programme start="20261123000500 +0100" stop="20261123001800 +0100" channel="Telefriuli.it">
-    <title lang="it">ISONZO NEWS</title>
-  </programme>
-  <programme start="20261123001800 +0100" stop="20261123002900 +0100" channel="Telefriuli.it">
-    <title lang="it">L'ALPINO</title>
-  </programme>
-  <programme start="20261123002900 +0100" stop="20261123004100 +0100" channel="Telefriuli.it">
-    <title lang="it">SINTESI REPLAY</title>
-  </programme>
-  <programme start="20261123003000 +0100" stop="20261123010000 +0100" channel="IuniorTV.it">
-    <title lang="it">DOCUMENTARIO</title>
-  </programme>
-  <programme start="20261123004100 +0100" stop="20261123014100 +0100" channel="Telefriuli.it">
-    <title lang="it">REPLAY</title>
-  </programme>
-  <programme start="20261123010000 +0100" stop="20261123020000 +0100" channel="IuniorTV.it">
-    <title lang="it">LA NOTTE DI IUNIOR TV</title>
-  </programme>
-  <programme start="20261123014100 +0100" stop="20261123023100 +0100" channel="Telefriuli.it">
+  <programme start="20261123014700 +0100" stop="20261123024400 +0100" channel="Telefriuli.it">
     <title lang="it">GOAL FVG</title>
   </programme>
-  <programme start="20261123020800 +0100" stop="20261123030900 +0100" channel="RaiItalia.it">
-    <title lang="it">Speciale Tg1</title>
+  <programme start="20261123023000 +0100" stop="20261123061500 +0100" channel="RaiItalia.it">
+    <title lang="it">TG RaiNews</title>
   </programme>
-  <programme start="20261123023100 +0100" stop="20261123024400 +0100" channel="Telefriuli.it">
+  <programme start="20261123024400 +0100" stop="20261123025600 +0100" channel="Telefriuli.it">
     <title lang="it">TELEGIORNALE FVG</title>
   </programme>
-  <programme start="20261123024400 +0100" stop="20261123031000 +0100" channel="Telefriuli.it">
+  <programme start="20261123025600 +0100" stop="20261123032200 +0100" channel="Telefriuli.it">
     <title lang="it">Settimana Friuli</title>
   </programme>
-  <programme start="20261123030900 +0100" stop="20261123053800 +0100" channel="RaiItalia.it">
-    <title lang="it">Rai News 24</title>
-  </programme>
-  <programme start="20261123031000 +0100" stop="20261123032300 +0100" channel="Telefriuli.it">
+  <programme start="20261123032200 +0100" stop="20261123033500 +0100" channel="Telefriuli.it">
     <title lang="it">ISONZO NEWS</title>
   </programme>
-  <programme start="20261123032300 +0100" stop="20261123033400 +0100" channel="Telefriuli.it">
+  <programme start="20261123033500 +0100" stop="20261123034600 +0100" channel="Telefriuli.it">
     <title lang="it">L'ALPINO</title>
   </programme>
-  <programme start="20261123033400 +0100" stop="20261123035900 +0100" channel="Telefriuli.it">
+  <programme start="20261123034600 +0100" stop="20261123041100 +0100" channel="Telefriuli.it">
     <title lang="it">EFFEMOTORI</title>
   </programme>
-  <programme start="20261123035900 +0100" stop="20261123041000 +0100" channel="Telefriuli.it">
+  <programme start="20261123041100 +0100" stop="20261123042300 +0100" channel="Telefriuli.it">
     <title lang="it">RUGBY MAGAZINE</title>
   </programme>
-  <programme start="20261123041000 +0100" stop="20261123042300 +0100" channel="Telefriuli.it">
+  <programme start="20261123042300 +0100" stop="20261123043500 +0100" channel="Telefriuli.it">
     <title lang="it">TELEGIORNALE FVG</title>
   </programme>
-  <programme start="20261123042300 +0100" stop="20261123044900 +0100" channel="Telefriuli.it">
+  <programme start="20261123043500 +0100" stop="20261123050100 +0100" channel="Telefriuli.it">
     <title lang="it">Settimana Friuli</title>
   </programme>
-  <programme start="20261123044900 +0100" stop="20261123050200 +0100" channel="Telefriuli.it">
-    <title lang="it">ISONZO NEWS</title>
-  </programme>
-  <programme start="20261123050200 +0100" stop="20261123051300 +0100" channel="Telefriuli.it">
+  <programme start="20261123050100 +0100" stop="20261123051200 +0100" channel="Telefriuli.it">
     <title lang="it">L'ALPINO</title>
   </programme>
-  <programme start="20261123051300 +0100" stop="20261123053800 +0100" channel="Telefriuli.it">
+  <programme start="20261123051200 +0100" stop="20261123053700 +0100" channel="Telefriuli.it">
     <title lang="it">EFFEMOTORI</title>
   </programme>
-  <programme start="20261123053800 +0100" stop="20261123055100 +0100" channel="Telefriuli.it">
+  <programme start="20261123053700 +0100" stop="20261123055000 +0100" channel="Telefriuli.it">
     <title lang="it">TELEGIORNALE FVG</title>
   </programme>
-  <programme start="20261123053800 +0100" stop="20261123063000 +0100" channel="RaiItalia.it">
+  <programme start="20261123055000 +0100" stop="20261123061600 +0100" channel="Telefriuli.it">
+    <title lang="it">Settimana Friuli</title>
+  </programme>
+  <programme start="20261123061500 +0100" stop="20261123070000 +0100" channel="RaiItalia.it">
     <title lang="it">Il meglio di Geo</title>
     <desc lang="it">Rubriche Culturali Documentari.</desc>
   </programme>
-  <programme start="20261123055100 +0100" stop="20261123061700 +0100" channel="Telefriuli.it">
-    <title lang="it">Settimana Friuli</title>
-  </programme>
-  <programme start="20261123061700 +0100" stop="20261123062200 +0100" channel="Telefriuli.it">
+  <programme start="20261123061600 +0100" stop="20261123062100 +0100" channel="Telefriuli.it">
     <title lang="it">INTERVALLO_4MIN30_SENTIERI_03</title>
   </programme>
-  <programme start="20261123062100 +0100" stop="20261123062600 +0100" channel="Telefriuli.it">
+  <programme start="20261123062000 +0100" stop="20261123062500 +0100" channel="Telefriuli.it">
     <title lang="it">INTERVALLO_4MIN30_SENTIERI_05</title>
   </programme>
   <programme start="20261123062300 +0100" stop="20261123063000 +0100" channel="Telefriuli.it">
     <title lang="it">INNO DEL FRIULI</title>
   </programme>
-  <programme start="20261123063000 +0100" stop="20261123063300 +0100" channel="RaiItalia.it">
-    <title lang="it">TG1</title>
-  </programme>
   <programme start="20261123063000 +0100" stop="20261123073500 +0100" channel="Telefriuli.it">
     <title lang="it">NEWS CAPPUCCINO E BRIOCHE</title>
-  </programme>
-  <programme start="20261123063300 +0100" stop="20261123070000 +0100" channel="RaiItalia.it">
-    <title lang="it">1mattina News - Puntata del 23/11/2026</title>
-    <desc lang="it">Notizie e attualità in tempo reale dall'Italia e dal mondo. Approfondimenti, ospiti in studio, inviati del Tg1 e interviste ai protagonisti della cronaca, dello sport, della cultura e dello spettacolo.</desc>
   </programme>
   <programme start="20261123070000 +0100" stop="20261123071500 +0100" channel="RaiItalia.it">
     <title lang="it">TG1</title>
@@ -344,10 +102,10 @@
   <programme start="20261123074000 +0100" stop="20261123080000 +0100" channel="IuniorTV.it">
     <title lang="it">UN ANIME UNA CURIOSITA' con GIAFFY</title>
   </programme>
-  <programme start="20261123074100 +0100" stop="20261123074800 +0100" channel="Telefriuli.it">
-    <title lang="it">METEO</title>
+  <programme start="20261123074100 +0100" stop="20261123074600 +0100" channel="Telefriuli.it">
+    <title lang="it">METEO_MATTINA_2026_11_23</title>
   </programme>
-  <programme start="20261123074800 +0100" stop="20261123082800 +0100" channel="Telefriuli.it">
+  <programme start="20261123074600 +0100" stop="20261123082600 +0100" channel="Telefriuli.it">
     <title lang="it">A VOI LA LINEA</title>
   </programme>
   <programme start="20261123080000 +0100" stop="20261123083000 +0100" channel="IuniorTV.it">
@@ -356,7 +114,7 @@
   <programme start="20261123080000 +0100" stop="20261123083000 +0100" channel="RaiItalia.it">
     <title lang="it">TG1</title>
   </programme>
-  <programme start="20261123082800 +0100" stop="20261123092800 +0100" channel="Telefriuli.it">
+  <programme start="20261123082600 +0100" stop="20261123092600 +0100" channel="Telefriuli.it">
     <title lang="it">NEWS CAPPUCCINO E BRIOCHE</title>
   </programme>
   <programme start="20261123083000 +0100" stop="20261123085500 +0100" channel="IuniorTV.it">
@@ -371,19 +129,19 @@
   <programme start="20261123090000 +0100" stop="20261123093000 +0100" channel="IuniorTV.it">
     <title lang="it">CARTONI ANIMATI - KABOOM</title>
   </programme>
-  <programme start="20261123092800 +0100" stop="20261123093400 +0100" channel="Telefriuli.it">
+  <programme start="20261123092600 +0100" stop="20261123093200 +0100" channel="Telefriuli.it">
     <title lang="it">OROSCOPO</title>
   </programme>
   <programme start="20261123093000 +0100" stop="20261123100000 +0100" channel="IuniorTV.it">
     <title lang="it">CARTONI ANIMATI - KABOOM</title>
   </programme>
-  <programme start="20261123093400 +0100" stop="20261123093900 +0100" channel="Telefriuli.it">
-    <title lang="it">METEO</title>
+  <programme start="20261123093200 +0100" stop="20261123093700 +0100" channel="Telefriuli.it">
+    <title lang="it">METEO_MATTINA_2026_11_23</title>
   </programme>
-  <programme start="20261123093800 +0100" stop="20261123094400 +0100" channel="Telefriuli.it">
+  <programme start="20261123093400 +0100" stop="20261123094100 +0100" channel="Telefriuli.it">
     <title lang="it">INTERVALLO_4MIN30_SENTIERI_03</title>
   </programme>
-  <programme start="20261123094400 +0100" stop="20261123104000 +0100" channel="Telefriuli.it">
+  <programme start="20261123094100 +0100" stop="20261123104200 +0100" channel="Telefriuli.it">
     <title lang="it">GOAL FVG</title>
   </programme>
   <programme start="20261123094500 +0100" stop="20261123114500 +0100" channel="RaiItalia.it">
@@ -415,7 +173,7 @@
     <title lang="it">Manifesti 1944 - 1946 - Caivano nel dopoguerra: tra occupazione militare e rinascita civile</title>
     <desc lang="it">Alle ore 10.30, presso la Sala del Refettorio di Palazzo San Macuto si svolge la presentazione del volume "Manifesti 1944 - 1946 - Caivano nel dopoguerra: tra occupazione militare e rinascita civile". Interviene la segretaria di presidenza della Camera, Annarita Patriarca.</desc>
   </programme>
-  <programme start="20261123104000 +0100" stop="20261123110600 +0100" channel="Telefriuli.it">
+  <programme start="20261123104200 +0100" stop="20261123110900 +0100" channel="Telefriuli.it">
     <title lang="it">SCREENSHOT</title>
   </programme>
   <programme start="20261123110000 +0100" stop="20261123112000 +0100" channel="IuniorTV.it">
@@ -425,20 +183,20 @@
     <title lang="it">Convegno: Oltre le ceneri, il volo</title>
     <desc lang="it">Oltre le ceneri, il volo: la rinascita delle vittime. Su iniziativa della senatrice Cinzia Pellegrino</desc>
   </programme>
-  <programme start="20261123110600 +0100" stop="20261123111200 +0100" channel="Telefriuli.it">
+  <programme start="20261123110900 +0100" stop="20261123111400 +0100" channel="Telefriuli.it">
     <title lang="it">ITALPRESS LAVORO WELFARE</title>
   </programme>
-  <programme start="20261123111200 +0100" stop="20261123112800 +0100" channel="Telefriuli.it">
+  <programme start="20261123111400 +0100" stop="20261123113000 +0100" channel="Telefriuli.it">
     <title lang="it">START</title>
   </programme>
   <programme start="20261123112000 +0100" stop="20261123113000 +0100" channel="IuniorTV.it">
     <title lang="it">IERI E OGGI</title>
   </programme>
-  <programme start="20261123112800 +0100" stop="20261123115700 +0100" channel="Telefriuli.it">
-    <title lang="it">EFFEMOTORI</title>
-  </programme>
   <programme start="20261123113000 +0100" stop="20261123115000 +0100" channel="IuniorTV.it">
     <title lang="it">DOCUMENTARIO</title>
+  </programme>
+  <programme start="20261123113000 +0100" stop="20261123120000 +0100" channel="Telefriuli.it">
+    <title lang="it">EFFEMOTORI</title>
   </programme>
   <programme start="20261123114500 +0100" stop="20261123120000 +0100" channel="RaiItalia.it">
     <title lang="it">Documentario</title>
@@ -446,7 +204,7 @@
   <programme start="20261123115000 +0100" stop="20261123120000 +0100" channel="IuniorTV.it">
     <title lang="it">AROUND THE MUSIC con NEARCO - INFORMAZIONE</title>
   </programme>
-  <programme start="20261123115700 +0100" stop="20261123122900 +0100" channel="Telefriuli.it">
+  <programme start="20261123120000 +0100" stop="20261123122900 +0100" channel="Telefriuli.it">
     <title lang="it">MESSEDE CHE SI TACHE</title>
   </programme>
   <programme start="20261123120000 +0100" stop="20261123123000 +0100" channel="IuniorTV.it">
@@ -511,7 +269,7 @@
   <programme start="20261123141100 +0100" stop="20261123142700 +0100" channel="Telefriuli.it">
     <title lang="it">TELEGIORNALE FVG</title>
   </programme>
-  <programme start="20261123142700 +0100" stop="20261123152000 +0100" channel="Telefriuli.it">
+  <programme start="20261123142700 +0100" stop="20261123152600 +0100" channel="Telefriuli.it">
     <title lang="it">GOAL FVG</title>
   </programme>
   <programme start="20261123143000 +0100" stop="20261123150000 +0100" channel="IuniorTV.it">
@@ -527,27 +285,21 @@
   <programme start="20261123151500 +0100" stop="20261123153000 +0100" channel="RaiItalia.it">
     <title lang="it">TGR Leonardo</title>
   </programme>
-  <programme start="20261123152000 +0100" stop="20261123152900 +0100" channel="Telefriuli.it">
+  <programme start="20261123152600 +0100" stop="20261123153500 +0100" channel="Telefriuli.it">
     <title lang="it">ITALPRESS SALUTE MAGAZINE</title>
-  </programme>
-  <programme start="20261123152900 +0100" stop="20261123155600 +0100" channel="Telefriuli.it">
-    <title lang="it">A VOI LA LINEA</title>
   </programme>
   <programme start="20261123153000 +0100" stop="20261123160000 +0100" channel="RaiItalia.it">
     <title lang="it">Via dei Matti numero 0 5ª Stag. 5ª puntata</title>
   </programme>
+  <programme start="20261123153500 +0100" stop="20261123160200 +0100" channel="Telefriuli.it">
+    <title lang="it">A VOI LA LINEA</title>
+  </programme>
   <programme start="20261123154000 +0100" stop="20261123160000 +0100" channel="IuniorTV.it">
     <title lang="it">UN ANIME UNA CURIOSITA' con GIAFFY</title>
-  </programme>
-  <programme start="20261123155600 +0100" stop="20261123160100 +0100" channel="Telefriuli.it">
-    <title lang="it">ITALPRESS ECONOMIA</title>
   </programme>
   <programme start="20261123160000 +0100" stop="20261123160500 +0100" channel="SenatoTV.it">
     <title lang="it">Conferenza stampa: Presentazione del libro "Nelle tenebre dimorano le aquile"</title>
     <desc lang="it">Presentazione del libro "Nelle tenebre dimorano le aquile" di Vincenzo Vitale. Su iniziativa del senatore Adriano Paroli</desc>
-  </programme>
-  <programme start="20261123160000 +0100" stop="20261123160500 +0100" channel="Telefriuli.it">
-    <title lang="it">Numaruts - Il salt di Dis</title>
   </programme>
   <programme start="20261123160000 +0100" stop="20261123162500 +0100" channel="IuniorTV.it">
     <title lang="it">TELEFILM STORY</title>
@@ -560,20 +312,26 @@
     <title lang="it">Convegno: Primo soccorso pediatrico</title>
     <desc lang="it">Primo soccorso pediatrico. Prima dei soccorsi ci siamo noi. Su iniziativa del senatore Andrea Crisanti</desc>
   </programme>
-  <programme start="20261123160500 +0100" stop="20261123161100 +0100" channel="Telefriuli.it">
+  <programme start="20261123160200 +0100" stop="20261123160700 +0100" channel="Telefriuli.it">
+    <title lang="it">ITALPRESS ECONOMIA</title>
+  </programme>
+  <programme start="20261123160700 +0100" stop="20261123161200 +0100" channel="Telefriuli.it">
+    <title lang="it">Numaruts - Il salt di Dis</title>
+  </programme>
+  <programme start="20261123161200 +0100" stop="20261123161700 +0100" channel="Telefriuli.it">
     <title lang="it">Numaruts - Doilandie</title>
   </programme>
-  <programme start="20261123161100 +0100" stop="20261123161600 +0100" channel="Telefriuli.it">
+  <programme start="20261123161700 +0100" stop="20261123162200 +0100" channel="Telefriuli.it">
     <title lang="it">Numaruts - Lis dos scarputis di Doi</title>
   </programme>
-  <programme start="20261123161600 +0100" stop="20261123162100 +0100" channel="Telefriuli.it">
+  <programme start="20261123162200 +0100" stop="20261123162700 +0100" channel="Telefriuli.it">
     <title lang="it">Numaruts - Une storie che no torne</title>
-  </programme>
-  <programme start="20261123162100 +0100" stop="20261123162900 +0100" channel="Telefriuli.it">
-    <title lang="it">Numartus - Ce raze di retangui!</title>
   </programme>
   <programme start="20261123162500 +0100" stop="20261123163000 +0100" channel="IuniorTV.it">
     <title lang="it">AROUND THE MUSIC con NEARCO - INFORMAZIONE</title>
+  </programme>
+  <programme start="20261123162700 +0100" stop="20261123163200 +0100" channel="Telefriuli.it">
+    <title lang="it">Numartus - Ce raze di retangui!</title>
   </programme>
   <programme start="20261123162900 +0100" stop="20261123164500 +0100" channel="Telefriuli.it">
     <title lang="it">TG FLASH</title>
@@ -2085,6 +1843,201 @@
     <title lang="it">DOCUMENTARIO</title>
   </programme>
   <programme start="20261129010000 +0100" stop="20261129020000 +0100" channel="IuniorTV.it">
+    <title lang="it">LA NOTTE DI IUNIOR TV</title>
+  </programme>
+  <programme start="20261129014500 +0100" stop="20261129033000 +0100" channel="RaiItalia.it">
+    <title lang="it">Volley Serie A1 Fineco Femminile: Granda Volley Cuneo - Savino Del Bene Scandicci</title>
+  </programme>
+  <programme start="20261129033000 +0100" stop="20261129070000 +0100" channel="RaiItalia.it">
+    <title lang="it">TG Rai News</title>
+  </programme>
+  <programme start="20261129062000 +0100" stop="20261129063000 +0100" channel="Telefriuli.it">
+    <title lang="it">Un pinsir par vuè</title>
+  </programme>
+  <programme start="20261129063000 +0100" stop="20261129070000 +0100" channel="Telefriuli.it">
+    <title lang="it">Telegiornale FVG</title>
+  </programme>
+  <programme start="20261129070000 +0100" stop="20261129071500 +0100" channel="RaiItalia.it">
+    <title lang="it">TG1</title>
+  </programme>
+  <programme start="20261129070000 +0100" stop="20261129073000 +0100" channel="Telefriuli.it">
+    <title lang="it">Maman! Program par fruts</title>
+  </programme>
+  <programme start="20261129070000 +0100" stop="20261129080000 +0100" channel="IuniorTV.it">
+    <title lang="it">CARTOONS STORY</title>
+  </programme>
+  <programme start="20261129071500 +0100" stop="20261129093000 +0100" channel="RaiItalia.it">
+    <title lang="it">UnoMattina in famiglia</title>
+  </programme>
+  <programme start="20261129073000 +0100" stop="20261129080000 +0100" channel="Telefriuli.it">
+    <title lang="it">Settimana Friuli</title>
+  </programme>
+  <programme start="20261129080000 +0100" stop="20261129083000 +0100" channel="IuniorTV.it">
+    <title lang="it">80 NOSTALGIA - Sigle TV</title>
+  </programme>
+  <programme start="20261129080000 +0100" stop="20261129083000 +0100" channel="Telefriuli.it">
+    <title lang="it">Telefruts – cartoni animati</title>
+  </programme>
+  <programme start="20261129083000 +0100" stop="20261129085500 +0100" channel="IuniorTV.it">
+    <title lang="it">SIGLE E CANZONI TV</title>
+  </programme>
+  <programme start="20261129083000 +0100" stop="20261129093000 +0100" channel="Telefriuli.it">
+    <title lang="it">Le Peraule de domenie</title>
+  </programme>
+  <programme start="20261129085500 +0100" stop="20261129090000 +0100" channel="IuniorTV.it">
+    <title lang="it">OROSCOPO</title>
+  </programme>
+  <programme start="20261129090000 +0100" stop="20261129093000 +0100" channel="IuniorTV.it">
+    <title lang="it">CARTONI ANIMATI - KABOOM</title>
+  </programme>
+  <programme start="20261129093000 +0100" stop="20261129100000 +0100" channel="IuniorTV.it">
+    <title lang="it">CARTONI ANIMATI - KABOOM</title>
+  </programme>
+  <programme start="20261129093000 +0100" stop="20261129100000 +0100" channel="RaiItalia.it">
+    <title lang="it">BellItalia</title>
+  </programme>
+  <programme start="20261129093000 +0100" stop="20261129103000 +0100" channel="Telefriuli.it">
+    <title lang="it">Settimana Friuli</title>
+  </programme>
+  <programme start="20261129100000 +0100" stop="20261129101500 +0100" channel="RaiItalia.it">
+    <title lang="it">Anteprima Cristianità</title>
+  </programme>
+  <programme start="20261129100000 +0100" stop="20261129103000 +0100" channel="IuniorTV.it">
+    <title lang="it">CARTONI ANIMATI - KABOOM</title>
+  </programme>
+  <programme start="20261129101500 +0100" stop="20261129123000 +0100" channel="RaiItalia.it">
+    <title lang="it">Cristianità - Rai Italia</title>
+  </programme>
+  <programme start="20261129103000 +0100" stop="20261129110000 +0100" channel="IuniorTV.it">
+    <title lang="it">CARTONI ANIMATI - KABOOM</title>
+  </programme>
+  <programme start="20261129103000 +0100" stop="20261129113000 +0100" channel="Telefriuli.it">
+    <title lang="it">Santa Messa dal Duomo di Udine – diretta</title>
+  </programme>
+  <programme start="20261129110000 +0100" stop="20261129112000 +0100" channel="IuniorTV.it">
+    <title lang="it">TELEFILM STORY</title>
+  </programme>
+  <programme start="20261129112000 +0100" stop="20261129113000 +0100" channel="IuniorTV.it">
+    <title lang="it">IERI E OGGI</title>
+  </programme>
+  <programme start="20261129113000 +0100" stop="20261129120000 +0100" channel="IuniorTV.it">
+    <title lang="it">DOCUMENTARIO</title>
+  </programme>
+  <programme start="20261129113000 +0100" stop="20261129123000 +0100" channel="Telefriuli.it">
+    <title lang="it">L’alpino</title>
+  </programme>
+  <programme start="20261129120000 +0100" stop="20261129123000 +0100" channel="IuniorTV.it">
+    <title lang="it">SUPER RICHIESTE</title>
+  </programme>
+  <programme start="20261129123000 +0100" stop="20261129124500 +0100" channel="Telefriuli.it">
+    <title lang="it">Telegiornale FVG – diretta</title>
+  </programme>
+  <programme start="20261129123000 +0100" stop="20261129130000 +0100" channel="IuniorTV.it">
+    <title lang="it">QUELLI ERAN GIORNI</title>
+  </programme>
+  <programme start="20261129123000 +0100" stop="20261129130000 +0100" channel="RaiItalia.it">
+    <title lang="it">TG2 Mizar</title>
+  </programme>
+  <programme start="20261129124500 +0100" stop="20261129130000 +0100" channel="Telefriuli.it">
+    <title lang="it">Noi Dolomiti Unesco</title>
+  </programme>
+  <programme start="20261129130000 +0100" stop="20261129133000 +0100" channel="IuniorTV.it">
+    <title lang="it">CARTONI ANIMATI - KABOOM</title>
+  </programme>
+  <programme start="20261129130000 +0100" stop="20261129133000 +0100" channel="Telefriuli.it">
+    <title lang="it">Maman! Program par fruts</title>
+  </programme>
+  <programme start="20261129133000 +0100" stop="20261129134500 +0100" channel="Telefriuli.it">
+    <title lang="it">Telegiornale FVG</title>
+  </programme>
+  <programme start="20261129133000 +0100" stop="20261129140000 +0100" channel="IuniorTV.it">
+    <title lang="it">CARTONI ANIMATI - KABOOM</title>
+  </programme>
+  <programme start="20261129134500 +0100" stop="20261129141500 +0100" channel="Telefriuli.it">
+    <title lang="it">Effemotori</title>
+  </programme>
+  <programme start="20261129140000 +0100" stop="20261129143000 +0100" channel="IuniorTV.it">
+    <title lang="it">CARTONI ANIMATI - KABOOM</title>
+  </programme>
+  <programme start="20261129141500 +0100" stop="20261129143000 +0100" channel="Telefriuli.it">
+    <title lang="it">Start</title>
+  </programme>
+  <programme start="20261129143000 +0100" stop="20261129150000 +0100" channel="IuniorTV.it">
+    <title lang="it">CARTONI ANIMATI - KABOOM</title>
+  </programme>
+  <programme start="20261129143000 +0100" stop="20261129150000 +0100" channel="Telefriuli.it">
+    <title lang="it">Aspettando Poltronissima – diretta</title>
+  </programme>
+  <programme start="20261129150000 +0100" stop="20261129160000 +0100" channel="IuniorTV.it">
+    <title lang="it">CARTOONS STORY</title>
+  </programme>
+  <programme start="20261129150000 +0100" stop="20261129174500 +0100" channel="Telefriuli.it">
+    <title lang="it">Poltronissima – diretta</title>
+  </programme>
+  <programme start="20261129160000 +0100" stop="20261129163000 +0100" channel="IuniorTV.it">
+    <title lang="it">TELEFILM STORY</title>
+  </programme>
+  <programme start="20261129163000 +0100" stop="20261129170000 +0100" channel="IuniorTV.it">
+    <title lang="it">ORAMUSICA</title>
+  </programme>
+  <programme start="20261129170000 +0100" stop="20261129190000 +0100" channel="IuniorTV.it">
+    <title lang="it">CARTOONS STORY</title>
+  </programme>
+  <programme start="20261129174500 +0100" stop="20261129190000 +0100" channel="Telefriuli.it">
+    <title lang="it">Rugby Magazine</title>
+  </programme>
+  <programme start="20261129190000 +0100" stop="20261129191500 +0100" channel="Telefriuli.it">
+    <title lang="it">Telegiornale FVG – diretta</title>
+  </programme>
+  <programme start="20261129190000 +0100" stop="20261129210000 +0100" channel="IuniorTV.it">
+    <title lang="it">FILM WEEKEND DI ANIMAZIONE</title>
+  </programme>
+  <programme start="20261129191500 +0100" stop="20261129193000 +0100" channel="Telefriuli.it">
+    <title lang="it">Sport FVG – diretta</title>
+  </programme>
+  <programme start="20261129193000 +0100" stop="20261129205500 +0100" channel="Telefriuli.it">
+    <title lang="it">Goal FVG – diretta</title>
+  </programme>
+  <programme start="20261129205500 +0100" stop="20261129220000 +0100" channel="Telefriuli.it">
+    <title lang="it">Replay – diretta</title>
+  </programme>
+  <programme start="20261129210000 +0100" stop="20261129213000 +0100" channel="IuniorTV.it">
+    <title lang="it">CARTONI ANIMATI - KABOOM</title>
+  </programme>
+  <programme start="20261129213000 +0100" stop="20261129220000 +0100" channel="IuniorTV.it">
+    <title lang="it">CARTONI ANIMATI - KABOOM</title>
+  </programme>
+  <programme start="20261129220000 +0100" stop="20261129221500 +0100" channel="Telefriuli.it">
+    <title lang="it">Start</title>
+  </programme>
+  <programme start="20261129220000 +0100" stop="20261129223000 +0100" channel="IuniorTV.it">
+    <title lang="it">CARTONI ANIMATI - KABOOM</title>
+  </programme>
+  <programme start="20261129221500 +0100" stop="20261129224500 +0100" channel="Telefriuli.it">
+    <title lang="it">Telegiornale FVG</title>
+  </programme>
+  <programme start="20261129223000 +0100" stop="20261129230000 +0100" channel="IuniorTV.it">
+    <title lang="it">CARTONI ANIMATI - KABOOM</title>
+  </programme>
+  <programme start="20261129224500 +0100" stop="20261129231500 +0100" channel="Telefriuli.it">
+    <title lang="it">Le Peraule de domenie</title>
+  </programme>
+  <programme start="20261129230000 +0100" stop="20261130000000 +0100" channel="IuniorTV.it">
+    <title lang="it">CARTOONS STORY</title>
+  </programme>
+  <programme start="20261129231500 +0100" stop="20261129234500 +0100" channel="Telefriuli.it">
+    <title lang="it">Settimana Friuli</title>
+  </programme>
+  <programme start="20261129234500 +0100" stop="20261130004500 +0100" channel="Telefriuli.it">
+    <title lang="it">Telegiornale FVG</title>
+  </programme>
+  <programme start="20261130000000 +0100" stop="20261130003000 +0100" channel="IuniorTV.it">
+    <title lang="it">TELEFILM STORY</title>
+  </programme>
+  <programme start="20261130003000 +0100" stop="20261130010000 +0100" channel="IuniorTV.it">
+    <title lang="it">DOCUMENTARIO</title>
+  </programme>
+  <programme start="20261130010000 +0100" stop="20261130020000 +0100" channel="IuniorTV.it">
     <title lang="it">LA NOTTE DI IUNIOR TV</title>
   </programme>
 </tv>

@@ -8,7 +8,8 @@ every channel source contributes programmes to the same `epg.xml`.
 
 ## Published guide
 
-Regenerated daily by a GitHub Action (07:30 Rome):
+Rebuilt every 6 hours by a GitHub Action (`30 */6 * * *`, so 07:30/13:30/19:30/01:30 Rome in
+CET) and committed only when it changed:
 
 ```
 https://raw.githubusercontent.com/grassoste/rare-IPTV-IT-EPG/main/epg.xml
@@ -16,13 +17,23 @@ https://raw.githubusercontent.com/grassoste/rare-IPTV-IT-EPG/main/epg.xml
 
 ## Channels
 
-| Channel | `tvg-id` | Source | Coverage |
+| Channel | `tvg-id` | Source | Shape |
 |---|---|---|---|
-| Telefriuli | `Telefriuli.it` | [palinsesto](https://www.telefriuli.it/palinsesto/) + [live playout log](https://www.telefriuli.it/streaming/) | 7 days, today/tomorrow minute-accurate |
-| Iunior TV | `IuniorTV.it` | [iuniortv.blogspot.com](https://iuniortv.blogspot.com/) PALINSESTO section | 7 days, weekly template |
+| Telefriuli | `Telefriuli.it` | [palinsesto](https://www.telefriuli.it/palinsesto/) + [live playout log](https://www.telefriuli.it/streaming/) | 7-day grid, today/tomorrow minute-accurate |
+| Iunior TV | `IuniorTV.it` | [iuniortv.blogspot.com](https://iuniortv.blogspot.com/) PALINSESTO section | 7-day weekly grid |
+| Camera dei Deputati | `CameradeiDeputati.it` | [palinsesto-webtv?data=…](https://comunicazione.camera.it/palinsesto-webtv) | event list, gaps when not sitting |
+| Senato TV | `SenatoTV.it` | [palimpsest JSON](https://webtv.senato.it/api/palimpsest) | event list, gaps when not sitting |
+| Rai Italia | `RaiItalia.it` | [raiplay palinsesto JSON](https://www.raiplay.it/palinsesto/raiitalia/Rai-Italia-Africa/) | full-day grid, exact durations |
 
 Ids follow [iptv-org](https://github.com/iptv-org/database) so a playlist built from it matches
 without remapping. Icons come from iptv-org too.
+
+Two of these are event channels: Camera and Senato publish only the sittings, press conferences
+and events they air, never a 24/7 grid. Gaps in the guide are the truth, not a bug.
+
+Rai Italia publishes guides per feed (Africa, America, Asia, Australia). There is **no Europa
+file** — `Rai-Italia-Europa*.json` answers 302 — so the Africa feed is used, with `FEED` in
+`sources/raiitalia.py` as the single place to change it.
 
 ## Usage
 
@@ -53,7 +64,10 @@ build_epg.py            # entry point: run every source, write one epg.xml
 epg.py                  # shared: fetch, text, date projection, XMLTV assembly
 sources/telefriuli.py   # Telefriuli
 sources/iuniortv.py     # Iunior TV
-tests/                  # unittest + HTML fixtures
+sources/camera.py       # Camera dei Deputati
+sources/senato.py       # Senato TV
+sources/raiitalia.py    # Rai Italia
+tests/                  # unittest + HTML/JSON fixtures
 PLAN.md                 # source analysis and plan
 tvit/                   # git-ignored clone of github.com/leicaflorian/tvit (reference)
 ```

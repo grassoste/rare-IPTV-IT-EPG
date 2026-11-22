@@ -43,6 +43,43 @@ tvit/                   # git-ignored clone of github.com/leicaflorian/tvit (ref
 
 ## Source facts
 
+### Camera dei Deputati (`CameradeiDeputati.it`) — verified 2026-11
+
+- `https://comunicazione.camera.it/palinsesto-webtv?data=YYYY-MM-DD` is server-rendered Drupal
+  HTML. `?data` must be ISO: `23-11-2026` or `20261123` silently fall back to today.
+- Range: 2001-06-01 … today+90 days. Out of range says "Data non disponibile sul sistema",
+  an empty day says "Nessun evento in questa data" — both mean "nothing to emit".
+- One `.caption` per event: `.ora` (contains a hidden "Inizia alle" span, so pull `HH:MM` with a
+  regex), `.canale` (Assemblea / Eventi / commission name), `.titolo > a`.
+- Only start times: duration = next event that day, last of the day = 60 min, minimum 5 min
+  (two events can share a start time).
+- The satellite PDF on `/palinsesto-satellitare` is a **different** schedule (2-day rolling,
+  hand-updated), deliberately not used.
+
+### Senato TV (`SenatoTV.it`) — verified 2026-11
+
+- The page is a shell; rows come from
+  `GET https://webtv.senato.it/api/palimpsest?field_date_value[min]=YYYY-MM-DDT00:00:00&field_date_value[max]=<next day>T00:00:00`.
+  The no-parameter call returns only today and CloudFront serves stale copies: always pass an
+  explicit window **and** a cache-busting `_=` parameter.
+- Each `nid` appears **twice** in the response: dedupe by `nid`.
+- `field_date` is `HH:MM` only; the calendar date comes from `field_vevent_id`
+  (`canale6_20261123_1000_atti_parlamentari`).
+- No end times: next event that day, last of the day 60 min, minimum 5 min.
+- Empty days return `[]` and are normal.
+
+### Rai Italia (`RaiItalia.it`) — verified 2026-11
+
+- `https://www.raiplay.it/palinsesto/raiitalia/<feed>/<dd-mm-yyyy>.json` returns events with an
+  exact UTC `date` and exact `duration`; convert to Europe/Rome.
+- Published feeds: Africa, America, Asia, Australia. **No Europa feed** — `Rai-Italia-Europa*`
+  answers 302. `FEED` in the module is the single place to change this.
+- Server window ≈ D-24 … D+7, then HTTP 559; day files have holes at the edges, so fetch
+  D-1 … D+6 and dedupe by event `id`.
+- A single day file carries **two near-duplicate grids** (40 overlapping pairs of 54 events,
+  summing to ~49 h): keep the first event of an overlap so the day is linear.
+- `duration_in_minutes` is a string ("30 min"); fall back to 30 min when both fields are empty.
+
 ### Telefriuli (`Telefriuli.it`) — verified 2026-11
 
 - Two sources merged: the weekly page and the live playout log.

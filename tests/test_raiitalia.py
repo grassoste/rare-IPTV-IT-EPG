@@ -30,6 +30,11 @@ class ParseTest(unittest.TestCase):
         first = self.rows[0]
         self.assertEqual(first[1] - first[0], timedelta(hours=1))
 
+    def test_description_is_kept_when_present(self):
+        described = [row for row in self.rows if row[3]]
+        self.assertTrue(described, "no event carried a description")
+        self.assertTrue(all(isinstance(row[3], str) for row in described))
+
     def test_falls_back_to_duration_in_minutes(self):
         payload = {
             "events": [
@@ -42,14 +47,14 @@ class ParseTest(unittest.TestCase):
                 }
             ]
         }
-        start, stop, title, _ = raiitalia.parse_day(payload)[0]
+        start, stop, _, _, _ = raiitalia.parse_day(payload)[0]
         self.assertEqual(stop - start, timedelta(minutes=45))
 
     def test_unknown_duration_defaults_to_thirty_minutes(self):
         payload = {
             "events": [{"id": "1", "name": "X", "date": "2026-11-23T10:00:00+0000"}]
         }
-        start, stop, _, _ = raiitalia.parse_day(payload)[0]
+        start, stop, _, _, _ = raiitalia.parse_day(payload)[0]
         self.assertEqual(stop - start, timedelta(minutes=30))
 
     def test_rows_without_date_or_name_are_skipped(self):
@@ -74,23 +79,20 @@ class MergeTest(unittest.TestCase):
     def test_overlaps_are_dropped_so_the_day_is_linear(self):
         merged = raiitalia.merge([self.payload], DAY)
         self.assertLess(len(merged), 54)  # the file's two grids overlap heavily
-        for (start, stop, title), (next_start, _, _) in zip(merged, merged[1:]):
+        for (start, stop, title, _), (next_start, _, _, _) in zip(merged, merged[1:]):
             self.assertLessEqual(
                 stop, next_start, f"{title} overlaps the next programme"
             )
 
     def test_window_clips_days_outside_it(self):
         merged = raiitalia.merge([self.payload], date(2026, 11, 24), 1)
-        self.assertTrue(
-            all(start.date() == date(2026, 11, 24) for start, _, _ in merged)
-        )
+        self.assertTrue(all(start.date() == date(2026, 11, 24) for start, *_ in merged))
 
     def test_sorted_and_non_zero(self):
         merged = raiitalia.merge([self.payload], DAY)
-        self.assertEqual(
-            [start for start, _, _ in merged], sorted(s for s, _, _ in merged)
-        )
-        self.assertTrue(all(stop > start for start, stop, _ in merged))
+        starts = [row[0] for row in merged]
+        self.assertEqual(starts, sorted(starts))
+        self.assertTrue(all(stop > start for start, stop, *_ in merged))
 
 
 if __name__ == "__main__":

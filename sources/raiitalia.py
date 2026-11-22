@@ -39,7 +39,7 @@ def _duration(event):
 
 
 def parse_day(payload):
-    """-> [(start, stop, title, id)] in Europe/Rome, as published for one day."""
+    """-> [(start, stop, title, description, id)] in Europe/Rome, as published for one day."""
     programmes = []
     for event in payload.get("events") or []:
         try:
@@ -55,6 +55,7 @@ def parse_day(payload):
                 start.astimezone(ROME),
                 stop.astimezone(ROME),
                 title,
+                text(event.get("description") or "") or None,
                 event.get("id") or f"{title}{start}",
             )
         )
@@ -70,19 +71,19 @@ def merge(payloads, today, days=7):
     """
     seen, rows = set(), []
     for payload in payloads:
-        for start, stop, title, event_id in parse_day(payload):
+        for start, stop, title, description, event_id in parse_day(payload):
             if event_id in seen:
                 continue
             seen.add(event_id)
             if not (0 <= (start.date() - today).days < days):
                 continue
-            rows.append((start, stop, title))
+            rows.append((start, stop, title, description))
 
     programmes, busy_until = [], None
-    for start, stop, title in sorted(rows):
+    for start, stop, title, description in sorted(rows):
         if busy_until and start < busy_until:
             continue
-        programmes.append((start, stop, title))
+        programmes.append((start, stop, title, description))
         busy_until = stop
     return programmes
 

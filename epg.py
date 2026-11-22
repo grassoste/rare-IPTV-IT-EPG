@@ -140,17 +140,23 @@ def build_xmltv(entries, generated=None):
             lines.append(f"    <icon src={quoteattr(channel['icon'])} />")
         lines.append("  </channel>")
 
-    rows = [
-        (start, stop, channel["id"], title)
-        for channel, programmes in entries
-        for start, stop, title in programmes
-    ]
-    for start, stop, channel_id, title in sorted(rows):
+    rows = []
+    for channel, programmes in entries:
+        for programme in programmes:
+            start, stop, title = programme[:3]
+            description = programme[3] if len(programme) > 3 else None
+            rows.append((start, stop, channel["id"], title, description))
+
+    for start, stop, channel_id, title, description in sorted(
+        rows, key=lambda row: (row[0], row[1], row[2], row[3])
+    ):
         lines.append(
             f'  <programme start="{_xmltv_time(start)}" stop="{_xmltv_time(stop)}" '
             f"channel={quoteattr(channel_id)}>"
         )
         lines.append(f'    <title lang="it">{escape(title)}</title>')
+        if description:
+            lines.append(f'    <desc lang="it">{escape(description)}</desc>')
         lines.append("  </programme>")
     lines.append("</tv>")
     return "\n".join(lines) + "\n"

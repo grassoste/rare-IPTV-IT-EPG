@@ -32,7 +32,7 @@ TIME_RE = re.compile(r"^(\d{1,2}):(\d{2})")
 
 
 def parse_events(payload, day):
-    """-> [(date, [(hour, minute, title)])] from one API response."""
+    """-> [(date, [(hour, minute, title, description)])] from one API response."""
     events, seen = {}, set()
     for row in payload:
         nid = str(row.get("nid") or "")
@@ -53,7 +53,8 @@ def parse_events(payload, day):
         if not time or not title:
             continue
         hour, minute = int(time.group(1)), int(time.group(2))
-        events.setdefault(when, []).append((hour, minute, title))
+        description = text(row.get("body") or "") or None
+        events.setdefault(when, []).append((hour, minute, title, description))
     return [(when, sorted(rows)) for when, rows in sorted(events.items())]
 
 
@@ -67,17 +68,18 @@ def build(days, last_duration=60, min_duration=5):
                     hour=hour, minute=minute
                 ),
                 title,
+                description,
             )
-            for hour, minute, title in events
+            for hour, minute, title, description in events
         ]
-        for index, (start, title) in enumerate(starts):
+        for index, (start, title, description) in enumerate(starts):
             stop = (
                 starts[index + 1][0]
                 if index + 1 < len(starts)
                 else start + timedelta(minutes=last_duration)
             )
             stop = max(stop, start + timedelta(minutes=min_duration))
-            programmes.append((start, stop, title))
+            programmes.append((start, stop, title, description))
     return programmes
 
 

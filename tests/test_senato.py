@@ -25,15 +25,27 @@ class ParseTest(unittest.TestCase):
         self.assertEqual([when for when, _ in self.days], [DAY])
 
     def test_times_and_titles_are_kept(self):
-        titles = [title for _, rows in self.days for _, _, title in rows]
+        titles = [title for _, rows in self.days for _, _, title, _ in rows]
         self.assertIn("Convegno: Il 1956 nello specchio della Storia", titles)
-        hours = {hour for _, rows in self.days for hour, _, _ in rows}
+        hours = {hour for _, rows in self.days for hour, _, _, _ in rows}
         self.assertEqual(hours, {10, 11, 12, 14, 16, 18})
+
+    def test_description_comes_from_the_body(self):
+        descriptions = {
+            title: description
+            for _, rows in self.days
+            for _, _, title, description in rows
+        }
+        self.assertTrue(
+            descriptions["Convegno: Il 1956 nello specchio della Storia"].startswith(
+                "Il 1956 nello specchio della Storia"
+            )
+        )
 
     def test_missing_event_id_falls_back_to_the_requested_day(self):
         payload = [{"nid": "1", "title": "No id", "field_date": "09:15"}]
         days = senato.parse_events(payload, DAY)
-        self.assertEqual(days, [(DAY, [(9, 15, "No id")])])
+        self.assertEqual(days, [(DAY, [(9, 15, "No id", None)])])
 
     def test_rows_without_time_or_title_are_skipped(self):
         payload = [
@@ -48,16 +60,22 @@ class ParseTest(unittest.TestCase):
 
 class BuildTest(unittest.TestCase):
     def test_durations_follow_the_next_event(self):
-        days = [(DAY, [(10, 0, "A"), (11, 0, "B")])]
+        days = [(DAY, [(10, 0, "A", None), (11, 0, "B", None)])]
         programmes = senato.build(days)
         self.assertEqual(programmes[0][1], programmes[1][0])
 
+    def test_description_is_carried_through(self):
+        programmes = senato.build([(DAY, [(10, 0, "A", "about A")])])
+        self.assertEqual(
+            programmes[0], (programmes[0][0], programmes[0][1], "A", "about A")
+        )
+
     def test_shared_start_time_is_not_zero_length(self):
-        programmes = senato.build([(DAY, [(10, 0, "A"), (10, 0, "B")])])
-        self.assertTrue(all(stop > start for start, stop, _ in programmes))
+        programmes = senato.build([(DAY, [(10, 0, "A", None), (10, 0, "B", None)])])
+        self.assertTrue(all(stop > start for start, stop, *_ in programmes))
 
     def test_last_event_gets_the_default_hour(self):
-        programmes = senato.build([(DAY, [(23, 0, "Late")])])
+        programmes = senato.build([(DAY, [(23, 0, "Late", None)])])
         self.assertEqual((programmes[0][1] - programmes[0][0]).seconds // 60, 60)
 
 

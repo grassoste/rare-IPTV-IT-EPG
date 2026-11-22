@@ -8,6 +8,10 @@
     <display-name lang="it">Iunior TV</display-name>
     <icon src="https://i.imgur.com/FBOJnfT.png" />
   </channel>
+  <channel id="CameradeiDeputati.it">
+    <display-name lang="it">Camera dei Deputati</display-name>
+    <icon src="https://i.imgur.com/hv4zi9N.png" />
+  </channel>
   <programme start="20261122070000 +0100" stop="20261122080000 +0100" channel="IuniorTV.it">
     <title lang="it">CARTOONS STORY</title>
   </programme>
@@ -71,15 +75,6 @@
   <programme start="20261122170000 +0100" stop="20261122190000 +0100" channel="IuniorTV.it">
     <title lang="it">CARTOONS STORY</title>
   </programme>
-  <programme start="20261122182100 +0100" stop="20261122183400 +0100" channel="Telefriuli.it">
-    <title lang="it">SCREENSHOT</title>
-  </programme>
-  <programme start="20261122183400 +0100" stop="20261122185000 +0100" channel="Telefriuli.it">
-    <title lang="it">Settimana Friuli</title>
-  </programme>
-  <programme start="20261122185000 +0100" stop="20261122185900 +0100" channel="Telefriuli.it">
-    <title lang="it">ITALPRESS TG UNIVERSITA</title>
-  </programme>
   <programme start="20261122185900 +0100" stop="20261122191100 +0100" channel="Telefriuli.it">
     <title lang="it">TELEGIORNALE FVG</title>
   </programme>
@@ -89,16 +84,16 @@
   <programme start="20261122191100 +0100" stop="20261122191700 +0100" channel="Telefriuli.it">
     <title lang="it">FOCUS - TRUFFE POLIZIA DI STATO</title>
   </programme>
-  <programme start="20261122191700 +0100" stop="20261122193000 +0100" channel="Telefriuli.it">
+  <programme start="20261122191700 +0100" stop="20261122192900 +0100" channel="Telefriuli.it">
     <title lang="it">SPORT FVG</title>
   </programme>
-  <programme start="20261122193000 +0100" stop="20261122202700 +0100" channel="Telefriuli.it">
+  <programme start="20261122192900 +0100" stop="20261122202600 +0100" channel="Telefriuli.it">
     <title lang="it">GOAL FVG</title>
   </programme>
-  <programme start="20261122202700 +0100" stop="20261122204200 +0100" channel="Telefriuli.it">
+  <programme start="20261122202600 +0100" stop="20261122204100 +0100" channel="Telefriuli.it">
     <title lang="it">TELEGIORNALE FVG</title>
   </programme>
-  <programme start="20261122204200 +0100" stop="20261122205400 +0100" channel="Telefriuli.it">
+  <programme start="20261122204100 +0100" stop="20261122205400 +0100" channel="Telefriuli.it">
     <title lang="it">SPORT FVG</title>
   </programme>
   <programme start="20261122205400 +0100" stop="20261122220200 +0100" channel="Telefriuli.it">
@@ -209,7 +204,7 @@
   <programme start="20261123061400 +0100" stop="20261123061900 +0100" channel="Telefriuli.it">
     <title lang="it">INTERVALLO_4MIN30_SENTIERI_03</title>
   </programme>
-  <programme start="20261123061900 +0100" stop="20261123062300 +0100" channel="Telefriuli.it">
+  <programme start="20261123061900 +0100" stop="20261123062400 +0100" channel="Telefriuli.it">
     <title lang="it">INTERVALLO_4MIN30_SENTIERI_05</title>
   </programme>
   <programme start="20261123062300 +0100" stop="20261123063000 +0100" channel="Telefriuli.it">
@@ -254,7 +249,7 @@
   <programme start="20261123093000 +0100" stop="20261123100000 +0100" channel="IuniorTV.it">
     <title lang="it">CARTONI ANIMATI - KABOOM</title>
   </programme>
-  <programme start="20261123093400 +0100" stop="20261123093800 +0100" channel="Telefriuli.it">
+  <programme start="20261123093400 +0100" stop="20261123093900 +0100" channel="Telefriuli.it">
     <title lang="it">METEO</title>
   </programme>
   <programme start="20261123093800 +0100" stop="20261123094400 +0100" channel="Telefriuli.it">
@@ -263,11 +258,20 @@
   <programme start="20261123094400 +0100" stop="20261123104000 +0100" channel="Telefriuli.it">
     <title lang="it">GOAL FVG</title>
   </programme>
+  <programme start="20261123100000 +0100" stop="20261123103000 +0100" channel="CameradeiDeputati.it">
+    <title lang="it">Riconoscimento al merito per le eccellenze italiane per la pace e lo sviluppo economico</title>
+  </programme>
   <programme start="20261123100000 +0100" stop="20261123103000 +0100" channel="IuniorTV.it">
     <title lang="it">CARTONI ANIMATI - KABOOM</title>
   </programme>
+  <programme start="20261123103000 +0100" stop="20261123103500 +0100" channel="CameradeiDeputati.it">
+    <title lang="it">Covid, audizione Conte</title>
+  </programme>
   <programme start="20261123103000 +0100" stop="20261123110000 +0100" channel="IuniorTV.it">
     <title lang="it">CARTONI ANIMATI - KABOOM</title>
+  </programme>
+  <programme start="20261123103000 +0100" stop="20261123140000 +0100" channel="CameradeiDeputati.it">
+    <title lang="it">Manifesti 1944 - 1946 - Caivano nel dopoguerra: tra occupazione militare e rinascita civile</title>
   </programme>
   <programme start="20261123104000 +0100" stop="20261123110600 +0100" channel="Telefriuli.it">
     <title lang="it">SCREENSHOT</title>
@@ -329,6 +333,9 @@
   <programme start="20261123140000 +0100" stop="20261123143000 +0100" channel="IuniorTV.it">
     <title lang="it">CARTONI ANIMATI - KABOOM</title>
   </programme>
+  <programme start="20261123140000 +0100" stop="20261123150000 +0100" channel="CameradeiDeputati.it">
+    <title lang="it">AULA, Seduta 750 - Mozioni Giornata internazionale eliminazione violenza contro le donne</title>
+  </programme>
   <programme start="20261123141100 +0100" stop="20261123142700 +0100" channel="Telefriuli.it">
     <title lang="it">TELEGIORNALE FVG</title>
   </programme>
@@ -341,6 +348,9 @@
   <programme start="20261123150000 +0100" stop="20261123154000 +0100" channel="IuniorTV.it">
     <title lang="it">CARTOONS STORY</title>
   </programme>
+  <programme start="20261123150000 +0100" stop="20261123160000 +0100" channel="CameradeiDeputati.it">
+    <title lang="it">Per mano 6</title>
+  </programme>
   <programme start="20261123152000 +0100" stop="20261123152900 +0100" channel="Telefriuli.it">
     <title lang="it">ITALPRESS SALUTE MAGAZINE</title>
   </programme>
@@ -350,7 +360,7 @@
   <programme start="20261123154000 +0100" stop="20261123160000 +0100" channel="IuniorTV.it">
     <title lang="it">UN ANIME UNA CURIOSITA' con GIAFFY</title>
   </programme>
-  <programme start="20261123155600 +0100" stop="20261123160000 +0100" channel="Telefriuli.it">
+  <programme start="20261123155600 +0100" stop="20261123160100 +0100" channel="Telefriuli.it">
     <title lang="it">ITALPRESS ECONOMIA</title>
   </programme>
   <programme start="20261123160000 +0100" stop="20261123160500 +0100" channel="Telefriuli.it">
@@ -707,8 +717,14 @@
   <programme start="20261125100000 +0100" stop="20261125103000 +0100" channel="IuniorTV.it">
     <title lang="it">CARTONI ANIMATI - KABOOM</title>
   </programme>
+  <programme start="20261125103000 +0100" stop="20261125103500 +0100" channel="CameradeiDeputati.it">
+    <title lang="it">Femminicidi, il 25 novembre alla Camera la proiezione di "Se domani non torno", con Gino Cecchettin...</title>
+  </programme>
   <programme start="20261125103000 +0100" stop="20261125110000 +0100" channel="IuniorTV.it">
     <title lang="it">CARTONI ANIMATI - KABOOM</title>
+  </programme>
+  <programme start="20261125103000 +0100" stop="20261125113000 +0100" channel="CameradeiDeputati.it">
+    <title lang="it">Femminicidi, il 25 novembre alla Camera la proiezione di "Se domani non torno", con Gino Cecchettin...</title>
   </programme>
   <programme start="20261125104500 +0100" stop="20261125120000 +0100" channel="Telefriuli.it">
     <title lang="it">Screenshot</title>
@@ -943,6 +959,9 @@
   </programme>
   <programme start="20261126123000 +0100" stop="20261126124500 +0100" channel="Telefriuli.it">
     <title lang="it">Telegiornale FVG – diretta</title>
+  </programme>
+  <programme start="20261126123000 +0100" stop="20261126133000 +0100" channel="CameradeiDeputati.it">
+    <title lang="it">Covid, audizione Mackinson</title>
   </programme>
   <programme start="20261126124000 +0100" stop="20261126130000 +0100" channel="IuniorTV.it">
     <title lang="it">QUELLI ERAN GIORNI</title>

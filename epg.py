@@ -94,7 +94,7 @@ def resolve_dates(days, today, horizon=HORIZON):
     return sorted(resolved, key=lambda day: day["date"])
 
 
-def build_programmes(days, last_duration=60):
+def build_programmes(days, last_duration=60, min_duration=5):
     """-> [(start, stop, title)], durations from the next start time in the day."""
     programmes = []
     for day in days:
@@ -113,7 +113,10 @@ def build_programmes(days, last_duration=60):
                 if index + 1 < len(starts)
                 else start + timedelta(minutes=last_duration)
             )
-            programmes.append((start, stop, title))
+            # two rows can share a start time; a zero-length programme is useless in a guide
+            programmes.append(
+                (start, max(stop, start + timedelta(minutes=min_duration)), title)
+            )
     return programmes
 
 

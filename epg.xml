@@ -29,32 +29,17 @@
   <programme start="20261122070000 +0100" stop="20261122070600 +0100" channel="RaiItalia.it">
     <title lang="it">TG 1</title>
   </programme>
-  <programme start="20261122070000 +0100" stop="20261122080000 +0100" channel="IuniorTV.it">
-    <title lang="it">CARTOONS STORY</title>
-  </programme>
   <programme start="20261122070600 +0100" stop="20261122080000 +0100" channel="RaiItalia.it">
     <title lang="it">UnoMattina in famiglia - Puntata del 22/11/2026</title>
   </programme>
   <programme start="20261122080000 +0100" stop="20261122081800 +0100" channel="RaiItalia.it">
     <title lang="it">TG1</title>
   </programme>
-  <programme start="20261122080000 +0100" stop="20261122083000 +0100" channel="IuniorTV.it">
-    <title lang="it">80 NOSTALGIA - Sigle TV</title>
-  </programme>
   <programme start="20261122081800 +0100" stop="20261122090000 +0100" channel="RaiItalia.it">
     <title lang="it">UnoMattina in famiglia - Puntata del 22/11/2026</title>
   </programme>
-  <programme start="20261122083000 +0100" stop="20261122085500 +0100" channel="IuniorTV.it">
-    <title lang="it">SIGLE E CANZONI TV</title>
-  </programme>
-  <programme start="20261122085500 +0100" stop="20261122090000 +0100" channel="IuniorTV.it">
-    <title lang="it">OROSCOPO</title>
-  </programme>
   <programme start="20261122090000 +0100" stop="20261122090400 +0100" channel="RaiItalia.it">
     <title lang="it">TG1</title>
-  </programme>
-  <programme start="20261122090000 +0100" stop="20261122093000 +0100" channel="IuniorTV.it">
-    <title lang="it">CARTONI ANIMATI - KABOOM</title>
   </programme>
   <programme start="20261122090400 +0100" stop="20261122092500 +0100" channel="RaiItalia.it">
     <title lang="it">UnoMattina in famiglia - Puntata del 22/11/2026</title>
@@ -65,35 +50,11 @@
   <programme start="20261122092900 +0100" stop="20261122100000 +0100" channel="RaiItalia.it">
     <title lang="it">BELLITALIA</title>
   </programme>
-  <programme start="20261122093000 +0100" stop="20261122100000 +0100" channel="IuniorTV.it">
-    <title lang="it">CARTONI ANIMATI - KABOOM</title>
-  </programme>
   <programme start="20261122100000 +0100" stop="20261122101300 +0100" channel="RaiItalia.it">
     <title lang="it">Aspettando Cristianità</title>
   </programme>
-  <programme start="20261122100000 +0100" stop="20261122103000 +0100" channel="IuniorTV.it">
-    <title lang="it">CARTONI ANIMATI - KABOOM</title>
-  </programme>
   <programme start="20261122101300 +0100" stop="20261122123200 +0100" channel="RaiItalia.it">
     <title lang="it">Cristianita' Santa Messa</title>
-  </programme>
-  <programme start="20261122103000 +0100" stop="20261122110000 +0100" channel="IuniorTV.it">
-    <title lang="it">CARTONI ANIMATI - KABOOM</title>
-  </programme>
-  <programme start="20261122110000 +0100" stop="20261122112000 +0100" channel="IuniorTV.it">
-    <title lang="it">TELEFILM STORY</title>
-  </programme>
-  <programme start="20261122112000 +0100" stop="20261122113000 +0100" channel="IuniorTV.it">
-    <title lang="it">IERI E OGGI</title>
-  </programme>
-  <programme start="20261122113000 +0100" stop="20261122120000 +0100" channel="IuniorTV.it">
-    <title lang="it">DOCUMENTARIO</title>
-  </programme>
-  <programme start="20261122120000 +0100" stop="20261122123000 +0100" channel="IuniorTV.it">
-    <title lang="it">SUPER RICHIESTE</title>
-  </programme>
-  <programme start="20261122123000 +0100" stop="20261122130000 +0100" channel="IuniorTV.it">
-    <title lang="it">QUELLI ERAN GIORNI</title>
   </programme>
   <programme start="20261122123200 +0100" stop="20261122125800 +0100" channel="RaiItalia.it">
     <title lang="it">TG2 Mizar</title>
@@ -101,29 +62,14 @@
   <programme start="20261122125800 +0100" stop="20261122132700 +0100" channel="RaiItalia.it">
     <title lang="it">Tg2 giorno</title>
   </programme>
-  <programme start="20261122130000 +0100" stop="20261122133000 +0100" channel="IuniorTV.it">
-    <title lang="it">CARTONI ANIMATI - KABOOM</title>
-  </programme>
   <programme start="20261122132700 +0100" stop="20261122133900 +0100" channel="RaiItalia.it">
     <title lang="it">TG2 Sì, Viaggiare</title>
-  </programme>
-  <programme start="20261122133000 +0100" stop="20261122140000 +0100" channel="IuniorTV.it">
-    <title lang="it">CARTONI ANIMATI - KABOOM</title>
   </programme>
   <programme start="20261122133900 +0100" stop="20261122142100 +0100" channel="RaiItalia.it">
     <title lang="it">Il Paradiso delle Signore 11 Puntata 37</title>
   </programme>
-  <programme start="20261122140000 +0100" stop="20261122143000 +0100" channel="IuniorTV.it">
-    <title lang="it">CARTONI ANIMATI - KABOOM</title>
-  </programme>
   <programme start="20261122142100 +0100" stop="20261122150300 +0100" channel="RaiItalia.it">
     <title lang="it">Il Paradiso delle Signore 11 Puntata 38</title>
-  </programme>
-  <programme start="20261122143000 +0100" stop="20261122150000 +0100" channel="IuniorTV.it">
-    <title lang="it">CARTONI ANIMATI - KABOOM</title>
-  </programme>
-  <programme start="20261122150000 +0100" stop="20261122160000 +0100" channel="IuniorTV.it">
-    <title lang="it">CARTOONS STORY</title>
   </programme>
   <programme start="20261122150300 +0100" stop="20261122151400 +0100" channel="RaiItalia.it">
     <title lang="it">I puffi</title>
@@ -136,15 +82,6 @@
   </programme>
   <programme start="20261122154900 +0100" stop="20261122184200 +0100" channel="RaiItalia.it">
     <title lang="it">Domenica In - Puntata del 22/11/2026</title>
-  </programme>
-  <programme start="20261122160000 +0100" stop="20261122163000 +0100" channel="IuniorTV.it">
-    <title lang="it">TELEFILM STORY</title>
-  </programme>
-  <programme start="20261122163000 +0100" stop="20261122170000 +0100" channel="IuniorTV.it">
-    <title lang="it">ORAMUSICA</title>
-  </programme>
-  <programme start="20261122170000 +0100" stop="20261122190000 +0100" channel="IuniorTV.it">
-    <title lang="it">CARTOONS STORY</title>
   </programme>
   <programme start="20261122184200 +0100" stop="20261122195600 +0100" channel="RaiItalia.it">
     <title lang="it">L'Eredità Weekend</title>

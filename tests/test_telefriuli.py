@@ -1,10 +1,10 @@
-import re
 import unittest
 import xml.etree.ElementTree as ET
 from datetime import date, datetime
 from pathlib import Path
 
-import telefriuli_epg as epg
+import epg
+from sources import telefriuli as tf
 
 FIXTURE = Path(__file__).parent / "fixtures" / "palinsesto.html"
 TODAY = date(2026, 11, 7)  # the day the fixture was saved
@@ -13,7 +13,7 @@ TODAY = date(2026, 11, 7)  # the day the fixture was saved
 class ParserTest(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        cls.days = epg.parse_schedule(FIXTURE.read_text(encoding="utf-8"))
+        cls.days = tf.parse_schedule(FIXTURE.read_text(encoding="utf-8"))
 
     def test_all_seven_days_parsed(self):
         self.assertEqual(sorted(day["weekday"] for day in self.days), list(range(7)))
@@ -29,12 +29,12 @@ class ParserTest(unittest.TestCase):
                 self.assertRegex(label, r"^\S")
 
     def test_garbage_input_yields_nothing(self):
-        self.assertEqual(epg.parse_schedule("<html><p>hello</p></html>"), [])
+        self.assertEqual(tf.parse_schedule("<html><p>hello</p></html>"), [])
 
 
 class DatesTest(unittest.TestCase):
     def setUp(self):
-        self.days = epg.parse_schedule(FIXTURE.read_text(encoding="utf-8"))
+        self.days = tf.parse_schedule(FIXTURE.read_text(encoding="utf-8"))
         self.resolved = epg.resolve_dates(self.days, TODAY)
 
     def test_dates_inside_emission_window(self):
@@ -56,10 +56,10 @@ class DatesTest(unittest.TestCase):
 
 class XmltvTest(unittest.TestCase):
     def setUp(self):
-        days = epg.parse_schedule(FIXTURE.read_text(encoding="utf-8"))
+        days = tf.parse_schedule(FIXTURE.read_text(encoding="utf-8"))
         resolved = epg.resolve_dates(days, TODAY)
         self.programmes = epg.build_programmes(resolved)
-        self.xml = epg.build_xmltv(self.programmes, "Telefriuli.it", "Telefriuli")
+        self.xml = epg.build_xmltv([(tf.CHANNEL, self.programmes)])
 
     def test_well_formed_and_complete(self):
         root = ET.fromstring(self.xml)
@@ -90,7 +90,7 @@ class XmltvTest(unittest.TestCase):
 class StreamingTest(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        cls.live = epg.parse_streaming(
+        cls.live = tf.parse_streaming(
             (FIXTURE.parent / "streaming.html").read_text(encoding="utf-8")
         )
 
@@ -105,8 +105,8 @@ class StreamingTest(unittest.TestCase):
         self.assertGreaterEqual(len(self.live[0]["entries"]), 50)
 
     def test_live_days_override_the_weekly_page(self):
-        merged = epg.merge_days(
-            self.live, epg.parse_schedule(FIXTURE.read_text(encoding="utf-8"))
+        merged = tf.merge_days(
+            self.live, tf.parse_schedule(FIXTURE.read_text(encoding="utf-8"))
         )
         self.assertEqual(len(merged), 7)
         self.assertEqual([day["weekday"] for day in merged], list(range(7)))
@@ -120,7 +120,7 @@ class StreamingTest(unittest.TestCase):
             '<li class="programme"><div class="time">10:00</div>'
             '<div class="title">ONLY ONE</div></li></ul>'
         )
-        self.assertEqual(epg.parse_streaming(html), [])
+        self.assertEqual(tf.parse_streaming(html), [])
 
 
 class OrderingTest(unittest.TestCase):
@@ -148,13 +148,35 @@ class OrderingTest(unittest.TestCase):
         # Regression: the 11.15/10.45 swap used to push 22 rows into the next day.
         days = [
             day
-            for day in epg.parse_schedule(FIXTURE.read_text(encoding="utf-8"))
+            for day in tf.parse_schedule(FIXTURE.read_text(encoding="utf-8"))
             if day["weekday"] == 3
         ]
         programmes = epg.build_programmes(epg.resolve_dates(days, TODAY))
         self.assertEqual(len(programmes), 30)
         self.assertEqual(len({start.date() for start, _, _ in programmes}), 1)
         self.assertTrue(all(stop > start for start, stop, _ in programmes))
+
+
+class MergeChannelsTest(unittest.TestCase):
+    def test_two_channels_share_one_document(self):
+        start = datetime(2026, 11, 7, 8, 0, tzinfo=epg.ROME)
+        a = {"id": "A.it", "name": "A", "icon": None}
+        b = {"id": "B.it", "name": "B", "icon": "https://example.test/b.png"}
+        xml = epg.build_xmltv(
+            [
+                (a, [(start, start.replace(hour=9), "A1")]),
+                (b, [(start.replace(hour=8, minute=30), start.replace(hour=9), "B1")]),
+            ]
+        )
+        root = ET.fromstring(xml)
+        self.assertEqual(
+            [c.get("id") for c in root.findall("channel")], ["A.it", "B.it"]
+        )
+        programmes = root.findall("programme")
+        self.assertEqual(len(programmes), 2)
+        # sorted by start time across channels
+        self.assertEqual([p.find("title").text for p in programmes], ["A1", "B1"])
+        self.assertEqual(programmes[1].get("channel"), "B.it")
 
 
 if __name__ == "__main__":

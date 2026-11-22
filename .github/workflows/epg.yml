@@ -1,8 +1,9 @@
 name: EPG
 
 # Regenerates epg.xml daily and commits it, so the raw URL always carries the current week.
+# GitHub cron is UTC: 06:30 UTC = 07:30 in Rome during CET, 08:30 during CEST.
 on:
-  schedule: [{ cron: "0 4 * * *" }]
+  schedule: [{ cron: "30 6 * * *" }]
   workflow_dispatch:
 
 permissions:
@@ -17,7 +18,7 @@ jobs:
         with:
           python-version: "3.12"
       - run: python -m unittest discover -s tests -t .
-      - run: python telefriuli_epg.py -o epg.xml
+      - run: python build_epg.py -o epg.xml
       - run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

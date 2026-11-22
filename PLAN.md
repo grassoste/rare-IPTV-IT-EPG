@@ -1,124 +1,81 @@
-# Analysis & Plan — Telefriuli EPG
+# Analysis & Plan — Rare italian TV EPG
 
-## 1. The problem
+## 1. Scope
 
-Dispatcharr needs an XMLTV guide for the Telefriuli channel. Telefriuli publishes no EPG feed.
+One XMLTV file for Italian channels that publish **no EPG feed**, for Dispatcharr. Every channel
+is a source module; `build_epg.py` merges them into a single `epg.xml`.
 
-Checked and confirmed absent (2026-11-07):
+Shipped: **Telefriuli** (`Telefriuli.it`), **Iunior TV** (`IuniorTV.it`).
+Adding a channel = one module in `sources/` + fixture + tests; the XMLTV writer never changes.
 
-- `iptv-org/epg` — no `telefriuli` site; the 4 published Italy guides (`superguidatv.it`,
-  `guidatv.sky.it`, `tivu.tv`, `tv.blue.ch`) contain zero "friuli" matches; no Friuli channel in
-  `superguidatv.it.channels.xml`.
-- `leicaflorian/tvit` — no issue/PR for Telefriuli; `RegionaliSeeder` has only Tele Norba.
-- Dispatcharr / Threadfin — no built-in catalog entry.
+## 2. Why these channels have no EPG
 
-The only schedule is a hand-maintained WordPress page: <https://www.telefriuli.it/palinsesto/>
-(or the same HTML via `GET /wp-json/wp/v2/pages/494` → `content.rendered`).
+Checked 2026-11: `iptv-org/epg` covers only `superguidatv.it`, `guidatv.sky.it`, `tivu.tv`,
+`tv.blue.ch`, none of which lists either channel. `leicaflorian/tvit` covers Italian national
+channels plus a single regional (Tele Norba). Dispatcharr/Threadfin ship no catalog entry.
+Both channels exist in iptv-org's channel database, so ids and logos are reused from there.
 
-Already known in the ecosystem, so we reuse it: iptv-org id **`Telefriuli.it`**, logo
-`https://i.imgur.com/He3uCs6.png`, present in iptv-org `streams/it.m3u` as
-`tvg-id="Telefriuli.it@SD"`.
+## 3. Telefriuli
 
-## 2. Source analysis (verified 2026-11-07)
+Two sources, merged.
 
 | Fact | Detail |
 |---|---|
-| Render | Server-side HTML. No AJAX, no JS needed. `curl` alone is enough. |
-| Fetch target | `https://www.telefriuli.it/wp-json/wp/v2/pages/494` → `content.rendered` (boss-fresh, 43 KB) or the page itself. **The page is behind a URL-keyed cache**: a plain fetch can return last week's version, the REST endpoint does not. |
-| Container | 7 Elementor tabpanels: `class="elementor-tab-content elementor-clearfix"`, `data-tab="1"…"7"` = Monday…Sunday |
-| Day heading | first `<p>`: `Programmazione di Lunedì 02/11/26` |
-| Programme row | one `<p class="MsoNormal">` each: `06.20` + `&nbsp;` padding + `Title`, sometimes split across lines |
-| Volume | 190 programme rows for the week (29/29/24/30/30/22/26) |
-| Parse rate | **190/190 rows** match `^(\d{1,2})[.:](\d{2})\s+(.+)$` after `\s+` collapse — no odd formats |
-| Subtitle | some titles end with ` – <subtitle>` (`News, cappuccino e brioche – diretta`) |
-| Duplicates | consecutive entries may repeat a title (`Un pinsir par vuè` several times/day) — that is normal |
-| **Date drift** | **the 7 headings are not the same week**: Mon 02/11/26, Tue 03/11/26, Wed 28/10/26, Thu 29/10, Fri 30/10, Sat 24/10, Sun 25/10. Each date matches its weekday, but several are 1–2 weeks old. |
-| No durations | only start times are given; an end time must be derived from the next start |
+| Weekly page | `GET /wp-json/wp/v2/pages/494` → `content.rendered`; 7 Elementor tabs (`elementor-tab-content-8271`…`8277`), one `<p class="MsoNormal">` per row, `06.20` + nbsp + title |
+| Page cache | `/palinsesto/` is behind a URL-keyed cache that can serve **last week**; the REST endpoint does not |
+| Dates | headings drift by weeks (Wed 28/10/26 next to Sat 07/11/26) → only the weekday is trusted, days are re-projected onto the coming week |
+| Live log | `/streaming/` → `<h3>Domenica 8 Novembre 2026</h3>` + `programme-day` list, minute-accurate, real broadcast names, today + part of tomorrow; **wins** for the days it covers |
+| Rows | 190/week, all match `^(\d{1,2})[.:](\d{2})\s+(.+)$`; one row is listed out of order (Thu `11.15` before `10.45`) → rows are sorted, never shifted by a day |
+| Durations | derived from the next start; last of the day = 60 min |
 
-### Consequences
+## 4. Iunior TV
 
-1. **Never trust the heading date as the emission date.** The page is a weekly template that is
-   updated late and unevenly. Emitting the literal dates gives an EPG that is partly in the past.
-2. **Duration = next entry's start**, last entry of the day = +60 min (default, `--last-duration`).
-3. Titles are the only text available; there is no description, genre or episode data. The row
-   label is emitted whole as `<title>` (e.g. `Documentario – 60 anni dall'Alluvione a Forni
-   Avoltri`), with no `<sub-title>`: Dispatcharr concatenates title and sub-title without a
-   separator, and the source wording is kept exactly as published.
+| Fact | Detail |
+|---|---|
+| Source | `https://iuniortv.blogspot.com/` — one ever-green post, no pages, no other posts |
+| Guide | after `============= PALINSESTO ============`, weekday blocks `LUNEDI`…`DOMENICA`, rows `ore 07,00 - TITLE` (**comma** times) |
+| Dates | none in the source → each block lands on the next occurrence of its weekday |
+| Midnight | each block ends `00,00`, `00,30`, `01,00` → those rows belong to the **next calendar day** (broadcast day starts 07,00) |
+| Volume | 262 rows, 30–43 per day; under 150 means the markup moved |
+| Ignored | `www.iuniortv.it` (meta-refresh to the blog) and `www.iuniortv.es` (bare Clappr player) carry no schedule |
 
-## 3. Design
-
-One script, stdlib only.
+## 5. Architecture
 
 ```
-telefriuli_epg.py
-  fetch(url) -> html                      # urllib, UA header, 10s timeout, one retry
-                                          # REST endpoint first, /palinsesto/ as fallback
-  parse_days(html) -> [Day(weekday, date, entries)]   # regex over tabpanels, html.unescape
-  resolve_dates(days, today, days_ahead)  # shift each day's date by whole weeks into [today, today+6]
-  to_xmltv(days) -> str                   # channel + programme elements, Europe/Rome offsets
+build_epg.py            # CLI: runs every source, writes one epg.xml
+epg.py                  # fetch, text extraction, weekday projection, XMLTV assembly
+sources/<channel>.py    # CHANNEL = {id, name, icon}; collect(today, days) -> [(start, stop, title)]
+sources/__init__.py     # SOURCES list
+tests/                  # unittest per parser, one HTML fixture per source
 ```
 
-- **Date resolution (hybrid, recommended):** keep the heading date if it lands inside the
-  emission window `[today, today+6]`; otherwise shift it by a whole number of weeks until it does.
-  The weekday is then always right and the EPG is always populated. One `while` loop.
-- **Times:** `datetime` with `zoneinfo.ZoneInfo("Europe/Rome")` → `%Y%m%d%H%M%S %z`. Correct across
-  a DST change inside the window.
-- **Midnight wrap:** if a start time is earlier than the previous one in the same day, it belongs
-  to the next calendar day (the source occasionally lists a 00:xx item at the end).
-- **Channel identity:** `--channel-id` (default `Telefriuli.it`, the iptv-org id), `--channel-name`
-  (default `Telefriuli`), `--icon` (default the iptv-org logo `https://i.imgur.com/He3uCs6.png`).
-  iptv-org's `it.m3u` carries `tvg-id="Telefriuli.it@SD"`, so if Dispatcharr does not match on the
-  stripped id, the flag takes the `@SD` variant.
-- **Output:** `-o epg.xml` (default `epg.xml`), `--days N` (default 7, max 7 — the source only has 7).
-- **Failure mode:** fewer than ~50 parsed rows → `SystemExit(1)` with a message. No silent empty EPG.
+- A source that raises is a warning; if every source fails the build exits non-zero.
+- Times are Europe/Rome and always carry `+0100`/`+0200` in the output.
+- One `<tv>` document: all `<channel>` elements, then all `<programme>` sorted by start.
 
-### XMLTV shape
+## 6. Delivery
 
-```xml
-<?xml version="1.0" encoding="UTF-8"?>
-<tv generator-info-name="telefriuli_epg">
-  <channel id="Telefriuli.it">
-    <display-name>Telefriuli</display-name>
-    <icon src="…"/>
-  </channel>
-  <programme start="20261107062000 +0100" stop="20261107063000 +0100" channel="Telefriuli.it">
-    <title lang="it">Un pinsir par vuè</title>
-  </programme>
-</tv>
-```
+- GitHub Action daily at **06:30 UTC** (07:30 Rome in CET, 08:30 in CEST — GitHub cron is UTC
+  only), which runs the tests, rebuilds `epg.xml` and commits it if it changed.
+- Dispatcharr reads
+  `https://raw.githubusercontent.com/grassoste/rare-IPTV-IT-EPG/main/epg.xml`.
 
-## 4. Phases
+## 7. Phases
 
-| # | Step | Done when |
+| # | Step | State |
 |---|---|---|
-| 0 | Scaffold repo, README, AGENTS, tvit clone | ✅ |
-| 1 | Save `tests/fixtures/palinsesto.html`, write parser + date resolution | ✅ 13 tests green, 190/190 rows, 7 distinct days re-projected onto the emission week |
-| 2 | XMLTV emitter + fetcher + CLI flags | ✅ live run: 190 programmes, 2026-11-07 … 2026-11-13, `+0100` offsets |
-| 3 | Wire into Dispatcharr (file path or served URL), cron weekly | Dispatcharr shows the guide |
-| 4 | *(optional)* upstream MR to `tvit`: `TelefriuliScrapper` + Regionali channel entry + fixture test | MR opened, CI green |
+| 1 | Telefriuli weekly page + live log, single script | done |
+| 2 | Publish `epg.xml` on GitHub, daily refresh | done |
+| 3 | Multi-source architecture (`sources/`, `epg.py`, `build_epg.py`) | done |
+| 4 | Iunior TV source + tests | done |
+| 5 | Repo rename to `rare-IPTV-IT-EPG`, daily build at 07:30 Rome | done |
+| 6 | Next channel: add a module, fixture, tests | pending |
 
-## 5. Upstream contribution (tvit), scoped
+## 8. Risks
 
-What upstream would need, matching its own conventions (`CLAUDE.md`: English code, scraper throws
-when it finds nothing, fixture tests, `CHANGELOG.md` *Unreleased* entry):
-
-- `app/Jobs/Scrappers/TelefriuliScrapper.php` — same shape as `SuperGuidaTvScrapper`: fetch
-  `rawGuideLink`, parse the 7 tabpanels, upsert `Program` rows in **UTC**.
-- `database/seeders/RegionaliSeeder.php` — add Telefriuli (`dtt_num` TBD, logo URL, `rawGuideLink`).
-- `tests/Feature/TelefriuliScrapperTest.php` — parse the saved fixture, `Http::fake()`.
-- No change to `EpgController`/`IptvController`: they already render any channel's programmes.
-
-Risk: upstream's `ScrapSingleChannel` picks one scrapper per *channel group*, so a group-level
-dispatch needs a per-channel scrapper lookup. That single line is the only architectural change.
-
-## 6. Risks
-
-- **Stale source** — the page can lag a week (today: Wednesday's tab is 10 days old while the
-  rest is current). The EPG will show the last published schedule; it cannot invent a new one.
-  Mitigation: log every heading date and print a warning when the newest heading is older than 7 days.
-- **Stale page cache** — a plain `curl` of `/palinsesto/` returned an older week during this
-  analysis; the REST endpoint returned the current one. Use the REST endpoint first; validate that
-  at least one heading date is within the emission window and warn otherwise.
-- **Markup change** — Elementor tabs are a theme artifact. Parser keys on `elementor-tab-content`
-  + `Programmazione di <weekday>` and fails loudly, so breakage is visible on the next run.
-- **No descriptions/categories** — inherent to the source; the XMLTV will be titles-only.
+- **Hand-typed sources.** Both are maintained by humans and lag behind reality; the guide shows
+  the last published schedule. Telefriuli's live log mitigates this for today/tomorrow.
+- **Markup is the contract.** Each parser keys on a specific shape (`PALINSESTO` line, Elementor
+  tab ids) and fails loudly instead of publishing an empty guide.
+- **No descriptions or genres** for either channel: the sources carry titles only.
+- **Timezone drift in CI.** The workflow is UTC; during CEST the build runs at 08:30 local.

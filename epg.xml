@@ -30,6 +30,9 @@
   <programme start="20261122070000 +0100" stop="20261122070600 +0100" channel="RaiItalia.it">
     <title lang="it">TG 1</title>
   </programme>
+  <programme start="20261122070000 +0100" stop="20261122080000 +0100" channel="IuniorTV.it">
+    <title lang="it">CARTOONS STORY</title>
+  </programme>
   <programme start="20261122070600 +0100" stop="20261122080000 +0100" channel="RaiItalia.it">
     <title lang="it">UnoMattina in famiglia - Puntata del 22/11/2026</title>
     <desc lang="it">Il buongiorno di Monica Setta, Beppe Convertini e Ingrid Muccitelli che commentano con gli ospiti l'attualità e i fatti di cronaca più importanti della settimana.</desc>
@@ -37,12 +40,24 @@
   <programme start="20261122080000 +0100" stop="20261122081800 +0100" channel="RaiItalia.it">
     <title lang="it">TG1</title>
   </programme>
+  <programme start="20261122080000 +0100" stop="20261122083000 +0100" channel="IuniorTV.it">
+    <title lang="it">80 NOSTALGIA - Sigle TV</title>
+  </programme>
   <programme start="20261122081800 +0100" stop="20261122090000 +0100" channel="RaiItalia.it">
     <title lang="it">UnoMattina in famiglia - Puntata del 22/11/2026</title>
     <desc lang="it">Il buongiorno di Monica Setta, Beppe Convertini e Ingrid Muccitelli che commentano con gli ospiti l'attualità e i fatti di cronaca più importanti della settimana.</desc>
   </programme>
+  <programme start="20261122083000 +0100" stop="20261122085500 +0100" channel="IuniorTV.it">
+    <title lang="it">SIGLE E CANZONI TV</title>
+  </programme>
+  <programme start="20261122085500 +0100" stop="20261122090000 +0100" channel="IuniorTV.it">
+    <title lang="it">OROSCOPO</title>
+  </programme>
   <programme start="20261122090000 +0100" stop="20261122090400 +0100" channel="RaiItalia.it">
     <title lang="it">TG1</title>
+  </programme>
+  <programme start="20261122090000 +0100" stop="20261122093000 +0100" channel="IuniorTV.it">
+    <title lang="it">CARTONI ANIMATI - KABOOM</title>
   </programme>
   <programme start="20261122090400 +0100" stop="20261122092500 +0100" channel="RaiItalia.it">
     <title lang="it">UnoMattina in famiglia - Puntata del 22/11/2026</title>
@@ -55,13 +70,37 @@
     <title lang="it">BELLITALIA</title>
     <desc lang="it">Telegiornali Rubriche Testata.</desc>
   </programme>
+  <programme start="20261122093000 +0100" stop="20261122100000 +0100" channel="IuniorTV.it">
+    <title lang="it">CARTONI ANIMATI - KABOOM</title>
+  </programme>
   <programme start="20261122100000 +0100" stop="20261122101300 +0100" channel="RaiItalia.it">
     <title lang="it">Aspettando Cristianità</title>
     <desc lang="it">Prog. Religioso.</desc>
   </programme>
+  <programme start="20261122100000 +0100" stop="20261122103000 +0100" channel="IuniorTV.it">
+    <title lang="it">CARTONI ANIMATI - KABOOM</title>
+  </programme>
   <programme start="20261122101300 +0100" stop="20261122123200 +0100" channel="RaiItalia.it">
     <title lang="it">Cristianita' Santa Messa</title>
     <desc lang="it">Prog. Religioso.</desc>
+  </programme>
+  <programme start="20261122103000 +0100" stop="20261122110000 +0100" channel="IuniorTV.it">
+    <title lang="it">CARTONI ANIMATI - KABOOM</title>
+  </programme>
+  <programme start="20261122110000 +0100" stop="20261122112000 +0100" channel="IuniorTV.it">
+    <title lang="it">TELEFILM STORY</title>
+  </programme>
+  <programme start="20261122112000 +0100" stop="20261122113000 +0100" channel="IuniorTV.it">
+    <title lang="it">IERI E OGGI</title>
+  </programme>
+  <programme start="20261122113000 +0100" stop="20261122120000 +0100" channel="IuniorTV.it">
+    <title lang="it">DOCUMENTARIO</title>
+  </programme>
+  <programme start="20261122120000 +0100" stop="20261122123000 +0100" channel="IuniorTV.it">
+    <title lang="it">SUPER RICHIESTE</title>
+  </programme>
+  <programme start="20261122123000 +0100" stop="20261122130000 +0100" channel="IuniorTV.it">
+    <title lang="it">QUELLI ERAN GIORNI</title>
   </programme>
   <programme start="20261122123200 +0100" stop="20261122125800 +0100" channel="RaiItalia.it">
     <title lang="it">TG2 Mizar</title>
@@ -70,16 +109,31 @@
   <programme start="20261122125800 +0100" stop="20261122132700 +0100" channel="RaiItalia.it">
     <title lang="it">Tg2 giorno</title>
   </programme>
+  <programme start="20261122130000 +0100" stop="20261122133000 +0100" channel="IuniorTV.it">
+    <title lang="it">CARTONI ANIMATI - KABOOM</title>
+  </programme>
   <programme start="20261122132700 +0100" stop="20261122133900 +0100" channel="RaiItalia.it">
     <title lang="it">TG2 Sì, Viaggiare</title>
+  </programme>
+  <programme start="20261122133000 +0100" stop="20261122140000 +0100" channel="IuniorTV.it">
+    <title lang="it">CARTONI ANIMATI - KABOOM</title>
   </programme>
   <programme start="20261122133900 +0100" stop="20261122142100 +0100" channel="RaiItalia.it">
     <title lang="it">Il Paradiso delle Signore 11 Puntata 37</title>
     <desc lang="it">Fiction.</desc>
   </programme>
+  <programme start="20261122140000 +0100" stop="20261122143000 +0100" channel="IuniorTV.it">
+    <title lang="it">CARTONI ANIMATI - KABOOM</title>
+  </programme>
   <programme start="20261122142100 +0100" stop="20261122150300 +0100" channel="RaiItalia.it">
     <title lang="it">Il Paradiso delle Signore 11 Puntata 38</title>
     <desc lang="it">Fiction.</desc>
+  </programme>
+  <programme start="20261122143000 +0100" stop="20261122150000 +0100" channel="IuniorTV.it">
+    <title lang="it">CARTONI ANIMATI - KABOOM</title>
+  </programme>
+  <programme start="20261122150000 +0100" stop="20261122160000 +0100" channel="IuniorTV.it">
+    <title lang="it">CARTOONS STORY</title>
   </programme>
   <programme start="20261122150300 +0100" stop="20261122151400 +0100" channel="RaiItalia.it">
     <title lang="it">I puffi</title>
@@ -96,6 +150,15 @@
   <programme start="20261122154900 +0100" stop="20261122184200 +0100" channel="RaiItalia.it">
     <title lang="it">Domenica In - Puntata del 22/11/2026</title>
     <desc lang="it">Mara Venier, la "signora della domenica", accoglie i protagonisti dell'attualità, i grandi nomi e i nuovi talenti dello spettacolo, per una domenica pomeriggio piena di allegria, ospiti, interviste, musica e storie di vita.</desc>
+  </programme>
+  <programme start="20261122160000 +0100" stop="20261122163000 +0100" channel="IuniorTV.it">
+    <title lang="it">TELEFILM STORY</title>
+  </programme>
+  <programme start="20261122163000 +0100" stop="20261122170000 +0100" channel="IuniorTV.it">
+    <title lang="it">ORAMUSICA</title>
+  </programme>
+  <programme start="20261122170000 +0100" stop="20261122190000 +0100" channel="IuniorTV.it">
+    <title lang="it">CARTOONS STORY</title>
   </programme>
   <programme start="20261122184200 +0100" stop="20261122195600 +0100" channel="RaiItalia.it">
     <title lang="it">L'Eredità Weekend</title>
@@ -332,6 +395,7 @@
   </programme>
   <programme start="20261123100000 +0100" stop="20261123103000 +0100" channel="CameradeiDeputati.it">
     <title lang="it">Riconoscimento al merito per le eccellenze italiane per la pace e lo sviluppo economico</title>
+    <desc lang="it">Alle ore 10, presso la Sala della Regina di Montecitorio si svolge il convegno "Riconoscimento al merito per le eccellenze italiane per la pace e lo sviluppo economico". Saluto del segretario di presidenza della Camera, Francesco Battistoni.</desc>
   </programme>
   <programme start="20261123100000 +0100" stop="20261123103000 +0100" channel="IuniorTV.it">
     <title lang="it">CARTONI ANIMATI - KABOOM</title>
@@ -342,12 +406,14 @@
   </programme>
   <programme start="20261123103000 +0100" stop="20261123103500 +0100" channel="CameradeiDeputati.it">
     <title lang="it">Covid, audizione Conte</title>
+    <desc lang="it">Alle ore 10.30, presso l’aula del II piano di Palazzo San Macuto, la Commissione parlamentare di inchiesta sulla gestione dell'emergenza sanitaria causata dalla diffusione epidemica del virus sars-cov-2 e sulle misure adottate per prevenire e affrontare l'emergenza epidemiologica da sars-cov-2 svolge il seguito dell’audizione di Giuseppe Conte, già Presidente del Consiglio dei ministri.</desc>
   </programme>
   <programme start="20261123103000 +0100" stop="20261123110000 +0100" channel="IuniorTV.it">
     <title lang="it">CARTONI ANIMATI - KABOOM</title>
   </programme>
   <programme start="20261123103000 +0100" stop="20261123140000 +0100" channel="CameradeiDeputati.it">
     <title lang="it">Manifesti 1944 - 1946 - Caivano nel dopoguerra: tra occupazione militare e rinascita civile</title>
+    <desc lang="it">Alle ore 10.30, presso la Sala del Refettorio di Palazzo San Macuto si svolge la presentazione del volume "Manifesti 1944 - 1946 - Caivano nel dopoguerra: tra occupazione militare e rinascita civile". Interviene la segretaria di presidenza della Camera, Annarita Patriarca.</desc>
   </programme>
   <programme start="20261123104000 +0100" stop="20261123110600 +0100" channel="Telefriuli.it">
     <title lang="it">SCREENSHOT</title>
@@ -456,6 +522,7 @@
   </programme>
   <programme start="20261123150000 +0100" stop="20261123160000 +0100" channel="CameradeiDeputati.it">
     <title lang="it">Per mano 6</title>
+    <desc lang="it">Alle ore 15, presso la Sala del Refettorio di Palazzo San Macuto si svolge il convegno "Per mano 6". Saluto del vicepresidente della Camera, Giorgio Mulè.</desc>
   </programme>
   <programme start="20261123151500 +0100" stop="20261123153000 +0100" channel="RaiItalia.it">
     <title lang="it">TGR Leonardo</title>
@@ -1008,12 +1075,14 @@
   </programme>
   <programme start="20261125103000 +0100" stop="20261125103500 +0100" channel="CameradeiDeputati.it">
     <title lang="it">Femminicidi, il 25 novembre alla Camera la proiezione di "Se domani non torno", con Gino Cecchettin...</title>
+    <desc lang="it">Il film "Se domani non torno", diretto da Paola Randi e prodotto da Notorious Pictures, che racconta la storia di Giulia Cecchettin, sarà proiettato alla Camera alle 10.30 nella Sala della Regina. L'evento è promosso in occasione della Giornata internazionale per l'eliminazione della violenza contro le donne e sarà introdotto dalla vicepresidente della Camera, Anna Ascani, con l'intervento di Gino Cecchettin e il coinvolgimento degli studenti. Saranno presenti la regista e il cast. " 'Se domani non torno' è un film, ma anche molto altro. Composizione di immagini e parole che fanno smettere di respirare, strada che va spedita verso il dolore, primi mattoni di un cantiere dove edificare una nuova umanità nel quale spetta a ognuno continuare l'opera perché un dolore privato possa trasformarsi in salvezza collettiva - dice Ascani -. Siamo onorati di proiettarlo alla Camera dei deputati alla presenza di Gino Cecchettin in occasione del 25 novembre: lo abbiamo fortemente voluto perché il Parlamento è la casa della democrazia e il luogo in cui si costruisce il cambiamento che serve. Non vogliamo limitarci a raccogliere questa preziosa testimonianza ma essere parte attiva nell'opera di semina di questa rigenerazione collettiva spezzando il sistema che nutre l'odio con la prevenzione, con l'educazione, con leggi adeguate e, in definitiva, con la promozione di una cultura del rispetto, a partire dalla scuola, attraverso l'educazione sessuo-affettiva". “Siamo a tutte e tutti grati per l'attenzione che continuate a dedicare al film ‘Se domani non torno’ e ai temi che questa storia porta con sé - afferma Gino Cecchettin -. Il riscontro del pubblico ci conferma quanto questa storia sia capace di toccare le persone e di aprire uno spazio di riflessione, soprattutto tra i giovani. Il risultato più importante però non sarà quello che possiamo misurare oggi, ma ciò che avverrà domani, tra un mese o tra un anno, le domande che il film avrà contribuito a far nascere, le relazioni che avrà aiutato a ripensare. Ci auguriamo soprattutto che l'attenzione possa rivolgersi anche a ciò che i giovani hanno da raccontare: quali comportamenti hanno riconosciuto, quali interrogativi sono emersi e quale idea di amore, libertà e rispetto porteranno con sé dopo la visione. Il desiderio della famiglia Cecchettin e della Fondazione è che ‘Se domani non torno’ non lasci soltanto commozione e tristezza, ma soprattutto un messaggio di speranza: le relazioni possono cambiare, la violenza può essere prevenuta e ciascuno di noi può contribuire a costruire una cultura fondata sul rispetto. Finora abbiamo chiesto ai ragazzi di ascoltare la storia di Giulia. Adesso è arrivato il momento che siamo noi adulti ad ascoltare loro”. "Il rumore più bello è quello del pubblico che esce dalla sala e continua a parlarne, a interrogarsi, a confrontarsi - dichiara Guglielmo Marchetti, amministratore delegato e presidente di Notorious Pictures - Realizzare 'Se domani non torno', per noi, non è stato soltanto raccontare una storia. È stato assumersi una responsabilità. Perché crediamo che il cinema possa contribuire a cambiare le coscienze, a rompere il silenzio e a generare consapevolezza. Sappiamo che un film non basta. La commozione deve trasformarsi in impegno e l’impegno in azioni concrete. Grazie a Paola Randi, a tutti gli artisti e ai professionisti che hanno reso possibile il film e agli spettatori per aver accolto il nostro invito a fare rumore per Giulia e per tutte. Un ringraziamento speciale va a Gino Cecchettin, alla sua famiglia e alla Fondazione Giulia Cecchettin per aver condiviso una storia così intima e aver trasformato il dolore in un impegno concreto". Cartella stampa con foto e trailer Diretta in versione lis</desc>
   </programme>
   <programme start="20261125103000 +0100" stop="20261125110000 +0100" channel="IuniorTV.it">
     <title lang="it">CARTONI ANIMATI - KABOOM</title>
   </programme>
   <programme start="20261125103000 +0100" stop="20261125113000 +0100" channel="CameradeiDeputati.it">
     <title lang="it">Femminicidi, il 25 novembre alla Camera la proiezione di "Se domani non torno", con Gino Cecchettin...</title>
+    <desc lang="it">Il film "Se domani non torno", diretto da Paola Randi e prodotto da Notorious Pictures, che racconta la storia di Giulia Cecchettin, sarà proiettato alla Camera alle 10.30 nella Sala della Regina. L'evento è promosso in occasione della Giornata internazionale per l'eliminazione della violenza contro le donne e sarà introdotto dalla vicepresidente della Camera, Anna Ascani, con l'intervento di Gino Cecchettin e il coinvolgimento degli studenti. Saranno presenti la regista e il cast. " 'Se domani non torno' è un film, ma anche molto altro. Composizione di immagini e parole che fanno smettere di respirare, strada che va spedita verso il dolore, primi mattoni di un cantiere dove edificare una nuova umanità nel quale spetta a ognuno continuare l'opera perché un dolore privato possa trasformarsi in salvezza collettiva - dice Ascani -. Siamo onorati di proiettarlo alla Camera dei deputati alla presenza di Gino Cecchettin in occasione del 25 novembre: lo abbiamo fortemente voluto perché il Parlamento è la casa della democrazia e il luogo in cui si costruisce il cambiamento che serve. Non vogliamo limitarci a raccogliere questa preziosa testimonianza ma essere parte attiva nell'opera di semina di questa rigenerazione collettiva spezzando il sistema che nutre l'odio con la prevenzione, con l'educazione, con leggi adeguate e, in definitiva, con la promozione di una cultura del rispetto, a partire dalla scuola, attraverso l'educazione sessuo-affettiva". “Siamo a tutte e tutti grati per l'attenzione che continuate a dedicare al film ‘Se domani non torno’ e ai temi che questa storia porta con sé - afferma Gino Cecchettin -. Il riscontro del pubblico ci conferma quanto questa storia sia capace di toccare le persone e di aprire uno spazio di riflessione, soprattutto tra i giovani. Il risultato più importante però non sarà quello che possiamo misurare oggi, ma ciò che avverrà domani, tra un mese o tra un anno, le domande che il film avrà contribuito a far nascere, le relazioni che avrà aiutato a ripensare. Ci auguriamo soprattutto che l'attenzione possa rivolgersi anche a ciò che i giovani hanno da raccontare: quali comportamenti hanno riconosciuto, quali interrogativi sono emersi e quale idea di amore, libertà e rispetto porteranno con sé dopo la visione. Il desiderio della famiglia Cecchettin e della Fondazione è che ‘Se domani non torno’ non lasci soltanto commozione e tristezza, ma soprattutto un messaggio di speranza: le relazioni possono cambiare, la violenza può essere prevenuta e ciascuno di noi può contribuire a costruire una cultura fondata sul rispetto. Finora abbiamo chiesto ai ragazzi di ascoltare la storia di Giulia. Adesso è arrivato il momento che siamo noi adulti ad ascoltare loro”. "Il rumore più bello è quello del pubblico che esce dalla sala e continua a parlarne, a interrogarsi, a confrontarsi - dichiara Guglielmo Marchetti, amministratore delegato e presidente di Notorious Pictures - Realizzare 'Se domani non torno', per noi, non è stato soltanto raccontare una storia. È stato assumersi una responsabilità. Perché crediamo che il cinema possa contribuire a cambiare le coscienze, a rompere il silenzio e a generare consapevolezza. Sappiamo che un film non basta. La commozione deve trasformarsi in impegno e l’impegno in azioni concrete. Grazie a Paola Randi, a tutti gli artisti e ai professionisti che hanno reso possibile il film e agli spettatori per aver accolto il nostro invito a fare rumore per Giulia e per tutte. Un ringraziamento speciale va a Gino Cecchettin, alla sua famiglia e alla Fondazione Giulia Cecchettin per aver condiviso una storia così intima e aver trasformato il dolore in un impegno concreto". Cartella stampa con foto e trailer</desc>
   </programme>
   <programme start="20261125104500 +0100" stop="20261125120000 +0100" channel="Telefriuli.it">
     <title lang="it">Screenshot</title>
@@ -1331,6 +1400,7 @@
   </programme>
   <programme start="20261126123000 +0100" stop="20261126133000 +0100" channel="CameradeiDeputati.it">
     <title lang="it">Covid, audizione Mackinson</title>
+    <desc lang="it">Alle ore 12.30 presso l’aula del II piano di Palazzo San Macuto, la Commissione parlamentare di inchiesta sulla gestione dell'emergenza sanitaria causata dalla diffusione epidemica del virus sars-cov-2 e sulle misure adottate per prevenire e affrontare l'emergenza epidemiologica da sars-cov-2 svolge l'audizione del giornalista Thomas Mackinson.</desc>
   </programme>
   <programme start="20261126124000 +0100" stop="20261126130000 +0100" channel="IuniorTV.it">
     <title lang="it">QUELLI ERAN GIORNI</title>

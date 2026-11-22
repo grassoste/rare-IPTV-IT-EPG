@@ -5,6 +5,9 @@ A source module provides a CHANNEL dict and a collect(today, days) function retu
 """
 
 import re
+import sys
+import time
+import urllib.error
 import urllib.request
 from datetime import datetime, time as dtime, timedelta
 from html import unescape
@@ -40,10 +43,33 @@ MONTHS = {
 }
 
 
-def fetch(url, timeout=20):
+def fetch(url, timeout=20, retries=2):
+    """GET with a small backoff: shared CI IPs get rate-limited (429) by some hosts."""
     req = urllib.request.Request(url, headers={"User-Agent": f"{GENERATOR}/1.0"})
-    with urllib.request.urlopen(req, timeout=timeout) as res:
-        return res.read().decode("utf-8", "replace")
+    for attempt in range(retries + 1):
+        try:
+            with urllib.request.urlopen(req, timeout=timeout) as res:
+                return res.read().decode("utf-8", "replace")
+        except (urllib.error.HTTPError, urllib.error.URLError, TimeoutError) as err:
+            permanent = isinstance(err, urllib.error.HTTPError) and err.code not in (
+                429,
+                500,
+                502,
+                503,
+                504,
+            )
+            if permanent or attempt == retries:
+                raise
+            wait = 5 * (attempt + 1)
+            if isinstance(err, urllib.error.HTTPError) and err.headers.get(
+                "Retry-After"
+            ):
+                try:
+                    wait = min(int(err.headers["Retry-After"]), 20)
+                except ValueError:
+                    pass
+            print(f"warning: {url} -> {err}; retrying in {wait}s", file=sys.stderr)
+            time.sleep(wait)
 
 
 def text(fragment):

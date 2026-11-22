@@ -3,14 +3,70 @@
 
 Each source module owns one channel: it scrapes its own broadcaster and returns
 [(start, stop, title)]. This script only merges them and writes the XMLTV file.
+
+A source that fails is a warning, not a lost channel: its programmes are carried over from
+the guide already on disk. Shared CI IPs get rate-limited (Blogspot answers 429), and losing
+a channel from the published guide is worse than serving the last known schedule for a day.
 """
 
 import argparse
 import sys
+import xml.etree.ElementTree as ET
 from datetime import datetime
 
 import epg
 from sources import SOURCES
+
+STAMP = "%Y%m%d%H%M%S %z"
+
+
+def read_previous(path, since=None):
+    """-> {channel_id: [(start, stop, title)]} from the already published XMLTV file."""
+    try:
+        root = ET.parse(path).getroot()
+    except (OSError, ET.ParseError):
+        return {}
+    previous = {}
+    for programme in root.findall("programme"):
+        title = programme.find("title")
+        try:
+            start = datetime.strptime(programme.get("start"), STAMP)
+            stop = datetime.strptime(programme.get("stop"), STAMP)
+        except (TypeError, ValueError):
+            continue
+        if title is None or not title.text or (since and stop <= since):
+            continue
+        previous.setdefault(programme.get("channel"), []).append(
+            (start, stop, title.text)
+        )
+    return {channel: sorted(rows) for channel, rows in previous.items()}
+
+
+def collect_all(sources, today, days, previous=None, only=None):
+    """-> [(channel, programmes)]; a failing source falls back to its published programmes."""
+    previous = previous or {}
+    entries = []
+    for source in sources:
+        channel = source.CHANNEL
+        if only and channel["id"] not in only:
+            continue
+        try:
+            programmes = source.collect(today, days)
+        except Exception as err:  # noqa: BLE001 - one broken source must not empty the guide
+            carried = previous.get(channel["id"])
+            if not carried:
+                print(f"warning: {channel['name']}: {err}", file=sys.stderr)
+                continue
+            print(
+                f"warning: {channel['name']}: {err} — carrying over {len(carried)} "
+                "programmes from the published guide",
+                file=sys.stderr,
+            )
+            programmes = carried
+        else:
+            print(f"{channel['name']}: {len(programmes)} programmes", file=sys.stderr)
+        entries.append((channel, programmes))
+    return entries
 
 
 def main(argv=None):
@@ -36,20 +92,9 @@ def main(argv=None):
     )
     args = parser.parse_args(argv)
 
-    today = datetime.now(epg.ROME).date()
-    entries = []
-    for source in SOURCES:
-        channel = source.CHANNEL
-        if args.only and channel["id"] not in args.only:
-            continue
-        try:
-            programmes = source.collect(today, args.days)
-        except Exception as err:  # noqa: BLE001 - one broken source must not empty the guide
-            print(f"warning: {channel['name']}: {err}", file=sys.stderr)
-            continue
-        print(f"{channel['name']}: {len(programmes)} programmes", file=sys.stderr)
-        entries.append((channel, programmes))
-
+    now = datetime.now(epg.ROME)
+    previous = read_previous(args.output, since=now)
+    entries = collect_all(SOURCES, now.date(), args.days, previous, args.only)
     if not entries:
         raise SystemExit("error: no source produced programmes")
 

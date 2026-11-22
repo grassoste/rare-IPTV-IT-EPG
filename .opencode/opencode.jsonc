@@ -1,0 +1,7 @@
+{
+  // Project-local OpenCode configuration for telefriuli_epg.
+  // Global settings live in ~/.config/opencode/opencode.json; anything here overrides them
+  // for this project only. Keep this file minimal and add a key only when a project rule
+  // genuinely needs it.
+  "$schema": "https://opencode.ai/config.json"
+}

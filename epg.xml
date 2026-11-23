@@ -20,72 +20,15 @@
     <display-name lang="it">Rai Italia</display-name>
     <icon src="https://i.imgur.com/1nN4rEP.png" />
   </channel>
-  <programme start="20261123003700 +0100" stop="20261123004900 +0100" channel="Telefriuli.it">
-    <title lang="it">BOLOGNA VS UDINESE</title>
-  </programme>
-  <programme start="20261123004900 +0100" stop="20261123014700 +0100" channel="Telefriuli.it">
-    <title lang="it">REPLAY</title>
-  </programme>
   <programme start="20261123013000 +0100" stop="20261123023000 +0100" channel="RaiItalia.it">
     <title lang="it">Speciale TG1</title>
-  </programme>
-  <programme start="20261123014700 +0100" stop="20261123024400 +0100" channel="Telefriuli.it">
-    <title lang="it">GOAL FVG</title>
   </programme>
   <programme start="20261123023000 +0100" stop="20261123061500 +0100" channel="RaiItalia.it">
     <title lang="it">TG RaiNews</title>
   </programme>
-  <programme start="20261123024400 +0100" stop="20261123025600 +0100" channel="Telefriuli.it">
-    <title lang="it">TELEGIORNALE FVG</title>
-  </programme>
-  <programme start="20261123025600 +0100" stop="20261123032200 +0100" channel="Telefriuli.it">
-    <title lang="it">Settimana Friuli</title>
-  </programme>
-  <programme start="20261123032200 +0100" stop="20261123033500 +0100" channel="Telefriuli.it">
-    <title lang="it">ISONZO NEWS</title>
-  </programme>
-  <programme start="20261123033500 +0100" stop="20261123034600 +0100" channel="Telefriuli.it">
-    <title lang="it">L'ALPINO</title>
-  </programme>
-  <programme start="20261123034600 +0100" stop="20261123041100 +0100" channel="Telefriuli.it">
-    <title lang="it">EFFEMOTORI</title>
-  </programme>
-  <programme start="20261123041100 +0100" stop="20261123042300 +0100" channel="Telefriuli.it">
-    <title lang="it">RUGBY MAGAZINE</title>
-  </programme>
-  <programme start="20261123042300 +0100" stop="20261123043500 +0100" channel="Telefriuli.it">
-    <title lang="it">TELEGIORNALE FVG</title>
-  </programme>
-  <programme start="20261123043500 +0100" stop="20261123050100 +0100" channel="Telefriuli.it">
-    <title lang="it">Settimana Friuli</title>
-  </programme>
-  <programme start="20261123050100 +0100" stop="20261123051200 +0100" channel="Telefriuli.it">
-    <title lang="it">L'ALPINO</title>
-  </programme>
-  <programme start="20261123051200 +0100" stop="20261123053700 +0100" channel="Telefriuli.it">
-    <title lang="it">EFFEMOTORI</title>
-  </programme>
-  <programme start="20261123053700 +0100" stop="20261123055000 +0100" channel="Telefriuli.it">
-    <title lang="it">TELEGIORNALE FVG</title>
-  </programme>
-  <programme start="20261123055000 +0100" stop="20261123061600 +0100" channel="Telefriuli.it">
-    <title lang="it">Settimana Friuli</title>
-  </programme>
   <programme start="20261123061500 +0100" stop="20261123070000 +0100" channel="RaiItalia.it">
     <title lang="it">Il meglio di Geo</title>
     <desc lang="it">Rubriche Culturali Documentari.</desc>
-  </programme>
-  <programme start="20261123061600 +0100" stop="20261123062100 +0100" channel="Telefriuli.it">
-    <title lang="it">INTERVALLO_4MIN30_SENTIERI_03</title>
-  </programme>
-  <programme start="20261123062000 +0100" stop="20261123062500 +0100" channel="Telefriuli.it">
-    <title lang="it">INTERVALLO_4MIN30_SENTIERI_05</title>
-  </programme>
-  <programme start="20261123062300 +0100" stop="20261123063000 +0100" channel="Telefriuli.it">
-    <title lang="it">INNO DEL FRIULI</title>
-  </programme>
-  <programme start="20261123063000 +0100" stop="20261123073500 +0100" channel="Telefriuli.it">
-    <title lang="it">NEWS CAPPUCCINO E BRIOCHE</title>
   </programme>
   <programme start="20261123070000 +0100" stop="20261123071500 +0100" channel="RaiItalia.it">
     <title lang="it">TG1</title>
@@ -96,26 +39,14 @@
   <programme start="20261123071500 +0100" stop="20261123080000 +0100" channel="RaiItalia.it">
     <title lang="it">UnoMattina News</title>
   </programme>
-  <programme start="20261123073500 +0100" stop="20261123074100 +0100" channel="Telefriuli.it">
-    <title lang="it">OROSCOPO</title>
-  </programme>
   <programme start="20261123074000 +0100" stop="20261123080000 +0100" channel="IuniorTV.it">
     <title lang="it">UN ANIME UNA CURIOSITA' con GIAFFY</title>
-  </programme>
-  <programme start="20261123074100 +0100" stop="20261123074600 +0100" channel="Telefriuli.it">
-    <title lang="it">METEO_MATTINA_2026_11_23</title>
-  </programme>
-  <programme start="20261123074600 +0100" stop="20261123082600 +0100" channel="Telefriuli.it">
-    <title lang="it">A VOI LA LINEA</title>
   </programme>
   <programme start="20261123080000 +0100" stop="20261123083000 +0100" channel="IuniorTV.it">
     <title lang="it">80 NOSTALGIA - Sigle TV</title>
   </programme>
   <programme start="20261123080000 +0100" stop="20261123083000 +0100" channel="RaiItalia.it">
     <title lang="it">TG1</title>
-  </programme>
-  <programme start="20261123082600 +0100" stop="20261123092600 +0100" channel="Telefriuli.it">
-    <title lang="it">NEWS CAPPUCCINO E BRIOCHE</title>
   </programme>
   <programme start="20261123083000 +0100" stop="20261123085500 +0100" channel="IuniorTV.it">
     <title lang="it">SIGLE E CANZONI TV</title>
@@ -126,22 +57,25 @@
   <programme start="20261123085500 +0100" stop="20261123090000 +0100" channel="IuniorTV.it">
     <title lang="it">OROSCOPO</title>
   </programme>
+  <programme start="20261123085500 +0100" stop="20261123092400 +0100" channel="Telefriuli.it">
+    <title lang="it">NEWS CAPPUCCINO E BRIOCHE</title>
+  </programme>
   <programme start="20261123090000 +0100" stop="20261123093000 +0100" channel="IuniorTV.it">
     <title lang="it">CARTONI ANIMATI - KABOOM</title>
   </programme>
-  <programme start="20261123092600 +0100" stop="20261123093200 +0100" channel="Telefriuli.it">
+  <programme start="20261123092400 +0100" stop="20261123093000 +0100" channel="Telefriuli.it">
     <title lang="it">OROSCOPO</title>
+  </programme>
+  <programme start="20261123093000 +0100" stop="20261123093500 +0100" channel="Telefriuli.it">
+    <title lang="it">METEO_MATTINA_2026_11_23</title>
   </programme>
   <programme start="20261123093000 +0100" stop="20261123100000 +0100" channel="IuniorTV.it">
     <title lang="it">CARTONI ANIMATI - KABOOM</title>
   </programme>
-  <programme start="20261123093200 +0100" stop="20261123093700 +0100" channel="Telefriuli.it">
-    <title lang="it">METEO_MATTINA_2026_11_23</title>
-  </programme>
-  <programme start="20261123093400 +0100" stop="20261123094100 +0100" channel="Telefriuli.it">
+  <programme start="20261123093200 +0100" stop="20261123093800 +0100" channel="Telefriuli.it">
     <title lang="it">INTERVALLO_4MIN30_SENTIERI_03</title>
   </programme>
-  <programme start="20261123094100 +0100" stop="20261123104200 +0100" channel="Telefriuli.it">
+  <programme start="20261123093800 +0100" stop="20261123104000 +0100" channel="Telefriuli.it">
     <title lang="it">GOAL FVG</title>
   </programme>
   <programme start="20261123094500 +0100" stop="20261123114500 +0100" channel="RaiItalia.it">
@@ -173,7 +107,7 @@
     <title lang="it">Manifesti 1944 - 1946 - Caivano nel dopoguerra: tra occupazione militare e rinascita civile</title>
     <desc lang="it">Alle ore 10.30, presso la Sala del Refettorio di Palazzo San Macuto si svolge la presentazione del volume "Manifesti 1944 - 1946 - Caivano nel dopoguerra: tra occupazione militare e rinascita civile". Interviene la segretaria di presidenza della Camera, Annarita Patriarca.</desc>
   </programme>
-  <programme start="20261123104200 +0100" stop="20261123110900 +0100" channel="Telefriuli.it">
+  <programme start="20261123104000 +0100" stop="20261123110700 +0100" channel="Telefriuli.it">
     <title lang="it">SCREENSHOT</title>
   </programme>
   <programme start="20261123110000 +0100" stop="20261123112000 +0100" channel="IuniorTV.it">
@@ -183,20 +117,20 @@
     <title lang="it">Convegno: Oltre le ceneri, il volo</title>
     <desc lang="it">Oltre le ceneri, il volo: la rinascita delle vittime. Su iniziativa della senatrice Cinzia Pellegrino</desc>
   </programme>
-  <programme start="20261123110900 +0100" stop="20261123111400 +0100" channel="Telefriuli.it">
+  <programme start="20261123110700 +0100" stop="20261123111200 +0100" channel="Telefriuli.it">
     <title lang="it">ITALPRESS LAVORO WELFARE</title>
   </programme>
-  <programme start="20261123111400 +0100" stop="20261123113000 +0100" channel="Telefriuli.it">
+  <programme start="20261123111200 +0100" stop="20261123112800 +0100" channel="Telefriuli.it">
     <title lang="it">START</title>
   </programme>
   <programme start="20261123112000 +0100" stop="20261123113000 +0100" channel="IuniorTV.it">
     <title lang="it">IERI E OGGI</title>
   </programme>
+  <programme start="20261123112800 +0100" stop="20261123115800 +0100" channel="Telefriuli.it">
+    <title lang="it">EFFEMOTORI</title>
+  </programme>
   <programme start="20261123113000 +0100" stop="20261123115000 +0100" channel="IuniorTV.it">
     <title lang="it">DOCUMENTARIO</title>
-  </programme>
-  <programme start="20261123113000 +0100" stop="20261123120000 +0100" channel="Telefriuli.it">
-    <title lang="it">EFFEMOTORI</title>
   </programme>
   <programme start="20261123114500 +0100" stop="20261123120000 +0100" channel="RaiItalia.it">
     <title lang="it">Documentario</title>
@@ -204,7 +138,7 @@
   <programme start="20261123115000 +0100" stop="20261123120000 +0100" channel="IuniorTV.it">
     <title lang="it">AROUND THE MUSIC con NEARCO - INFORMAZIONE</title>
   </programme>
-  <programme start="20261123120000 +0100" stop="20261123122900 +0100" channel="Telefriuli.it">
+  <programme start="20261123115800 +0100" stop="20261123122900 +0100" channel="Telefriuli.it">
     <title lang="it">MESSEDE CHE SI TACHE</title>
   </programme>
   <programme start="20261123120000 +0100" stop="20261123123000 +0100" channel="IuniorTV.it">

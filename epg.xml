@@ -20,62 +20,11 @@
     <display-name lang="it">Rai Italia</display-name>
     <icon src="https://i.imgur.com/1nN4rEP.png" />
   </channel>
-  <programme start="20261124010100 +0100" stop="20261124012600 +0100" channel="Telefriuli.it">
-    <title lang="it">EFFEMOTORI</title>
-  </programme>
-  <programme start="20261124012600 +0100" stop="20261124022300 +0100" channel="Telefriuli.it">
-    <title lang="it">BIANCONERO XXL</title>
-  </programme>
-  <programme start="20261124022300 +0100" stop="20261124025000 +0100" channel="Telefriuli.it">
-    <title lang="it">TELEGIORNALE FVG</title>
-  </programme>
   <programme start="20261124023000 +0100" stop="20261124063000 +0100" channel="RaiItalia.it">
     <title lang="it">TG RaiNews</title>
   </programme>
-  <programme start="20261124025000 +0100" stop="20261124031500 +0100" channel="Telefriuli.it">
-    <title lang="it">A VOI LA LINEA</title>
-  </programme>
-  <programme start="20261124031500 +0100" stop="20261124032900 +0100" channel="Telefriuli.it">
-    <title lang="it">START</title>
-  </programme>
-  <programme start="20261124032900 +0100" stop="20261124035600 +0100" channel="Telefriuli.it">
-    <title lang="it">TELEGIORNALE FVG</title>
-  </programme>
-  <programme start="20261124035600 +0100" stop="20261124042100 +0100" channel="Telefriuli.it">
-    <title lang="it">A VOI LA LINEA</title>
-  </programme>
-  <programme start="20261124042100 +0100" stop="20261124043500 +0100" channel="Telefriuli.it">
-    <title lang="it">START</title>
-  </programme>
-  <programme start="20261124043500 +0100" stop="20261124044600 +0100" channel="Telefriuli.it">
-    <title lang="it">L'ALPINO</title>
-  </programme>
-  <programme start="20261124044600 +0100" stop="20261124051300 +0100" channel="Telefriuli.it">
-    <title lang="it">TELEGIORNALE FVG</title>
-  </programme>
-  <programme start="20261124051300 +0100" stop="20261124053800 +0100" channel="Telefriuli.it">
-    <title lang="it">A VOI LA LINEA</title>
-  </programme>
-  <programme start="20261124053800 +0100" stop="20261124055200 +0100" channel="Telefriuli.it">
-    <title lang="it">START</title>
-  </programme>
-  <programme start="20261124055200 +0100" stop="20261124061900 +0100" channel="Telefriuli.it">
-    <title lang="it">TELEGIORNALE FVG</title>
-  </programme>
-  <programme start="20261124061900 +0100" stop="20261124062400 +0100" channel="Telefriuli.it">
-    <title lang="it">INTERVALLO_4MIN30_SENTIERI_03</title>
-  </programme>
-  <programme start="20261124062300 +0100" stop="20261124062800 +0100" channel="Telefriuli.it">
-    <title lang="it">INNO DEL FRIULI</title>
-  </programme>
-  <programme start="20261124062500 +0100" stop="20261124063000 +0100" channel="Telefriuli.it">
-    <title lang="it">UN PINSÎR PAR VUÊ</title>
-  </programme>
   <programme start="20261124063000 +0100" stop="20261124063400 +0100" channel="RaiItalia.it">
     <title lang="it">TG1</title>
-  </programme>
-  <programme start="20261124063000 +0100" stop="20261124073200 +0100" channel="Telefriuli.it">
-    <title lang="it">NEWS CAPPUCCINO E BRIOCHE</title>
   </programme>
   <programme start="20261124063400 +0100" stop="20261124065900 +0100" channel="RaiItalia.it">
     <title lang="it">1mattina News - Puntata del 24/11/2026</title>
@@ -87,32 +36,11 @@
   <programme start="20261124070000 +0100" stop="20261124080000 +0100" channel="IuniorTV.it">
     <title lang="it">CARTOONS STORY</title>
   </programme>
-  <programme start="20261124073200 +0100" stop="20261124073800 +0100" channel="Telefriuli.it">
-    <title lang="it">OROSCOPO</title>
-  </programme>
-  <programme start="20261124073800 +0100" stop="20261124074500 +0100" channel="Telefriuli.it">
-    <title lang="it">Meteo</title>
-  </programme>
-  <programme start="20261124074500 +0100" stop="20261124081500 +0100" channel="Telefriuli.it">
-    <title lang="it">A VOI LA LINEA</title>
-  </programme>
   <programme start="20261124075800 +0100" stop="20261124083000 +0100" channel="RaiItalia.it">
     <title lang="it">TG1</title>
   </programme>
   <programme start="20261124080000 +0100" stop="20261124083000 +0100" channel="IuniorTV.it">
     <title lang="it">80 NOSTALGIA - Sigle TV</title>
-  </programme>
-  <programme start="20261124081500 +0100" stop="20261124082000 +0100" channel="Telefriuli.it">
-    <title lang="it">UN PINSÎR PAR VUÊ</title>
-  </programme>
-  <programme start="20261124081700 +0100" stop="20261124082200 +0100" channel="Telefriuli.it">
-    <title lang="it">ITALPRESS ECONOMIA</title>
-  </programme>
-  <programme start="20261124082100 +0100" stop="20261124082800 +0100" channel="Telefriuli.it">
-    <title lang="it">ITALPRESS PET NEWS</title>
-  </programme>
-  <programme start="20261124082800 +0100" stop="20261124092600 +0100" channel="Telefriuli.it">
-    <title lang="it">NEWS CAPPUCCINO E BRIOCHE</title>
   </programme>
   <programme start="20261124083000 +0100" stop="20261124085500 +0100" channel="IuniorTV.it">
     <title lang="it">SIGLE E CANZONI TV</title>
@@ -145,9 +73,6 @@
     <title lang="it">UnoMattina - Puntata del 24/11/2026</title>
     <desc lang="it">Il programma della mattina di Rai1 che racconta l'attualità italiana ed estera celebra quest'anno il quarantesimo anniversario della sua nascita. Cronaca, politica, cultura, spettacolo, medicina, economia, senza tralasciare l'approfondimento degli argomenti dell'agenda sociale, reportage e speciali. Conducono Massimiliano Ossini e Daniela Ferolla.</desc>
   </programme>
-  <programme start="20261124092600 +0100" stop="20261124093200 +0100" channel="Telefriuli.it">
-    <title lang="it">OROSCOPO</title>
-  </programme>
   <programme start="20261124093000 +0100" stop="20261124093500 +0100" channel="SenatoTV.it">
     <title lang="it">Convegno: Forum infrastrutture Nordest</title>
     <desc lang="it">Forum infrastrutture Nordest. Programmare subito ciò che serve. Su iniziativa del senatore Antonio De Poli</desc>
@@ -158,15 +83,6 @@
   <programme start="20261124093000 +0100" stop="20261124110000 +0100" channel="SenatoTV.it">
     <title lang="it">Convegno: L'indipendenza dei servizi pubblici radiotelevisivi</title>
     <desc lang="it">L'indipendenza dei servizi pubblici radiotelevisivi. Come funziona in Europa. Su iniziativa della senatrice Mariolina Castellone</desc>
-  </programme>
-  <programme start="20261124093200 +0100" stop="20261124093700 +0100" channel="Telefriuli.it">
-    <title lang="it">Meteo</title>
-  </programme>
-  <programme start="20261124093600 +0100" stop="20261124094600 +0100" channel="Telefriuli.it">
-    <title lang="it">ITALPRESS SALUTE MAGAZINE</title>
-  </programme>
-  <programme start="20261124094600 +0100" stop="20261124104100 +0100" channel="Telefriuli.it">
-    <title lang="it">L'ORA DEI DILETTANTI</title>
   </programme>
   <programme start="20261124095000 +0100" stop="20261124115000 +0100" channel="RaiItalia.it">
     <title lang="it">Storie italiane</title>
@@ -184,9 +100,6 @@
   </programme>
   <programme start="20261124103000 +0100" stop="20261124110000 +0100" channel="IuniorTV.it">
     <title lang="it">CARTONI ANIMATI - KABOOM</title>
-  </programme>
-  <programme start="20261124104100 +0100" stop="20261124111200 +0100" channel="Telefriuli.it">
-    <title lang="it">SCREENSHOT</title>
   </programme>
   <programme start="20261124105000 +0100" stop="20261124110000 +0100" channel="CameradeiDeputati.it">
     <title lang="it">DL Campi Flegrei - Audizioni</title>
@@ -215,7 +128,7 @@
     <title lang="it">Convegno: Solo un sì è un sì</title>
     <desc lang="it">Solo un sì è un sì. Cultura del consenso e libertà delle donne. Su iniziativa della senatrice Valeria Valente</desc>
   </programme>
-  <programme start="20261124111200 +0100" stop="20261124112500 +0100" channel="Telefriuli.it">
+  <programme start="20261124111100 +0100" stop="20261124112500 +0100" channel="Telefriuli.it">
     <title lang="it">RUGBY MAGAZINE</title>
   </programme>
   <programme start="20261124112000 +0100" stop="20261124113000 +0100" channel="IuniorTV.it">
@@ -399,7 +312,7 @@
     <title lang="it">Seduta di Assemblea n. 479</title>
     <desc lang="it">Ordine del giorno</desc>
   </programme>
-  <programme start="20261124163000 +0100" stop="20261124184300 +0100" channel="RaiItalia.it">
+  <programme start="20261124163000 +0100" stop="20261124184100 +0100" channel="RaiItalia.it">
     <title lang="it">Casa Italia</title>
     <desc lang="it">Attualita'.</desc>
   </programme>
@@ -443,7 +356,7 @@
   <programme start="20261124184100 +0100" stop="20261124184600 +0100" channel="Telefriuli.it">
     <title lang="it">FOCUS MERCATI CULTURALI PROMOTURISMO</title>
   </programme>
-  <programme start="20261124184300 +0100" stop="20261124195600 +0100" channel="RaiItalia.it">
+  <programme start="20261124184100 +0100" stop="20261124195600 +0100" channel="RaiItalia.it">
     <title lang="it">L'Eredità</title>
     <desc lang="it">Intrattenimento.</desc>
   </programme>
@@ -513,7 +426,7 @@
   <programme start="20261124220000 +0100" stop="20261124223000 +0100" channel="IuniorTV.it">
     <title lang="it">CARTONI ANIMATI - KABOOM</title>
   </programme>
-  <programme start="20261124221900 +0100" stop="20261125001600 +0100" channel="RaiItalia.it">
+  <programme start="20261124221900 +0100" stop="20261125000900 +0100" channel="RaiItalia.it">
     <title lang="it">Amore Criminale Storie di femminicidio</title>
     <desc lang="it">Approfondimento e Attualità.</desc>
   </programme>
@@ -541,12 +454,12 @@
   <programme start="20261125000000 +0100" stop="20261125003000 +0100" channel="IuniorTV.it">
     <title lang="it">TELEFILM STORY</title>
   </programme>
-  <programme start="20261125001500 +0100" stop="20261125002100 +0100" channel="Telefriuli.it">
-    <title lang="it">SPORT FVG</title>
-  </programme>
-  <programme start="20261125001600 +0100" stop="20261125015200 +0100" channel="RaiItalia.it">
+  <programme start="20261125000900 +0100" stop="20261125014900 +0100" channel="RaiItalia.it">
     <title lang="it">Porta a Porta</title>
     <desc lang="it">Attualita'.</desc>
+  </programme>
+  <programme start="20261125001500 +0100" stop="20261125002100 +0100" channel="Telefriuli.it">
+    <title lang="it">SPORT FVG</title>
   </programme>
   <programme start="20261125002100 +0100" stop="20261125002600 +0100" channel="Telefriuli.it">
     <title lang="it">METEO</title>
@@ -563,7 +476,7 @@
   <programme start="20261125010000 +0100" stop="20261125020000 +0100" channel="IuniorTV.it">
     <title lang="it">LA NOTTE DI IUNIOR TV</title>
   </programme>
-  <programme start="20261125015200 +0100" stop="20261125054300 +0100" channel="RaiItalia.it">
+  <programme start="20261125014900 +0100" stop="20261125054300 +0100" channel="RaiItalia.it">
     <title lang="it">Rai News 24</title>
   </programme>
   <programme start="20261125020300 +0100" stop="20261125023000 +0100" channel="Telefriuli.it">
@@ -606,30 +519,28 @@
   <programme start="20261125063000 +0100" stop="20261125063400 +0100" channel="RaiItalia.it">
     <title lang="it">TG1</title>
   </programme>
-  <programme start="20261125063400 +0100" stop="20261125070000 +0100" channel="RaiItalia.it">
+  <programme start="20261125063400 +0100" stop="20261125065900 +0100" channel="RaiItalia.it">
     <title lang="it">1mattina News - Puntata del 25/11/2026</title>
     <desc lang="it">Notizie e attualità in tempo reale dall'Italia e dal mondo. Approfondimenti, ospiti in studio, inviati del Tg1 e interviste ai protagonisti della cronaca, dello sport, della cultura e dello spettacolo.</desc>
   </programme>
-  <programme start="20261125070000 +0100" stop="20261125071500 +0100" channel="RaiItalia.it">
+  <programme start="20261125065900 +0100" stop="20261125075800 +0100" channel="RaiItalia.it">
     <title lang="it">TG1</title>
   </programme>
   <programme start="20261125070000 +0100" stop="20261125080000 +0100" channel="IuniorTV.it">
     <title lang="it">CARTOONS STORY</title>
   </programme>
-  <programme start="20261125071500 +0100" stop="20261125080000 +0100" channel="RaiItalia.it">
-    <title lang="it">Unomattina News</title>
+  <programme start="20261125075800 +0100" stop="20261125083000 +0100" channel="RaiItalia.it">
+    <title lang="it">TG1</title>
   </programme>
   <programme start="20261125080000 +0100" stop="20261125083000 +0100" channel="IuniorTV.it">
     <title lang="it">80 NOSTALGIA - Sigle TV</title>
   </programme>
-  <programme start="20261125080000 +0100" stop="20261125083000 +0100" channel="RaiItalia.it">
-    <title lang="it">TG1</title>
-  </programme>
   <programme start="20261125083000 +0100" stop="20261125085500 +0100" channel="IuniorTV.it">
     <title lang="it">SIGLE E CANZONI TV</title>
   </programme>
-  <programme start="20261125083000 +0100" stop="20261125094500 +0100" channel="RaiItalia.it">
-    <title lang="it">Unomattina</title>
+  <programme start="20261125083000 +0100" stop="20261125085700 +0100" channel="RaiItalia.it">
+    <title lang="it">UnoMattina - Puntata del 25/11/2026</title>
+    <desc lang="it">Il programma della mattina di Rai1 che racconta l'attualità italiana ed estera celebra quest'anno il quarantesimo anniversario della sua nascita. Cronaca, politica, cultura, spettacolo, medicina, economia, senza tralasciare l'approfondimento degli argomenti dell'agenda sociale, reportage e speciali. Conducono Massimiliano Ossini e Daniela Ferolla.</desc>
   </programme>
   <programme start="20261125085000 +0100" stop="20261125103000 +0100" channel="CameradeiDeputati.it">
     <title lang="it">DL Campi Flegrei - Audizioni - ANCE, INGV Osservatorio vesuviano</title>
@@ -638,14 +549,21 @@
   <programme start="20261125085500 +0100" stop="20261125090000 +0100" channel="IuniorTV.it">
     <title lang="it">OROSCOPO</title>
   </programme>
+  <programme start="20261125085700 +0100" stop="20261125090000 +0100" channel="RaiItalia.it">
+    <title lang="it">Rai Parlamento Telegiornale</title>
+  </programme>
   <programme start="20261125090000 +0100" stop="20261125093000 +0100" channel="IuniorTV.it">
     <title lang="it">CARTONI ANIMATI - KABOOM</title>
+  </programme>
+  <programme start="20261125090000 +0100" stop="20261125095000 +0100" channel="RaiItalia.it">
+    <title lang="it">TG 1 L.I.S.</title>
   </programme>
   <programme start="20261125093000 +0100" stop="20261125100000 +0100" channel="IuniorTV.it">
     <title lang="it">CARTONI ANIMATI - KABOOM</title>
   </programme>
-  <programme start="20261125094500 +0100" stop="20261125114500 +0100" channel="RaiItalia.it">
-    <title lang="it">Storie Italiane</title>
+  <programme start="20261125095000 +0100" stop="20261125115700 +0100" channel="RaiItalia.it">
+    <title lang="it">Storie italiane</title>
+    <desc lang="it">Attualita'.</desc>
   </programme>
   <programme start="20261125100000 +0100" stop="20261125103000 +0100" channel="IuniorTV.it">
     <title lang="it">CARTONI ANIMATI - KABOOM</title>
@@ -654,12 +572,16 @@
     <title lang="it">Femminicidi, il 25 novembre alla Camera la proiezione di "Se domani non torno", con Gino Cecchettin...</title>
     <desc lang="it">Il film "Se domani non torno", diretto da Paola Randi e prodotto da Notorious Pictures, che racconta la storia di Giulia Cecchettin, sarà proiettato alla Camera alle 10.30 nella Sala della Regina. L'evento è promosso in occasione della Giornata internazionale per l'eliminazione della violenza contro le donne e sarà introdotto dalla vicepresidente della Camera, Anna Ascani, con l'intervento di Gino Cecchettin e il coinvolgimento degli studenti. Saranno presenti la regista e il cast. " 'Se domani non torno' è un film, ma anche molto altro. Composizione di immagini e parole che fanno smettere di respirare, strada che va spedita verso il dolore, primi mattoni di un cantiere dove edificare una nuova umanità nel quale spetta a ognuno continuare l'opera perché un dolore privato possa trasformarsi in salvezza collettiva - dice Ascani -. Siamo onorati di proiettarlo alla Camera dei deputati alla presenza di Gino Cecchettin in occasione del 25 novembre: lo abbiamo fortemente voluto perché il Parlamento è la casa della democrazia e il luogo in cui si costruisce il cambiamento che serve. Non vogliamo limitarci a raccogliere questa preziosa testimonianza ma essere parte attiva nell'opera di semina di questa rigenerazione collettiva spezzando il sistema che nutre l'odio con la prevenzione, con l'educazione, con leggi adeguate e, in definitiva, con la promozione di una cultura del rispetto, a partire dalla scuola, attraverso l'educazione sessuo-affettiva". “Siamo a tutte e tutti grati per l'attenzione che continuate a dedicare al film ‘Se domani non torno’ e ai temi che questa storia porta con sé - afferma Gino Cecchettin -. Il riscontro del pubblico ci conferma quanto questa storia sia capace di toccare le persone e di aprire uno spazio di riflessione, soprattutto tra i giovani. Il risultato più importante però non sarà quello che possiamo misurare oggi, ma ciò che avverrà domani, tra un mese o tra un anno, le domande che il film avrà contribuito a far nascere, le relazioni che avrà aiutato a ripensare. Ci auguriamo soprattutto che l'attenzione possa rivolgersi anche a ciò che i giovani hanno da raccontare: quali comportamenti hanno riconosciuto, quali interrogativi sono emersi e quale idea di amore, libertà e rispetto porteranno con sé dopo la visione. Il desiderio della famiglia Cecchettin e della Fondazione è che ‘Se domani non torno’ non lasci soltanto commozione e tristezza, ma soprattutto un messaggio di speranza: le relazioni possono cambiare, la violenza può essere prevenuta e ciascuno di noi può contribuire a costruire una cultura fondata sul rispetto. Finora abbiamo chiesto ai ragazzi di ascoltare la storia di Giulia. Adesso è arrivato il momento che siamo noi adulti ad ascoltare loro”. "Il rumore più bello è quello del pubblico che esce dalla sala e continua a parlarne, a interrogarsi, a confrontarsi - dichiara Guglielmo Marchetti, amministratore delegato e presidente di Notorious Pictures - Realizzare 'Se domani non torno', per noi, non è stato soltanto raccontare una storia. È stato assumersi una responsabilità. Perché crediamo che il cinema possa contribuire a cambiare le coscienze, a rompere il silenzio e a generare consapevolezza. Sappiamo che un film non basta. La commozione deve trasformarsi in impegno e l’impegno in azioni concrete. Grazie a Paola Randi, a tutti gli artisti e ai professionisti che hanno reso possibile il film e agli spettatori per aver accolto il nostro invito a fare rumore per Giulia e per tutte. Un ringraziamento speciale va a Gino Cecchettin, alla sua famiglia e alla Fondazione Giulia Cecchettin per aver condiviso una storia così intima e aver trasformato il dolore in un impegno concreto". Cartella stampa con foto e trailer Diretta in versione lis</desc>
   </programme>
+  <programme start="20261125103000 +0100" stop="20261125103500 +0100" channel="CameradeiDeputati.it">
+    <title lang="it">Femminicidi, il 25 novembre alla Camera la proiezione di "Se domani non torno", con Gino Cecchettin...</title>
+    <desc lang="it">Il film "Se domani non torno", diretto da Paola Randi e prodotto da Notorious Pictures, che racconta la storia di Giulia Cecchettin, sarà proiettato alla Camera alle 10.30 nella Sala della Regina. L'evento è promosso in occasione della Giornata internazionale per l'eliminazione della violenza contro le donne e sarà introdotto dalla vicepresidente della Camera, Anna Ascani, con l'intervento di Gino Cecchettin e il coinvolgimento degli studenti. Saranno presenti la regista e il cast. " 'Se domani non torno' è un film, ma anche molto altro. Composizione di immagini e parole che fanno smettere di respirare, strada che va spedita verso il dolore, primi mattoni di un cantiere dove edificare una nuova umanità nel quale spetta a ognuno continuare l'opera perché un dolore privato possa trasformarsi in salvezza collettiva - dice Ascani -. Siamo onorati di proiettarlo alla Camera dei deputati alla presenza di Gino Cecchettin in occasione del 25 novembre: lo abbiamo fortemente voluto perché il Parlamento è la casa della democrazia e il luogo in cui si costruisce il cambiamento che serve. Non vogliamo limitarci a raccogliere questa preziosa testimonianza ma essere parte attiva nell'opera di semina di questa rigenerazione collettiva spezzando il sistema che nutre l'odio con la prevenzione, con l'educazione, con leggi adeguate e, in definitiva, con la promozione di una cultura del rispetto, a partire dalla scuola, attraverso l'educazione sessuo-affettiva". “Siamo a tutte e tutti grati per l'attenzione che continuate a dedicare al film ‘Se domani non torno’ e ai temi che questa storia porta con sé - afferma Gino Cecchettin -. Il riscontro del pubblico ci conferma quanto questa storia sia capace di toccare le persone e di aprire uno spazio di riflessione, soprattutto tra i giovani. Il risultato più importante però non sarà quello che possiamo misurare oggi, ma ciò che avverrà domani, tra un mese o tra un anno, le domande che il film avrà contribuito a far nascere, le relazioni che avrà aiutato a ripensare. Ci auguriamo soprattutto che l'attenzione possa rivolgersi anche a ciò che i giovani hanno da raccontare: quali comportamenti hanno riconosciuto, quali interrogativi sono emersi e quale idea di amore, libertà e rispetto porteranno con sé dopo la visione. Il desiderio della famiglia Cecchettin e della Fondazione è che ‘Se domani non torno’ non lasci soltanto commozione e tristezza, ma soprattutto un messaggio di speranza: le relazioni possono cambiare, la violenza può essere prevenuta e ciascuno di noi può contribuire a costruire una cultura fondata sul rispetto. Finora abbiamo chiesto ai ragazzi di ascoltare la storia di Giulia. Adesso è arrivato il momento che siamo noi adulti ad ascoltare loro”. "Il rumore più bello è quello del pubblico che esce dalla sala e continua a parlarne, a interrogarsi, a confrontarsi - dichiara Guglielmo Marchetti, amministratore delegato e presidente di Notorious Pictures - Realizzare 'Se domani non torno', per noi, non è stato soltanto raccontare una storia. È stato assumersi una responsabilità. Perché crediamo che il cinema possa contribuire a cambiare le coscienze, a rompere il silenzio e a generare consapevolezza. Sappiamo che un film non basta. La commozione deve trasformarsi in impegno e l’impegno in azioni concrete. Grazie a Paola Randi, a tutti gli artisti e ai professionisti che hanno reso possibile il film e agli spettatori per aver accolto il nostro invito a fare rumore per Giulia e per tutte. Un ringraziamento speciale va a Gino Cecchettin, alla sua famiglia e alla Fondazione Giulia Cecchettin per aver condiviso una storia così intima e aver trasformato il dolore in un impegno concreto". Cartella stampa con foto e trailer</desc>
+  </programme>
   <programme start="20261125103000 +0100" stop="20261125110000 +0100" channel="IuniorTV.it">
     <title lang="it">CARTONI ANIMATI - KABOOM</title>
   </programme>
   <programme start="20261125103000 +0100" stop="20261125134500 +0100" channel="CameradeiDeputati.it">
-    <title lang="it">Femminicidi, il 25 novembre alla Camera la proiezione di "Se domani non torno", con Gino Cecchettin...</title>
-    <desc lang="it">Il film "Se domani non torno", diretto da Paola Randi e prodotto da Notorious Pictures, che racconta la storia di Giulia Cecchettin, sarà proiettato alla Camera alle 10.30 nella Sala della Regina. L'evento è promosso in occasione della Giornata internazionale per l'eliminazione della violenza contro le donne e sarà introdotto dalla vicepresidente della Camera, Anna Ascani, con l'intervento di Gino Cecchettin e il coinvolgimento degli studenti. Saranno presenti la regista e il cast. " 'Se domani non torno' è un film, ma anche molto altro. Composizione di immagini e parole che fanno smettere di respirare, strada che va spedita verso il dolore, primi mattoni di un cantiere dove edificare una nuova umanità nel quale spetta a ognuno continuare l'opera perché un dolore privato possa trasformarsi in salvezza collettiva - dice Ascani -. Siamo onorati di proiettarlo alla Camera dei deputati alla presenza di Gino Cecchettin in occasione del 25 novembre: lo abbiamo fortemente voluto perché il Parlamento è la casa della democrazia e il luogo in cui si costruisce il cambiamento che serve. Non vogliamo limitarci a raccogliere questa preziosa testimonianza ma essere parte attiva nell'opera di semina di questa rigenerazione collettiva spezzando il sistema che nutre l'odio con la prevenzione, con l'educazione, con leggi adeguate e, in definitiva, con la promozione di una cultura del rispetto, a partire dalla scuola, attraverso l'educazione sessuo-affettiva". “Siamo a tutte e tutti grati per l'attenzione che continuate a dedicare al film ‘Se domani non torno’ e ai temi che questa storia porta con sé - afferma Gino Cecchettin -. Il riscontro del pubblico ci conferma quanto questa storia sia capace di toccare le persone e di aprire uno spazio di riflessione, soprattutto tra i giovani. Il risultato più importante però non sarà quello che possiamo misurare oggi, ma ciò che avverrà domani, tra un mese o tra un anno, le domande che il film avrà contribuito a far nascere, le relazioni che avrà aiutato a ripensare. Ci auguriamo soprattutto che l'attenzione possa rivolgersi anche a ciò che i giovani hanno da raccontare: quali comportamenti hanno riconosciuto, quali interrogativi sono emersi e quale idea di amore, libertà e rispetto porteranno con sé dopo la visione. Il desiderio della famiglia Cecchettin e della Fondazione è che ‘Se domani non torno’ non lasci soltanto commozione e tristezza, ma soprattutto un messaggio di speranza: le relazioni possono cambiare, la violenza può essere prevenuta e ciascuno di noi può contribuire a costruire una cultura fondata sul rispetto. Finora abbiamo chiesto ai ragazzi di ascoltare la storia di Giulia. Adesso è arrivato il momento che siamo noi adulti ad ascoltare loro”. "Il rumore più bello è quello del pubblico che esce dalla sala e continua a parlarne, a interrogarsi, a confrontarsi - dichiara Guglielmo Marchetti, amministratore delegato e presidente di Notorious Pictures - Realizzare 'Se domani non torno', per noi, non è stato soltanto raccontare una storia. È stato assumersi una responsabilità. Perché crediamo che il cinema possa contribuire a cambiare le coscienze, a rompere il silenzio e a generare consapevolezza. Sappiamo che un film non basta. La commozione deve trasformarsi in impegno e l’impegno in azioni concrete. Grazie a Paola Randi, a tutti gli artisti e ai professionisti che hanno reso possibile il film e agli spettatori per aver accolto il nostro invito a fare rumore per Giulia e per tutte. Un ringraziamento speciale va a Gino Cecchettin, alla sua famiglia e alla Fondazione Giulia Cecchettin per aver condiviso una storia così intima e aver trasformato il dolore in un impegno concreto". Cartella stampa con foto e trailer</desc>
+    <title lang="it">​Confesercenti: verso una proposta di legge che garantisca più servizi, più imprese, città pi...</title>
+    <desc lang="it">Alle ore 10.30, presso la Sala del Refettorio di Palazzo San Macuto si svolge il convegno "Confesercenti: verso una proposta di legge che garantisca più servizi, più imprese, città più sicure e più ricche". Saluto del segretario di presidenza della Camera, Francesco Battistoni. Programma</desc>
   </programme>
   <programme start="20261125110000 +0100" stop="20261125112000 +0100" channel="IuniorTV.it">
     <title lang="it">TELEFILM STORY</title>
@@ -670,17 +592,18 @@
   <programme start="20261125113000 +0100" stop="20261125115000 +0100" channel="IuniorTV.it">
     <title lang="it">DOCUMENTARIO</title>
   </programme>
-  <programme start="20261125114500 +0100" stop="20261125120000 +0100" channel="RaiItalia.it">
-    <title lang="it">Cinque Minuti</title>
-  </programme>
   <programme start="20261125115000 +0100" stop="20261125120000 +0100" channel="IuniorTV.it">
     <title lang="it">AROUND THE MUSIC con NEARCO - INFORMAZIONE</title>
+  </programme>
+  <programme start="20261125115700 +0100" stop="20261125120200 +0100" channel="RaiItalia.it">
+    <title lang="it">Cinque Minuti</title>
+    <desc lang="it">Attualita'.</desc>
   </programme>
   <programme start="20261125120000 +0100" stop="20261125123000 +0100" channel="IuniorTV.it">
     <title lang="it">SUPER RICHIESTE</title>
   </programme>
-  <programme start="20261125120000 +0100" stop="20261125130000 +0100" channel="RaiItalia.it">
-    <title lang="it">Paparazzi</title>
+  <programme start="20261125120200 +0100" stop="20261125125800 +0100" channel="RaiItalia.it">
+    <title lang="it">Paparazzi!</title>
     <desc lang="it">Intrattenimento.</desc>
   </programme>
   <programme start="20261125123000 +0100" stop="20261125124000 +0100" channel="IuniorTV.it">
@@ -689,30 +612,37 @@
   <programme start="20261125124000 +0100" stop="20261125130000 +0100" channel="IuniorTV.it">
     <title lang="it">QUELLI ERAN GIORNI</title>
   </programme>
+  <programme start="20261125125800 +0100" stop="20261125132700 +0100" channel="RaiItalia.it">
+    <title lang="it">Tg2 giorno</title>
+  </programme>
   <programme start="20261125130000 +0100" stop="20261125133000 +0100" channel="IuniorTV.it">
     <title lang="it">CARTONI ANIMATI - KABOOM</title>
   </programme>
-  <programme start="20261125130000 +0100" stop="20261125133000 +0100" channel="RaiItalia.it">
-    <title lang="it">TG2</title>
-  </programme>
-  <programme start="20261125133000 +0100" stop="20261125134500 +0100" channel="RaiItalia.it">
-    <title lang="it">TG Sport</title>
+  <programme start="20261125132700 +0100" stop="20261125133700 +0100" channel="RaiItalia.it">
+    <title lang="it">TG Sport Giorno</title>
+    <desc lang="it">Telegiornali Rubriche Testata.</desc>
   </programme>
   <programme start="20261125133000 +0100" stop="20261125140000 +0100" channel="IuniorTV.it">
     <title lang="it">CARTONI ANIMATI - KABOOM</title>
   </programme>
-  <programme start="20261125134500 +0100" stop="20261125140000 +0100" channel="RaiItalia.it">
-    <title lang="it">TG Rai News</title>
+  <programme start="20261125133700 +0100" stop="20261125134900 +0100" channel="RaiItalia.it">
+    <title lang="it">TG2 Medicina 33</title>
+    <desc lang="it">Telegiornali Rubriche Testata.</desc>
   </programme>
   <programme start="20261125134500 +0100" stop="20261125144500 +0100" channel="CameradeiDeputati.it">
     <title lang="it">Nuovo codice della strada - Audizione - ASAPS, Movimento Diritti dei pedoni, RIME, AIFVS, Associazio...</title>
     <desc lang="it">Alle ore 13.45, la Commissione Trasporti, nell’ambito dell’esame dello schema di decreto legislativo recante nuovo codice della strada, svolge le seguenti audizioni: Associazione sostenitori e amici della Polizia stradale (ASAPS), Movimento Diritti dei pedoni e Rete italiana mobilità equa (RIME) Associazione italiana familiari e vittime della strada (AIFVS), Associazione Lorenzo Guarnieri, Fondazione Luigi Guccione e Fondazione Michele Scarponi.</desc>
   </programme>
+  <programme start="20261125134900 +0100" stop="20261125135800 +0100" channel="RaiItalia.it">
+    <title lang="it">Rai News 24 (Lingua Inglese)</title>
+    <desc lang="it">Attualita'.</desc>
+  </programme>
+  <programme start="20261125135800 +0100" stop="20261125151900 +0100" channel="RaiItalia.it">
+    <title lang="it">E' sempre mezzogiorno</title>
+    <desc lang="it">Intrattenimento.</desc>
+  </programme>
   <programme start="20261125140000 +0100" stop="20261125143000 +0100" channel="IuniorTV.it">
     <title lang="it">CARTONI ANIMATI - KABOOM</title>
-  </programme>
-  <programme start="20261125140000 +0100" stop="20261125151500 +0100" channel="RaiItalia.it">
-    <title lang="it">È sempre mezzogiorno</title>
   </programme>
   <programme start="20261125143000 +0100" stop="20261125150000 +0100" channel="IuniorTV.it">
     <title lang="it">CARTONI ANIMATI - KABOOM</title>
@@ -724,18 +654,24 @@
   <programme start="20261125150000 +0100" stop="20261125160000 +0100" channel="IuniorTV.it">
     <title lang="it">CARTOONS STORY</title>
   </programme>
-  <programme start="20261125151500 +0100" stop="20261125153000 +0100" channel="RaiItalia.it">
-    <title lang="it">TGR Leonardo</title>
-  </programme>
-  <programme start="20261125153000 +0100" stop="20261125160000 +0100" channel="RaiItalia.it">
-    <title lang="it">Via dei Matti numero 0 5ª Stag. 7ª puntata</title>
+  <programme start="20261125151900 +0100" stop="20261125152700 +0100" channel="RaiItalia.it">
+    <title lang="it">Leonardo</title>
     <desc lang="it">Rubriche Culturali Documentari.</desc>
+  </programme>
+  <programme start="20261125152700 +0100" stop="20261125155000 +0100" channel="RaiItalia.it">
+    <title lang="it">Via dei Matti Numero Zero</title>
+    <desc lang="it">Intrattenimento.</desc>
+  </programme>
+  <programme start="20261125155000 +0100" stop="20261125155900 +0100" channel="RaiItalia.it">
+    <title lang="it">Le storie di Lupin</title>
+    <desc lang="it">Cartoni Animati.</desc>
+  </programme>
+  <programme start="20261125155900 +0100" stop="20261125163000 +0100" channel="RaiItalia.it">
+    <title lang="it">Udienza del Papa</title>
+    <desc lang="it">Prog. Religioso.</desc>
   </programme>
   <programme start="20261125160000 +0100" stop="20261125162500 +0100" channel="IuniorTV.it">
     <title lang="it">TELEFILM STORY</title>
-  </programme>
-  <programme start="20261125160000 +0100" stop="20261125163000 +0100" channel="RaiItalia.it">
-    <title lang="it">Udienza Papale</title>
   </programme>
   <programme start="20261125162500 +0100" stop="20261125163000 +0100" channel="IuniorTV.it">
     <title lang="it">AROUND THE MUSIC con NEARCO - INFORMAZIONE</title>
@@ -796,7 +732,7 @@
   <programme start="20261125220000 +0100" stop="20261125223000 +0100" channel="IuniorTV.it">
     <title lang="it">CARTONI ANIMATI - KABOOM</title>
   </programme>
-  <programme start="20261125220300 +0100" stop="20261126000800 +0100" channel="RaiItalia.it">
+  <programme start="20261125220300 +0100" stop="20261126000700 +0100" channel="RaiItalia.it">
     <title lang="it">Una Nessuna Centomila</title>
     <desc lang="it">Intrattenimento.</desc>
   </programme>
@@ -812,7 +748,7 @@
   <programme start="20261126000000 +0100" stop="20261126003000 +0100" channel="IuniorTV.it">
     <title lang="it">TELEFILM STORY</title>
   </programme>
-  <programme start="20261126000800 +0100" stop="20261126004300 +0100" channel="RaiItalia.it">
+  <programme start="20261126000700 +0100" stop="20261126004300 +0100" channel="RaiItalia.it">
     <title lang="it">TG1 Sera</title>
   </programme>
   <programme start="20261126003000 +0100" stop="20261126010000 +0100" channel="IuniorTV.it">
@@ -999,11 +935,11 @@
     <title lang="it">Leonardo</title>
     <desc lang="it">Rubriche Culturali Documentari.</desc>
   </programme>
-  <programme start="20261126152700 +0100" stop="20261126155100 +0100" channel="RaiItalia.it">
+  <programme start="20261126152700 +0100" stop="20261126155000 +0100" channel="RaiItalia.it">
     <title lang="it">Via dei Matti Numero Zero</title>
     <desc lang="it">Intrattenimento.</desc>
   </programme>
-  <programme start="20261126155100 +0100" stop="20261126160200 +0100" channel="RaiItalia.it">
+  <programme start="20261126155000 +0100" stop="20261126160200 +0100" channel="RaiItalia.it">
     <title lang="it">I puffi</title>
     <desc lang="it">Cartoni Animati.</desc>
   </programme>
@@ -1014,11 +950,11 @@
     <title lang="it">Ricky Zoom</title>
     <desc lang="it">Cartoni Animati.</desc>
   </programme>
-  <programme start="20261126161400 +0100" stop="20261126162200 +0100" channel="RaiItalia.it">
+  <programme start="20261126161400 +0100" stop="20261126162100 +0100" channel="RaiItalia.it">
     <title lang="it">Le storie di Lupin</title>
     <desc lang="it">Cartoni Animati.</desc>
   </programme>
-  <programme start="20261126162200 +0100" stop="20261126162900 +0100" channel="RaiItalia.it">
+  <programme start="20261126162100 +0100" stop="20261126163000 +0100" channel="RaiItalia.it">
     <title lang="it">Le storie di Lupin</title>
     <desc lang="it">Cartoni Animati.</desc>
   </programme>
@@ -1030,6 +966,10 @@
   </programme>
   <programme start="20261126163000 +0100" stop="20261126170000 +0100" channel="IuniorTV.it">
     <title lang="it">ORAMUSICA</title>
+  </programme>
+  <programme start="20261126163000 +0100" stop="20261126184100 +0100" channel="RaiItalia.it">
+    <title lang="it">Casa Italia</title>
+    <desc lang="it">Attualita'.</desc>
   </programme>
   <programme start="20261126164500 +0100" stop="20261126170000 +0100" channel="Telefriuli.it">
     <title lang="it">Rugby Magazine</title>
@@ -1052,8 +992,9 @@
   <programme start="20261126183500 +0100" stop="20261126190000 +0100" channel="IuniorTV.it">
     <title lang="it">TELEFILM STORY</title>
   </programme>
-  <programme start="20261126184500 +0100" stop="20261126200000 +0100" channel="RaiItalia.it">
+  <programme start="20261126184100 +0100" stop="20261126195600 +0100" channel="RaiItalia.it">
     <title lang="it">L'Eredità</title>
+    <desc lang="it">Intrattenimento.</desc>
   </programme>
   <programme start="20261126190000 +0100" stop="20261126193000 +0100" channel="IuniorTV.it">
     <title lang="it">TELEFILM STORY</title>
@@ -1073,8 +1014,8 @@
   <programme start="20261126194500 +0100" stop="20261126201500 +0100" channel="Telefriuli.it">
     <title lang="it">Screenshot</title>
   </programme>
-  <programme start="20261126200000 +0100" stop="20261126203000 +0100" channel="RaiItalia.it">
-    <title lang="it">TG1</title>
+  <programme start="20261126195600 +0100" stop="20261126203300 +0100" channel="RaiItalia.it">
+    <title lang="it">Tg1</title>
   </programme>
   <programme start="20261126200000 +0100" stop="20261126210000 +0100" channel="IuniorTV.it">
     <title lang="it">CARTOONS STORY</title>
@@ -1082,8 +1023,13 @@
   <programme start="20261126201500 +0100" stop="20261126204500 +0100" channel="Telefriuli.it">
     <title lang="it">Telegiornale FVG</title>
   </programme>
-  <programme start="20261126203000 +0100" stop="20261126210000 +0100" channel="RaiItalia.it">
+  <programme start="20261126203300 +0100" stop="20261126203800 +0100" channel="RaiItalia.it">
+    <title lang="it">Cinque Minuti</title>
+    <desc lang="it">Attualita'.</desc>
+  </programme>
+  <programme start="20261126203800 +0100" stop="20261126210400 +0100" channel="RaiItalia.it">
     <title lang="it">Un posto al sole</title>
+    <desc lang="it">Fiction.</desc>
   </programme>
   <programme start="20261126204500 +0100" stop="20261126210000 +0100" channel="Telefriuli.it">
     <title lang="it">Gnovis</title>
@@ -1091,23 +1037,25 @@
   <programme start="20261126210000 +0100" stop="20261126213000 +0100" channel="IuniorTV.it">
     <title lang="it">CARTONI ANIMATI - KABOOM</title>
   </programme>
-  <programme start="20261126210000 +0100" stop="20261126220000 +0100" channel="RaiItalia.it">
-    <title lang="it">Affari Tuoi</title>
-  </programme>
   <programme start="20261126210000 +0100" stop="20261126220000 +0100" channel="Telefriuli.it">
     <title lang="it">Focus</title>
   </programme>
+  <programme start="20261126210400 +0100" stop="20261126215900 +0100" channel="RaiItalia.it">
+    <title lang="it">Affari tuoi</title>
+    <desc lang="it">Intrattenimento.</desc>
+  </programme>
   <programme start="20261126213000 +0100" stop="20261126220000 +0100" channel="IuniorTV.it">
     <title lang="it">CARTONI ANIMATI - KABOOM</title>
+  </programme>
+  <programme start="20261126215900 +0100" stop="20261126234800 +0100" channel="RaiItalia.it">
+    <title lang="it">Doc - Nelle tue mani 4 - Incubi - Dalla</title>
+    <desc lang="it">Doc - Nelle tue mani 4 - Incubi - Dalla stessa parte 8a ed ultima puntata - Fiction</desc>
   </programme>
   <programme start="20261126220000 +0100" stop="20261126223000 +0100" channel="IuniorTV.it">
     <title lang="it">CARTONI ANIMATI - KABOOM</title>
   </programme>
   <programme start="20261126220000 +0100" stop="20261126223000 +0100" channel="Telefriuli.it">
     <title lang="it">Case da sogno</title>
-  </programme>
-  <programme start="20261126220000 +0100" stop="20261126230000 +0100" channel="RaiItalia.it">
-    <title lang="it">Fiction 1ª TV: Doc - Nelle tue mani 4 8ª e ultima puntata</title>
   </programme>
   <programme start="20261126223000 +0100" stop="20261126230000 +0100" channel="IuniorTV.it">
     <title lang="it">CARTONI ANIMATI - KABOOM</title>
@@ -1124,23 +1072,28 @@
   <programme start="20261126234500 +0100" stop="20261127004500 +0100" channel="Telefriuli.it">
     <title lang="it">Telegiornale FVG</title>
   </programme>
+  <programme start="20261126234800 +0100" stop="20261127001800 +0100" channel="RaiItalia.it">
+    <title lang="it">Il Confronto</title>
+  </programme>
   <programme start="20261127000000 +0100" stop="20261127003000 +0100" channel="IuniorTV.it">
     <title lang="it">TELEFILM STORY</title>
   </programme>
-  <programme start="20261127000000 +0100" stop="20261127003000 +0100" channel="RaiItalia.it">
-    <title lang="it">Il Confronto</title>
+  <programme start="20261127001800 +0100" stop="20261127014500 +0100" channel="RaiItalia.it">
+    <title lang="it">Porta a Porta</title>
+    <desc lang="it">Attualita'.</desc>
   </programme>
   <programme start="20261127003000 +0100" stop="20261127010000 +0100" channel="IuniorTV.it">
     <title lang="it">TELEFILM STORY</title>
   </programme>
-  <programme start="20261127003000 +0100" stop="20261127020000 +0100" channel="RaiItalia.it">
-    <title lang="it">Porta a Porta</title>
-  </programme>
   <programme start="20261127010000 +0100" stop="20261127020000 +0100" channel="IuniorTV.it">
     <title lang="it">LA NOTTE DI IUNIOR TV</title>
   </programme>
-  <programme start="20261127020000 +0100" stop="20261127063000 +0100" channel="RaiItalia.it">
-    <title lang="it">TG RaiNews</title>
+  <programme start="20261127014500 +0100" stop="20261127055200 +0100" channel="RaiItalia.it">
+    <title lang="it">Rai News 24</title>
+  </programme>
+  <programme start="20261127055200 +0100" stop="20261127063000 +0100" channel="RaiItalia.it">
+    <title lang="it">Il meglio di Geo</title>
+    <desc lang="it">Rubriche Culturali Documentari.</desc>
   </programme>
   <programme start="20261127062000 +0100" stop="20261127063000 +0100" channel="Telefriuli.it">
     <title lang="it">Un pinsir par vuè</title>

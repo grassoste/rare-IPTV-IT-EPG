@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tv generator-info-name="rare-IPTV-IT-EPG" date="20261125">
+<tv generator-info-name="rare-IPTV-IT-EPG" date="20261126">
   <channel id="Telefriuli.it">
     <display-name lang="it">Telefriuli</display-name>
     <icon src="https://i.imgur.com/He3uCs6.png" />
@@ -20,386 +20,22 @@
     <display-name lang="it">Rai Italia</display-name>
     <icon src="https://i.imgur.com/1nN4rEP.png" />
   </channel>
-  <programme start="20261125000900 +0100" stop="20261125014900 +0100" channel="RaiItalia.it">
-    <title lang="it">Porta a Porta</title>
-    <desc lang="it">Attualita'.</desc>
-  </programme>
-  <programme start="20261125014900 +0100" stop="20261125054300 +0100" channel="RaiItalia.it">
-    <title lang="it">Rai News 24</title>
-  </programme>
-  <programme start="20261125054300 +0100" stop="20261125063000 +0100" channel="RaiItalia.it">
-    <title lang="it">Il meglio di Geo</title>
-    <desc lang="it">Rubriche Culturali Documentari.</desc>
-  </programme>
-  <programme start="20261125062000 +0100" stop="20261125063000 +0100" channel="Telefriuli.it">
-    <title lang="it">Un pinsir par vuè</title>
-  </programme>
-  <programme start="20261125063000 +0100" stop="20261125063400 +0100" channel="RaiItalia.it">
-    <title lang="it">TG1</title>
-  </programme>
-  <programme start="20261125063000 +0100" stop="20261125073000 +0100" channel="Telefriuli.it">
-    <title lang="it">News, cappuccino e brioche –diretta</title>
-  </programme>
-  <programme start="20261125063400 +0100" stop="20261125065900 +0100" channel="RaiItalia.it">
-    <title lang="it">1mattina News - Puntata del 25/11/2026</title>
-    <desc lang="it">Notizie e attualità in tempo reale dall'Italia e dal mondo. Approfondimenti, ospiti in studio, inviati del Tg1 e interviste ai protagonisti della cronaca, dello sport, della cultura e dello spettacolo.</desc>
-  </programme>
-  <programme start="20261125065900 +0100" stop="20261125075800 +0100" channel="RaiItalia.it">
-    <title lang="it">TG1</title>
-  </programme>
-  <programme start="20261125073000 +0100" stop="20261125082000 +0100" channel="Telefriuli.it">
-    <title lang="it">Meteo</title>
-  </programme>
-  <programme start="20261125075800 +0100" stop="20261125083000 +0100" channel="RaiItalia.it">
-    <title lang="it">TG1</title>
-  </programme>
-  <programme start="20261125082000 +0100" stop="20261125083000 +0100" channel="Telefriuli.it">
-    <title lang="it">Un pinsir par vuè</title>
-  </programme>
-  <programme start="20261125083000 +0100" stop="20261125083500 +0100" channel="SenatoTV.it">
-    <title lang="it">D-l n. 207/2026 - Riduzione del costo dell'energia elettrica e del gas</title>
-    <desc lang="it">Audizioni e contributi sul disegno di legge 2095 (d-l 207/2026 - Riduzione del costo dell'energia elettrica e del gas) di: Confindustria, CNA, Confartigianato e Casartigiani, Confimi Industria, ReteEnergia, ANEV - Associazione nazionale energia del vento, Elettricità Futura</desc>
-  </programme>
-  <programme start="20261125083000 +0100" stop="20261125085700 +0100" channel="RaiItalia.it">
-    <title lang="it">UnoMattina - Puntata del 25/11/2026</title>
-    <desc lang="it">Il programma della mattina di Rai1 che racconta l'attualità italiana ed estera celebra quest'anno il quarantesimo anniversario della sua nascita. Cronaca, politica, cultura, spettacolo, medicina, economia, senza tralasciare l'approfondimento degli argomenti dell'agenda sociale, reportage e speciali. Conducono Massimiliano Ossini e Daniela Ferolla.</desc>
-  </programme>
-  <programme start="20261125083000 +0100" stop="20261125090000 +0100" channel="SenatoTV.it">
-    <title lang="it">Riparto contributi associazioni combattentistiche</title>
-    <desc lang="it">Audizioni informali sull'Atto del Governo 456 (riparto contributi associazioni combattentistiche)</desc>
-  </programme>
-  <programme start="20261125083000 +0100" stop="20261125093000 +0100" channel="Telefriuli.it">
-    <title lang="it">News, cappuccino e brioche</title>
-  </programme>
-  <programme start="20261125085700 +0100" stop="20261125090000 +0100" channel="RaiItalia.it">
-    <title lang="it">Rai Parlamento Telegiornale</title>
-  </programme>
-  <programme start="20261125090000 +0100" stop="20261125093000 +0100" channel="SenatoTV.it">
-    <title lang="it">Conferenza stampa: Presentazione del libro "Non arrendetevi al male"</title>
-    <desc lang="it">Presentazione del libro "Non arrendetevi al male". Su iniziativa del senatore Sergio Rastrelli</desc>
-  </programme>
-  <programme start="20261125090000 +0100" stop="20261125095000 +0100" channel="RaiItalia.it">
-    <title lang="it">TG 1 L.I.S.</title>
-  </programme>
-  <programme start="20261125092000 +0100" stop="20261125103000 +0100" channel="CameradeiDeputati.it">
-    <title lang="it">DL Campi Flegrei - Audizioni - ANCE, INGV Osservatorio vesuviano e Provveditorato interregionale ope...</title>
-    <desc lang="it">Alle ore 9.20, la Commissione Ambiente ha svolto le seguenti audizioni nell’ambito dell’esame, in sede referente, del disegno di legge di conversione del decreto 11 novembre 2026, n. 205, recante piano straordinario per i Campi Flegrei nonché ulteriori disposizioni urgenti di protezione civile: Associazione nazionale costruttori edili (ANCE); Dipartimento della protezione civile; Istituto nazionale di geofisica e vulcanologia (INGV) – Osservatorio vesuviano; Provveditorato interregionale opere pubbliche per Campania e Molise.</desc>
-  </programme>
-  <programme start="20261125093000 +0100" stop="20261125094500 +0100" channel="Telefriuli.it">
-    <title lang="it">Meteo</title>
-  </programme>
-  <programme start="20261125093000 +0100" stop="20261125100000 +0100" channel="SenatoTV.it">
-    <title lang="it">Convegno: IST - HIV Call 2026</title>
-    <desc lang="it">IST - HIV Call 2026: opportunità di gestione e prevenzione per l’emergenza sanitaria. Su iniziativa del senatore Marco Meloni</desc>
-  </programme>
-  <programme start="20261125094500 +0100" stop="20261125104500 +0100" channel="Telefriuli.it">
-    <title lang="it">Goal FVG</title>
-  </programme>
-  <programme start="20261125095000 +0100" stop="20261125115700 +0100" channel="RaiItalia.it">
-    <title lang="it">Storie italiane</title>
-    <desc lang="it">Attualita'.</desc>
-  </programme>
-  <programme start="20261125100000 +0100" stop="20261125110000 +0100" channel="SenatoTV.it">
-    <title lang="it">Seduta di Assemblea n. 480</title>
-    <desc lang="it">Ordine del giorno</desc>
-  </programme>
-  <programme start="20261125103000 +0100" stop="20261125103500 +0100" channel="CameradeiDeputati.it">
-    <title lang="it">Audizione Farina e Boni</title>
-    <desc lang="it">Alle ore 10.30, presso l'Aula del VI piano di Palazzo San Macuto, la Commissione parlamentare di inchiesta sulla morte di David Rossi ha svolto l'audizione, in videoconferenza, di Giuliano Farina e Angelo Boni, persone informate sui fatti.</desc>
-  </programme>
-  <programme start="20261125103000 +0100" stop="20261125103500 +0100" channel="CameradeiDeputati.it">
-    <title lang="it">Femminicidi, la proiezione di "Se domani non torno", con Gino Cecchettin. Introduce Ascani: "In Parl...</title>
-    <desc lang="it">Alle 10.30 nella Sala della Regina è stato proiettato il film "Se domani non torno", diretto da Paola Randi e prodotto da Notorious Pictures, che racconta la storia di Giulia Cecchettin. L'evento, promosso in occasione della Giornata internazionale per l'eliminazione della violenza contro le donne, è stato introdotto dalla vicepresidente della Camera, Anna Ascani, con l'intervento di Gino Cecchettin e il coinvolgimento degli studenti. Presenti la regista e il cast. " 'Se domani non torno' è un film, ma anche molto altro. Composizione di immagini e parole che fanno smettere di respirare, strada che va spedita verso il dolore, primi mattoni di un cantiere dove edificare una nuova umanità nel quale spetta a ognuno continuare l'opera perché un dolore privato possa trasformarsi in salvezza collettiva - dice Ascani -. Siamo onorati di proiettarlo alla Camera dei deputati alla presenza di Gino Cecchettin in occasione del 25 novembre: lo abbiamo fortemente voluto perché il Parlamento è la casa della democrazia e il luogo in cui si costruisce il cambiamento che serve. Non vogliamo limitarci a raccogliere questa preziosa testimonianza ma essere parte attiva nell'opera di semina di questa rigenerazione collettiva spezzando il sistema che nutre l'odio con la prevenzione, con l'educazione, con leggi adeguate e, in definitiva, con la promozione di una cultura del rispetto, a partire dalla scuola, attraverso l'educazione sessuo-affettiva". “Siamo a tutte e tutti grati per l'attenzione che continuate a dedicare al film ‘Se domani non torno’ e ai temi che questa storia porta con sé - afferma Gino Cecchettin -. Il riscontro del pubblico ci conferma quanto questa storia sia capace di toccare le persone e di aprire uno spazio di riflessione, soprattutto tra i giovani. Il risultato più importante però non sarà quello che possiamo misurare oggi, ma ciò che avverrà domani, tra un mese o tra un anno, le domande che il film avrà contribuito a far nascere, le relazioni che avrà aiutato a ripensare. Ci auguriamo soprattutto che l'attenzione possa rivolgersi anche a ciò che i giovani hanno da raccontare: quali comportamenti hanno riconosciuto, quali interrogativi sono emersi e quale idea di amore, libertà e rispetto porteranno con sé dopo la visione. Il desiderio della famiglia Cecchettin e della Fondazione è che ‘Se domani non torno’ non lasci soltanto commozione e tristezza, ma soprattutto un messaggio di speranza: le relazioni possono cambiare, la violenza può essere prevenuta e ciascuno di noi può contribuire a costruire una cultura fondata sul rispetto. Finora abbiamo chiesto ai ragazzi di ascoltare la storia di Giulia. Adesso è arrivato il momento che siamo noi adulti ad ascoltare loro”. "Il rumore più bello è quello del pubblico che esce dalla sala e continua a parlarne, a interrogarsi, a confrontarsi - dichiara Guglielmo Marchetti, amministratore delegato e presidente di Notorious Pictures - Realizzare 'Se domani non torno', per noi, non è stato soltanto raccontare una storia. È stato assumersi una responsabilità. Perché crediamo che il cinema possa contribuire a cambiare le coscienze, a rompere il silenzio e a generare consapevolezza. Sappiamo che un film non basta. La commozione deve trasformarsi in impegno e l’impegno in azioni concrete. Grazie a Paola Randi, a tutti gli artisti e ai professionisti che hanno reso possibile il film e agli spettatori per aver accolto il nostro invito a fare rumore per Giulia e per tutte. Un ringraziamento speciale va a Gino Cecchettin, alla sua famiglia e alla Fondazione Giulia Cecchettin per aver condiviso una storia così intima e aver trasformato il dolore in un impegno concreto". Cartella stampa con foto e trailer Diretta in versione lis</desc>
-  </programme>
-  <programme start="20261125103000 +0100" stop="20261125103500 +0100" channel="CameradeiDeputati.it">
-    <title lang="it">Femminicidi, proiezione di "Se domani non torno", con Gino Cecchettin. Introduce Ascani: "In Parlame...</title>
-    <desc lang="it">Alle 10.30 nella Sala della Regina è stato proiettato il film "Se domani non torno", diretto da Paola Randi e prodotto da Notorious Pictures, che racconta la storia di Giulia Cecchettin. L'evento, promosso in occasione della Giornata internazionale per l'eliminazione della violenza contro le donne, è stato introdotto dalla vicepresidente della Camera, Anna Ascani, con l'intervento di Gino Cecchettin e il coinvolgimento degli studenti. Presenti la regista e il cast. " 'Se domani non torno' è un film, ma anche molto altro. Composizione di immagini e parole che fanno smettere di respirare, strada che va spedita verso il dolore, primi mattoni di un cantiere dove edificare una nuova umanità nel quale spetta a ognuno continuare l'opera perché un dolore privato possa trasformarsi in salvezza collettiva - dice Ascani -. Siamo onorati di proiettarlo alla Camera dei deputati alla presenza di Gino Cecchettin in occasione del 25 novembre: lo abbiamo fortemente voluto perché il Parlamento è la casa della democrazia e il luogo in cui si costruisce il cambiamento che serve. Non vogliamo limitarci a raccogliere questa preziosa testimonianza ma essere parte attiva nell'opera di semina di questa rigenerazione collettiva spezzando il sistema che nutre l'odio con la prevenzione, con l'educazione, con leggi adeguate e, in definitiva, con la promozione di una cultura del rispetto, a partire dalla scuola, attraverso l'educazione sessuo-affettiva". “Siamo a tutte e tutti grati per l'attenzione che continuate a dedicare al film ‘Se domani non torno’ e ai temi che questa storia porta con sé - afferma Gino Cecchettin -. Il riscontro del pubblico ci conferma quanto questa storia sia capace di toccare le persone e di aprire uno spazio di riflessione, soprattutto tra i giovani. Il risultato più importante però non sarà quello che possiamo misurare oggi, ma ciò che avverrà domani, tra un mese o tra un anno, le domande che il film avrà contribuito a far nascere, le relazioni che avrà aiutato a ripensare. Ci auguriamo soprattutto che l'attenzione possa rivolgersi anche a ciò che i giovani hanno da raccontare: quali comportamenti hanno riconosciuto, quali interrogativi sono emersi e quale idea di amore, libertà e rispetto porteranno con sé dopo la visione. Il desiderio della famiglia Cecchettin e della Fondazione è che ‘Se domani non torno’ non lasci soltanto commozione e tristezza, ma soprattutto un messaggio di speranza: le relazioni possono cambiare, la violenza può essere prevenuta e ciascuno di noi può contribuire a costruire una cultura fondata sul rispetto. Finora abbiamo chiesto ai ragazzi di ascoltare la storia di Giulia. Adesso è arrivato il momento che siamo noi adulti ad ascoltare loro”. "Il rumore più bello è quello del pubblico che esce dalla sala e continua a parlarne, a interrogarsi, a confrontarsi - dichiara Guglielmo Marchetti, amministratore delegato e presidente di Notorious Pictures - Realizzare 'Se domani non torno', per noi, non è stato soltanto raccontare una storia. È stato assumersi una responsabilità. Perché crediamo che il cinema possa contribuire a cambiare le coscienze, a rompere il silenzio e a generare consapevolezza. Sappiamo che un film non basta. La commozione deve trasformarsi in impegno e l’impegno in azioni concrete. Grazie a Paola Randi, a tutti gli artisti e ai professionisti che hanno reso possibile il film e agli spettatori per aver accolto il nostro invito a fare rumore per Giulia e per tutte. Un ringraziamento speciale va a Gino Cecchettin, alla sua famiglia e alla Fondazione Giulia Cecchettin per aver condiviso una storia così intima e aver trasformato il dolore in un impegno concreto". Cartella stampa con foto e trailer</desc>
-  </programme>
-  <programme start="20261125103000 +0100" stop="20261125110000 +0100" channel="CameradeiDeputati.it">
-    <title lang="it">​Confesercenti: verso una proposta di legge che garantisca più servizi, più imprese, città pi...</title>
-    <desc lang="it">Alle ore 10.30, presso la Sala del Refettorio di Palazzo San Macuto si è svolto il convegno "Confesercenti: verso una proposta di legge che garantisca più servizi, più imprese, città più sicure e più ricche". Saluto del segretario di presidenza della Camera, Francesco Battistoni. Programma</desc>
-  </programme>
-  <programme start="20261125104500 +0100" stop="20261125120000 +0100" channel="Telefriuli.it">
-    <title lang="it">Screenshot</title>
-  </programme>
-  <programme start="20261125110000 +0100" stop="20261125110500 +0100" channel="CameradeiDeputati.it">
-    <title lang="it">​La tutela ambientale come strumento di prevenzione oncologica</title>
-    <desc lang="it">Alle ore 11, presso la Sala Matteotti di Palazzo Theodoli - Bianchelli si è svolto il convegno "La tutela ambientale come strumento di prevenzione oncologica". Saluto del segretario di presidenza della Camera, Francesco Battistoni. Programma</desc>
-  </programme>
-  <programme start="20261125110000 +0100" stop="20261125113000 +0100" channel="SenatoTV.it">
-    <title lang="it">Conferenza stampa: Abderrahim Fakir: basta morti di Stato</title>
-    <desc lang="it">Abderrahim Fakir: basta morti di Stato. Su iniziativa della senatrice Ilaria Cucchi</desc>
-  </programme>
-  <programme start="20261125110000 +0100" stop="20261125120000 +0100" channel="CameradeiDeputati.it">
-    <title lang="it">​SustArt - Sustainable Art</title>
-    <desc lang="it">Alle ore 11, presso l'Aula dei Gruppi parlamentari della Camera si è svolto il convegno "SustArt - Sustainable Art". Interviene il segretario di presidenza, Francesco Battistoni. Programma</desc>
-  </programme>
-  <programme start="20261125113000 +0100" stop="20261125130000 +0100" channel="SenatoTV.it">
-    <title lang="it">Presentazione: Il libro di Antonio Polito “La Costituzione non è di sinistra”</title>
-    <desc lang="it">Il libro di Antonio Polito “La Costituzione non è di sinistra”. Su iniziativa della senatrice Anna Maria Bernini. È prevista la presenza del Presidente del Senato</desc>
-  </programme>
-  <programme start="20261125115700 +0100" stop="20261125120200 +0100" channel="RaiItalia.it">
-    <title lang="it">Cinque Minuti</title>
-    <desc lang="it">Attualita'.</desc>
-  </programme>
-  <programme start="20261125120000 +0100" stop="20261125123000 +0100" channel="CameradeiDeputati.it">
-    <title lang="it">Appalti pubblici - Audizioni - CISL, CGIL, UIL - COM(2026) 590 final</title>
-    <desc lang="it">La Commissione Politiche Ue, nell’ambito dell’esame, ai fini della verifica della conformità al principio di sussidiarietà, della proposta di regolamento del Parlamento europeo e del Consiglio relativo agli appalti pubblici e alle concessioni, che abroga le direttive 2014/23/UE, 2014/24/UE e 2014/25/UE e modifica i regolamenti (CE) n. 1370/2007, (UE) 2023/1542, (UE) 2024/1157, (UE) 2024/1252, (UE) 2024/1735, (UE) 2024/1781, (UE) 2024/2847, (UE) 2024/3110 e (UE) 2025/40 e le direttive 2008/98/CE, (UE) 2019/882, (UE) 2022/2381, (UE) 2023/1791 e (UE) 2024/1760 (regolamento sugli appalti pubblici), ha svolto le seguenti audizioni: ore 12 CISL ore 12.10 CGIL ore 12.20 UIL</desc>
-  </programme>
-  <programme start="20261125120000 +0100" stop="20261125123000 +0100" channel="Telefriuli.it">
-    <title lang="it">Messede che si tache</title>
-  </programme>
-  <programme start="20261125120200 +0100" stop="20261125125800 +0100" channel="RaiItalia.it">
-    <title lang="it">Paparazzi!</title>
-    <desc lang="it">Intrattenimento.</desc>
-  </programme>
-  <programme start="20261125123000 +0100" stop="20261125124500 +0100" channel="Telefriuli.it">
-    <title lang="it">Telegiornale FVG – diretta</title>
-  </programme>
-  <programme start="20261125123000 +0100" stop="20261125141500 +0100" channel="CameradeiDeputati.it">
-    <title lang="it">AULA, Seduta 752 - Decreto scuola, votata la fiducia</title>
-  </programme>
-  <programme start="20261125124500 +0100" stop="20261125131500 +0100" channel="Telefriuli.it">
-    <title lang="it">A voi la linea – diretta</title>
-  </programme>
-  <programme start="20261125125800 +0100" stop="20261125132700 +0100" channel="RaiItalia.it">
-    <title lang="it">Tg2 giorno</title>
-  </programme>
-  <programme start="20261125130000 +0100" stop="20261125150000 +0100" channel="SenatoTV.it">
-    <title lang="it">Fenomeno dei discorsi d'odio con particolare riferimento all'impatto del linguaggio pubblico</title>
-    <desc lang="it">Seguito dell'indagine conoscitiva su intolleranza, razzismo, antisemitismo e istigazione all'odio e alla violenza: audizione del Vice Presidente del Muslim Jewish Leadership Council (MJLC Europe), Imam Yahya Pallavicini, con particolare riferimento all'impatto del linguaggio pubblico sulla diffusione dei discorsi d'odio</desc>
-  </programme>
-  <programme start="20261125131500 +0100" stop="20261125141500 +0100" channel="Telefriuli.it">
-    <title lang="it">Vaghe Frontiere</title>
-  </programme>
-  <programme start="20261125132700 +0100" stop="20261125133700 +0100" channel="RaiItalia.it">
-    <title lang="it">TG Sport Giorno</title>
-    <desc lang="it">Telegiornali Rubriche Testata.</desc>
-  </programme>
-  <programme start="20261125133700 +0100" stop="20261125135000 +0100" channel="RaiItalia.it">
-    <title lang="it">TG2 Medicina 33</title>
-    <desc lang="it">Telegiornali Rubriche Testata.</desc>
-  </programme>
-  <programme start="20261125135000 +0100" stop="20261125140000 +0100" channel="RaiItalia.it">
-    <title lang="it">Rai News 24 (Lingua Inglese)</title>
-    <desc lang="it">Attualita'.</desc>
-  </programme>
-  <programme start="20261125140000 +0100" stop="20261125151500 +0100" channel="RaiItalia.it">
-    <title lang="it">È sempre mezzogiorno</title>
-  </programme>
-  <programme start="20261125141500 +0100" stop="20261125143000 +0100" channel="CameradeiDeputati.it">
-    <title lang="it">Nuovo codice della strada - Audizione - ASAPS, Movimento Diritti dei pedoni, RIME, AIFVS, Associazio...</title>
-    <desc lang="it">Alle ore 14.15, la Commissione Trasporti, nell’ambito dell’esame dello schema di decreto legislativo recante nuovo codice della strada, ha svolto le seguenti audizioni: Associazione sostenitori e amici della Polizia stradale (ASAPS), Movimento Diritti dei pedoni e Rete italiana mobilità equa (RIME) Associazione italiana familiari e vittime della strada (AIFVS), Associazione Lorenzo Guarnieri, Fondazione Luigi Guccione e Fondazione Michele Scarponi. Slides presentate da Movimento Diritti dei pedoni e da Associazione Lorenzo Guarnieri</desc>
-  </programme>
-  <programme start="20261125141500 +0100" stop="20261125143000 +0100" channel="Telefriuli.it">
-    <title lang="it">Telegiornale FVG</title>
-  </programme>
-  <programme start="20261125143000 +0100" stop="20261125144500 +0100" channel="CameradeiDeputati.it">
-    <title lang="it">Servizio civile persone anziane - Audizioni - Associazione per i diritti degli anziani, Associazione...</title>
-    <desc lang="it">Alle ore 14.30, la Commissione Affari sociali svolge l'audizione di rappresentanti dell’Associazione per i diritti degli anziani (ADA), dell’Associazione per l’invecchiamento attivo (AUSER) e dell’Associazione nazionale tutte le età attive per la solidarietà (ANTEAS), nell’ambito dell’esame delle proposte di legge recanti “Istituzione del servizio civile per persone anziane attive”.</desc>
-  </programme>
-  <programme start="20261125143000 +0100" stop="20261125160000 +0100" channel="Telefriuli.it">
-    <title lang="it">Lo scrigno</title>
-  </programme>
-  <programme start="20261125144500 +0100" stop="20261125150000 +0100" channel="CameradeiDeputati.it">
-    <title lang="it">DL Campi Flegrei - Audizioni - Commissario straordinario per l'attuazione degli interventi pubblici ...</title>
-    <desc lang="it">Alle ore 14.45, la Commissione Ambiente svolge le seguenti audizioni nell’ambito dell’esame, in sede referente, del disegno di legge di conversione del decreto 11 novembre 2026, n. 205, recante piano straordinario per i Campi Flegrei nonché ulteriori disposizioni urgenti di protezione civile: Fulvio Maria Soccodato, Commissario straordinario per l'attuazione degli interventi pubblici nell'area dei Campi Flegrei Fiorella Zabatta, assessora alle politiche giovanili, sport, protezione civile, biodiversità, politiche di riforestazione, pesca e acquacoltura, tutela degli animali della regione Campania</desc>
-  </programme>
-  <programme start="20261125150000 +0100" stop="20261125151500 +0100" channel="CameradeiDeputati.it">
-    <title lang="it">Riforma della medicina generale - Audizioni - AGENAS e Francesco Franceschi, direttore UOC Medicina ...</title>
-    <desc lang="it">La Commissione Affari sociali ha svolto le seguenti audizioni nell’ambito dell’esame della petizione n. 1761 di Giuseppina Onotri, da Roma, e numerosissimi altri cittadini, che chiedono provvedimenti legislativi e risorse dedicate alla riforma della medicina generale: ore 15 Francesco Franceschi, direttore UOC Medicina d'urgenza e pronto soccorso del Policlinico universitario Agostino Gemelli di Roma ore 15.15 Agenzia nazionale per i servizi sanitari regionali (AGENAS)</desc>
-  </programme>
-  <programme start="20261125150000 +0100" stop="20261125154500 +0100" channel="SenatoTV.it">
-    <title lang="it">Convegno: Diamo voce al silenzio</title>
-    <desc lang="it">Diamo voce al silenzio. La violenza sulle donne nelle realtà interculturali. Su iniziativa del senatore Marco Scurria</desc>
-  </programme>
-  <programme start="20261125151500 +0100" stop="20261125153000 +0100" channel="CameradeiDeputati.it">
-    <title lang="it">Problematica dei cosiddetti «iscritti silenti» della Fondazione Enasarco - Audizioni - COVIP - Ris...</title>
-    <desc lang="it">Alle ore 15.15, la Commissione Lavoro ha svolto l'audizione di rappresentanti della Commissione di vigilanza sui fondi pensione (Covip) nell’ambito della discussione congiunta delle risoluzioni 7-00409 Rizzetto, concernente misure volte alla estensione della rendita contributiva anche agli iscritti alla Fondazione Enasarco anteriormente al 1° gennaio 2012 e all’introduzione di uno specifico meccanismo di cumulo tra i contributi versati alla Fondazione Enasarco e quelli accreditati presso l'Inps o altre gestioni previdenziali, nonché alla riapertura dei termini per la prosecuzione volontaria della contribuzione, 7-00411 Carotenuto, concernente iniziative volte ad affrontare la problematica dei cosiddetti «iscritti silenti» della Fondazione Enasarco, a promuovere un'approfondita verifica sulla gestione economico-finanziaria della medesima Fondazione, a rafforzare gli obblighi di pubblicità e trasparenza di Enasarco e a definire una riforma organica della previdenza degli agenti e rappresentanti di commercio, fondata sulla portabilità dei contributi, sulla proporzionalità tra contribuzione e prestazione, sulla sostenibilità finanziaria e sulla massima trasparenza della gestione, e 7-00424 Scotto, concernente misure volte alla estensione della rendita contributiva anche agli iscritti all’Enasarco anteriormente al 1° gennaio 2012, alla riapertura dei termini per la prosecuzione volontaria della contribuzione, ad introdurre ulteriori strumenti per la valorizzazione delle posizioni contributive insufficienti al pensionamento, nonché a definire una riforma organica della previdenza degli agenti e rappresentanti di commercio, fondata sulla proporzionalità tra contribuzione e prestazione, sulla sostenibilità finanziaria e sulla massima trasparenza della gestione. L'appuntamento viene trasmesso in diretta webtv.</desc>
-  </programme>
-  <programme start="20261125151500 +0100" stop="20261125153000 +0100" channel="RaiItalia.it">
-    <title lang="it">TGR Leonardo</title>
-  </programme>
-  <programme start="20261125153000 +0100" stop="20261125160000 +0100" channel="RaiItalia.it">
-    <title lang="it">Via dei Matti numero 0 5ª Stag. 7ª puntata</title>
-    <desc lang="it">Rubriche Culturali Documentari.</desc>
-  </programme>
-  <programme start="20261125153000 +0100" stop="20261125173000 +0100" channel="CameradeiDeputati.it">
-    <title lang="it">Stato di attuazione delle infrastrutture strategiche e prioritarie</title>
-    <desc lang="it">Alle ore 15.30, sarà presentato, nell’ambito dell’Ufficio di presidenza della Commissione Ambiente, il rapporto annuale del 2026 “Stato di attuazione delle infrastrutture strategiche e prioritarie ”, predisposto, su incarico della Commissione, dal Servizio Studi della Camera in collaborazione con l’Autorità nazionale anticorruzione (ANAC) e l’istituto di ricerca CRESME. L’edizione che sarà presentata prevede la pubblicazione di dati sulle infrastrutture strategiche e prioritarie aggiornati al 31 agosto 2026.</desc>
-  </programme>
-  <programme start="20261125154500 +0100" stop="20261125190000 +0100" channel="SenatoTV.it">
-    <title lang="it">Convegno: Dolore muscolo-scheletrico</title>
-    <desc lang="it">Dolore muscolo-scheletrico: curare insieme, vivere meglio. Ortopedici, fisiatri e reumatologici insieme per la qualità della vita delle persone. Su iniziativa del senatore Ignazio Zullo</desc>
-  </programme>
-  <programme start="20261125160000 +0100" stop="20261125163000 +0100" channel="RaiItalia.it">
-    <title lang="it">Udienza Papale</title>
-  </programme>
-  <programme start="20261125160000 +0100" stop="20261125163000 +0100" channel="Telefriuli.it">
-    <title lang="it">Telefruts – cartoni animati</title>
-  </programme>
-  <programme start="20261125163000 +0100" stop="20261125164500 +0100" channel="Telefriuli.it">
-    <title lang="it">Tg flash</title>
-  </programme>
-  <programme start="20261125163000 +0100" stop="20261125184100 +0100" channel="RaiItalia.it">
-    <title lang="it">Casa Italia</title>
-    <desc lang="it">Attualita'.</desc>
-  </programme>
-  <programme start="20261125164500 +0100" stop="20261125171500 +0100" channel="Telefriuli.it">
-    <title lang="it">Effemotori</title>
-  </programme>
-  <programme start="20261125171500 +0100" stop="20261125181500 +0100" channel="Telefriuli.it">
-    <title lang="it">Rugby Magazine</title>
-  </programme>
-  <programme start="20261125173000 +0100" stop="20261125183000 +0100" channel="CameradeiDeputati.it">
-    <title lang="it">​Il mondo che cambia - Scenari e sfide per le imprese - Intelligenza artificiale e lavoro umano, s...</title>
-    <desc lang="it">Alle ore 17.30, presso la Sala della Regina di Montecitorio si è svolto il convegno "Il mondo che cambia - Scenari e sfide per le imprese - Intelligenza artificiale e lavoro umano, sostituzione o alleanza?". Saluto del segretario di presidenza della Camera, Alessandro Colucci. Programma</desc>
-  </programme>
-  <programme start="20261125181500 +0100" stop="20261125190000 +0100" channel="Telefriuli.it">
-    <title lang="it">Sportello Pensionati – diretta</title>
-  </programme>
-  <programme start="20261125184100 +0100" stop="20261125195600 +0100" channel="RaiItalia.it">
-    <title lang="it">L'Eredità</title>
-    <desc lang="it">Intrattenimento.</desc>
-  </programme>
-  <programme start="20261125190000 +0100" stop="20261125193000 +0100" channel="Telefriuli.it">
-    <title lang="it">Telegiornale FVG – diretta</title>
-  </programme>
-  <programme start="20261125190000 +0100" stop="20261125200000 +0100" channel="SenatoTV.it">
-    <title lang="it">Conferenza stampa: Presentazione del libro “Sei più forte di quanto credi”</title>
-    <desc lang="it">Presentazione del libro “Sei più forte di quanto credi”. Su iniziativa del senatore Andrea De Priamo</desc>
-  </programme>
-  <programme start="20261125193000 +0100" stop="20261125193500 +0100" channel="Telefriuli.it">
-    <title lang="it">Sport FVG – diretta</title>
-  </programme>
-  <programme start="20261125193500 +0100" stop="20261125194500 +0100" channel="Telefriuli.it">
-    <title lang="it">Meteo</title>
-  </programme>
-  <programme start="20261125194500 +0100" stop="20261125201500 +0100" channel="Telefriuli.it">
-    <title lang="it">Screenshot</title>
-  </programme>
-  <programme start="20261125195600 +0100" stop="20261125203300 +0100" channel="RaiItalia.it">
-    <title lang="it">Tg1</title>
-  </programme>
-  <programme start="20261125201500 +0100" stop="20261125210000 +0100" channel="Telefriuli.it">
-    <title lang="it">Telegiornale FVG</title>
-  </programme>
-  <programme start="20261125203300 +0100" stop="20261125203800 +0100" channel="RaiItalia.it">
-    <title lang="it">Cinque Minuti</title>
-    <desc lang="it">Attualita'.</desc>
-  </programme>
-  <programme start="20261125203800 +0100" stop="20261125210500 +0100" channel="RaiItalia.it">
-    <title lang="it">Un posto al sole</title>
-    <desc lang="it">Fiction.</desc>
-  </programme>
-  <programme start="20261125210000 +0100" stop="20261125220000 +0100" channel="Telefriuli.it">
-    <title lang="it">Elettroshock</title>
-  </programme>
-  <programme start="20261125210500 +0100" stop="20261125220200 +0100" channel="RaiItalia.it">
-    <title lang="it">Affari tuoi</title>
-    <desc lang="it">Intrattenimento.</desc>
-  </programme>
-  <programme start="20261125220000 +0100" stop="20261125230000 +0100" channel="Telefriuli.it">
-    <title lang="it">L’ora dei dilettanti</title>
-  </programme>
-  <programme start="20261125220200 +0100" stop="20261126001800 +0100" channel="RaiItalia.it">
-    <title lang="it">Una Nessuna Centomila</title>
-    <desc lang="it">Intrattenimento.</desc>
-  </programme>
-  <programme start="20261125223000 +0100" stop="20261125230000 +0100" channel="IuniorTV.it">
-    <title lang="it">CARTONI ANIMATI - KABOOM</title>
-  </programme>
-  <programme start="20261125230000 +0100" stop="20261125234500 +0100" channel="IuniorTV.it">
-    <title lang="it">CARTOONS STORY</title>
-  </programme>
-  <programme start="20261125230000 +0100" stop="20261125234500 +0100" channel="Telefriuli.it">
-    <title lang="it">Sportello Pensionati</title>
-  </programme>
-  <programme start="20261125234500 +0100" stop="20261126000000 +0100" channel="IuniorTV.it">
-    <title lang="it">I BON BON DI LETY</title>
-  </programme>
-  <programme start="20261125234500 +0100" stop="20261126004500 +0100" channel="Telefriuli.it">
-    <title lang="it">Telegiornale FVG</title>
-  </programme>
-  <programme start="20261126000000 +0100" stop="20261126003000 +0100" channel="IuniorTV.it">
-    <title lang="it">TELEFILM STORY</title>
-  </programme>
-  <programme start="20261126000900 +0100" stop="20261126001500 +0100" channel="Telefriuli.it">
-    <title lang="it">SPORT FVG</title>
-  </programme>
-  <programme start="20261126001500 +0100" stop="20261126002000 +0100" channel="Telefriuli.it">
-    <title lang="it">Meteo</title>
-  </programme>
-  <programme start="20261126001800 +0100" stop="20261126004300 +0100" channel="Telefriuli.it">
-    <title lang="it">SCREENSHOT</title>
-  </programme>
   <programme start="20261126001800 +0100" stop="20261126004400 +0100" channel="RaiItalia.it">
     <title lang="it">TG1 Sera</title>
-  </programme>
-  <programme start="20261126003000 +0100" stop="20261126010000 +0100" channel="IuniorTV.it">
-    <title lang="it">TELEFILM STORY</title>
-  </programme>
-  <programme start="20261126004300 +0100" stop="20261126013700 +0100" channel="Telefriuli.it">
-    <title lang="it">ELETTROSHOCK</title>
   </programme>
   <programme start="20261126004400 +0100" stop="20261126021400 +0100" channel="RaiItalia.it">
     <title lang="it">Porta a Porta</title>
     <desc lang="it">Attualita'.</desc>
   </programme>
-  <programme start="20261126010000 +0100" stop="20261126020000 +0100" channel="IuniorTV.it">
-    <title lang="it">LA NOTTE DI IUNIOR TV</title>
-  </programme>
-  <programme start="20261126013700 +0100" stop="20261126020600 +0100" channel="Telefriuli.it">
-    <title lang="it">TELEGIORNALE FVG</title>
-  </programme>
-  <programme start="20261126020600 +0100" stop="20261126024000 +0100" channel="Telefriuli.it">
-    <title lang="it">SPORTELLO PENSIONATI</title>
-  </programme>
   <programme start="20261126021400 +0100" stop="20261126054000 +0100" channel="RaiItalia.it">
     <title lang="it">Rai News 24</title>
-  </programme>
-  <programme start="20261126024000 +0100" stop="20261126030500 +0100" channel="Telefriuli.it">
-    <title lang="it">SCREENSHOT</title>
-  </programme>
-  <programme start="20261126030500 +0100" stop="20261126033400 +0100" channel="Telefriuli.it">
-    <title lang="it">TELEGIORNALE FVG</title>
-  </programme>
-  <programme start="20261126033400 +0100" stop="20261126035700 +0100" channel="Telefriuli.it">
-    <title lang="it">A VOI LA LINEA</title>
-  </programme>
-  <programme start="20261126035700 +0100" stop="20261126043200 +0100" channel="Telefriuli.it">
-    <title lang="it">SPORTELLO PENSIONATI</title>
-  </programme>
-  <programme start="20261126043200 +0100" stop="20261126050100 +0100" channel="Telefriuli.it">
-    <title lang="it">TELEGIORNALE FVG</title>
-  </programme>
-  <programme start="20261126050100 +0100" stop="20261126052400 +0100" channel="Telefriuli.it">
-    <title lang="it">A VOI LA LINEA</title>
-  </programme>
-  <programme start="20261126052400 +0100" stop="20261126054800 +0100" channel="Telefriuli.it">
-    <title lang="it">SCREENSHOT</title>
   </programme>
   <programme start="20261126054000 +0100" stop="20261126063000 +0100" channel="RaiItalia.it">
     <title lang="it">Il meglio di Geo</title>
     <desc lang="it">Rubriche Culturali Documentari.</desc>
   </programme>
-  <programme start="20261126054800 +0100" stop="20261126061700 +0100" channel="Telefriuli.it">
-    <title lang="it">TELEGIORNALE FVG</title>
-  </programme>
-  <programme start="20261126061700 +0100" stop="20261126062200 +0100" channel="Telefriuli.it">
-    <title lang="it">INTERVALLO_3MIN04_MONTE_CAVALLO</title>
-  </programme>
-  <programme start="20261126062200 +0100" stop="20261126062700 +0100" channel="Telefriuli.it">
-    <title lang="it">INNO DEL FRIULI</title>
-  </programme>
-  <programme start="20261126062400 +0100" stop="20261126063000 +0100" channel="Telefriuli.it">
-    <title lang="it">UN PINSÎR PAR VUÊ</title>
-  </programme>
   <programme start="20261126063000 +0100" stop="20261126063400 +0100" channel="RaiItalia.it">
     <title lang="it">TG1</title>
-  </programme>
-  <programme start="20261126063000 +0100" stop="20261126073300 +0100" channel="Telefriuli.it">
-    <title lang="it">NEWS CAPPUCCINO E BRIOCHE</title>
   </programme>
   <programme start="20261126063400 +0100" stop="20261126065800 +0100" channel="RaiItalia.it">
     <title lang="it">1mattina News - Puntata del 26/11/2026</title>
@@ -411,32 +47,11 @@
   <programme start="20261126070000 +0100" stop="20261126080000 +0100" channel="IuniorTV.it">
     <title lang="it">CARTOONS STORY</title>
   </programme>
-  <programme start="20261126073300 +0100" stop="20261126073900 +0100" channel="Telefriuli.it">
-    <title lang="it">OROSCOPO</title>
-  </programme>
-  <programme start="20261126073900 +0100" stop="20261126074600 +0100" channel="Telefriuli.it">
-    <title lang="it">Meteo</title>
-  </programme>
-  <programme start="20261126074600 +0100" stop="20261126081300 +0100" channel="Telefriuli.it">
-    <title lang="it">A VOI LA LINEA</title>
-  </programme>
   <programme start="20261126075800 +0100" stop="20261126083000 +0100" channel="RaiItalia.it">
     <title lang="it">TG1</title>
   </programme>
   <programme start="20261126080000 +0100" stop="20261126083000 +0100" channel="IuniorTV.it">
     <title lang="it">80 NOSTALGIA - Sigle TV</title>
-  </programme>
-  <programme start="20261126081300 +0100" stop="20261126081800 +0100" channel="Telefriuli.it">
-    <title lang="it">UN PINSÎR PAR VUÊ</title>
-  </programme>
-  <programme start="20261126081500 +0100" stop="20261126082200 +0100" channel="Telefriuli.it">
-    <title lang="it">ITALPRESS ECONOMIA</title>
-  </programme>
-  <programme start="20261126082200 +0100" stop="20261126082700 +0100" channel="Telefriuli.it">
-    <title lang="it">ITALPRESS PETNEWS</title>
-  </programme>
-  <programme start="20261126082700 +0100" stop="20261126092500 +0100" channel="Telefriuli.it">
-    <title lang="it">NEWS CAPPUCCINO E BRIOCHE</title>
   </programme>
   <programme start="20261126083000 +0100" stop="20261126083500 +0100" channel="CameradeiDeputati.it">
     <title lang="it">Audizioni su violenza e salute</title>
@@ -477,8 +92,8 @@
     <title lang="it">UnoMattina - Puntata del 26/11/2026</title>
     <desc lang="it">Il programma della mattina di Rai1 che racconta l'attualità italiana ed estera celebra quest'anno il quarantesimo anniversario della sua nascita. Cronaca, politica, cultura, spettacolo, medicina, economia, senza tralasciare l'approfondimento degli argomenti dell'agenda sociale, reportage e speciali. Conducono Massimiliano Ossini e Daniela Ferolla.</desc>
   </programme>
-  <programme start="20261126092500 +0100" stop="20261126093200 +0100" channel="Telefriuli.it">
-    <title lang="it">OROSCOPO</title>
+  <programme start="20261126093000 +0100" stop="20261126093500 +0100" channel="CameradeiDeputati.it">
+    <title lang="it">AULA, Seduta 753 - Decreto scuola, oggi il voto finale</title>
   </programme>
   <programme start="20261126093000 +0100" stop="20261126093500 +0100" channel="SenatoTV.it">
     <title lang="it">Conferenza stampa: Presentazione del libro “Quando l’amore uccide"</title>
@@ -495,13 +110,10 @@
     <title lang="it">Disciplina del condominio negli edifici</title>
     <desc lang="it">Audizioni sul disegno di legge 1816 e connessi (Disciplina del condominio negli edifici)</desc>
   </programme>
-  <programme start="20261126093200 +0100" stop="20261126093700 +0100" channel="Telefriuli.it">
-    <title lang="it">Meteo</title>
-  </programme>
-  <programme start="20261126093600 +0100" stop="20261126094400 +0100" channel="Telefriuli.it">
+  <programme start="20261126094200 +0100" stop="20261126095000 +0100" channel="Telefriuli.it">
     <title lang="it">ITALPRESS AGRIFOOD</title>
   </programme>
-  <programme start="20261126094400 +0100" stop="20261126102400 +0100" channel="Telefriuli.it">
+  <programme start="20261126095000 +0100" stop="20261126103000 +0100" channel="Telefriuli.it">
     <title lang="it">SPORTELLO PENSIONATI</title>
   </programme>
   <programme start="20261126095000 +0100" stop="20261126115200 +0100" channel="RaiItalia.it">
@@ -523,7 +135,7 @@
     <title lang="it">Gianni Cervetti - Un comunista italiano - Saluto di Ascani</title>
     <desc lang="it">Alle ore 10, presso la Sala Matteotti di Palazzo Theodoli - Bianchelli si svolge il convegno "Gianni Cervetti - Un comunista italiano". Saluto della vicepresidente della Camera, Anna Ascani. Programma</desc>
   </programme>
-  <programme start="20261126102400 +0100" stop="20261126103600 +0100" channel="Telefriuli.it">
+  <programme start="20261126103000 +0100" stop="20261126104200 +0100" channel="Telefriuli.it">
     <title lang="it">L'ALPINO</title>
   </programme>
   <programme start="20261126103000 +0100" stop="20261126110000 +0100" channel="IuniorTV.it">
@@ -533,10 +145,10 @@
     <title lang="it">Convegno: La memoria delle famiglie italiane</title>
     <desc lang="it">La memoria delle famiglie italiane. Preservare il passato, costruire il futuro. Su iniziativa del senatore Lucio Malan</desc>
   </programme>
-  <programme start="20261126103600 +0100" stop="20261126104200 +0100" channel="Telefriuli.it">
+  <programme start="20261126104200 +0100" stop="20261126104800 +0100" channel="Telefriuli.it">
     <title lang="it">ITALPRESS LA SALUTE VIEN MANGIANDO</title>
   </programme>
-  <programme start="20261126104200 +0100" stop="20261126111100 +0100" channel="Telefriuli.it">
+  <programme start="20261126104800 +0100" stop="20261126111700 +0100" channel="Telefriuli.it">
     <title lang="it">SCREENSHOT</title>
   </programme>
   <programme start="20261126110000 +0100" stop="20261126112000 +0100" channel="IuniorTV.it">
@@ -546,17 +158,17 @@
     <title lang="it">Convegno: La tutela della famiglia nell’ambito delle forze armate</title>
     <desc lang="it">La tutela della famiglia nell’ambito delle forze armate. Su iniziativa della senatrice Stefania Pucciarelli</desc>
   </programme>
-  <programme start="20261126111100 +0100" stop="20261126112800 +0100" channel="Telefriuli.it">
+  <programme start="20261126111700 +0100" stop="20261126113300 +0100" channel="Telefriuli.it">
     <title lang="it">RUGBY MAGAZINE</title>
   </programme>
   <programme start="20261126112000 +0100" stop="20261126113000 +0100" channel="IuniorTV.it">
     <title lang="it">IERI E OGGI</title>
   </programme>
-  <programme start="20261126112800 +0100" stop="20261126115300 +0100" channel="Telefriuli.it">
-    <title lang="it">SCREENSHOT</title>
-  </programme>
   <programme start="20261126113000 +0100" stop="20261126115000 +0100" channel="IuniorTV.it">
     <title lang="it">DOCUMENTARIO</title>
+  </programme>
+  <programme start="20261126113300 +0100" stop="20261126120100 +0100" channel="Telefriuli.it">
+    <title lang="it">SCREENSHOT</title>
   </programme>
   <programme start="20261126115000 +0100" stop="20261126120000 +0100" channel="IuniorTV.it">
     <title lang="it">AROUND THE MUSIC con NEARCO - INFORMAZIONE</title>
@@ -564,9 +176,6 @@
   <programme start="20261126115200 +0100" stop="20261126115800 +0100" channel="RaiItalia.it">
     <title lang="it">Cinque Minuti</title>
     <desc lang="it">Attualita'.</desc>
-  </programme>
-  <programme start="20261126115300 +0100" stop="20261126120100 +0100" channel="Telefriuli.it">
-    <title lang="it">ITALPRESS TURISMO MAGAZINE</title>
   </programme>
   <programme start="20261126115800 +0100" stop="20261126125800 +0100" channel="RaiItalia.it">
     <title lang="it">Paparazzi!</title>
@@ -2198,6 +1807,273 @@
     <title lang="it">TELEFILM STORY</title>
   </programme>
   <programme start="20261202010000 +0100" stop="20261202020000 +0100" channel="IuniorTV.it">
+    <title lang="it">LA NOTTE DI IUNIOR TV</title>
+  </programme>
+  <programme start="20261202020000 +0100" stop="20261202061500 +0100" channel="RaiItalia.it">
+    <title lang="it">TG Rai News</title>
+  </programme>
+  <programme start="20261202061500 +0100" stop="20261202070000 +0100" channel="RaiItalia.it">
+    <title lang="it">Il meglio di Geo</title>
+  </programme>
+  <programme start="20261202062000 +0100" stop="20261202063000 +0100" channel="Telefriuli.it">
+    <title lang="it">Un pinsir par vuè</title>
+  </programme>
+  <programme start="20261202063000 +0100" stop="20261202073000 +0100" channel="Telefriuli.it">
+    <title lang="it">News, cappuccino e brioche –diretta</title>
+  </programme>
+  <programme start="20261202070000 +0100" stop="20261202071500 +0100" channel="RaiItalia.it">
+    <title lang="it">TG1</title>
+  </programme>
+  <programme start="20261202070000 +0100" stop="20261202080000 +0100" channel="IuniorTV.it">
+    <title lang="it">CARTOONS STORY</title>
+  </programme>
+  <programme start="20261202071500 +0100" stop="20261202080000 +0100" channel="RaiItalia.it">
+    <title lang="it">1Mattina News</title>
+  </programme>
+  <programme start="20261202073000 +0100" stop="20261202082000 +0100" channel="Telefriuli.it">
+    <title lang="it">Meteo</title>
+  </programme>
+  <programme start="20261202080000 +0100" stop="20261202083000 +0100" channel="IuniorTV.it">
+    <title lang="it">80 NOSTALGIA - Sigle TV</title>
+  </programme>
+  <programme start="20261202080000 +0100" stop="20261202083000 +0100" channel="RaiItalia.it">
+    <title lang="it">TG1</title>
+  </programme>
+  <programme start="20261202082000 +0100" stop="20261202083000 +0100" channel="Telefriuli.it">
+    <title lang="it">Un pinsir par vuè</title>
+  </programme>
+  <programme start="20261202083000 +0100" stop="20261202085500 +0100" channel="IuniorTV.it">
+    <title lang="it">SIGLE E CANZONI TV</title>
+  </programme>
+  <programme start="20261202083000 +0100" stop="20261202093000 +0100" channel="Telefriuli.it">
+    <title lang="it">News, cappuccino e brioche</title>
+  </programme>
+  <programme start="20261202083000 +0100" stop="20261202094500 +0100" channel="RaiItalia.it">
+    <title lang="it">UnoMattina</title>
+  </programme>
+  <programme start="20261202085500 +0100" stop="20261202090000 +0100" channel="IuniorTV.it">
+    <title lang="it">OROSCOPO</title>
+  </programme>
+  <programme start="20261202090000 +0100" stop="20261202093000 +0100" channel="IuniorTV.it">
+    <title lang="it">CARTONI ANIMATI - KABOOM</title>
+  </programme>
+  <programme start="20261202093000 +0100" stop="20261202094500 +0100" channel="Telefriuli.it">
+    <title lang="it">Meteo</title>
+  </programme>
+  <programme start="20261202093000 +0100" stop="20261202100000 +0100" channel="IuniorTV.it">
+    <title lang="it">CARTONI ANIMATI - KABOOM</title>
+  </programme>
+  <programme start="20261202094500 +0100" stop="20261202104500 +0100" channel="Telefriuli.it">
+    <title lang="it">Goal FVG</title>
+  </programme>
+  <programme start="20261202094500 +0100" stop="20261202114500 +0100" channel="RaiItalia.it">
+    <title lang="it">Storie Italiane</title>
+  </programme>
+  <programme start="20261202100000 +0100" stop="20261202103000 +0100" channel="IuniorTV.it">
+    <title lang="it">CARTONI ANIMATI - KABOOM</title>
+  </programme>
+  <programme start="20261202103000 +0100" stop="20261202110000 +0100" channel="IuniorTV.it">
+    <title lang="it">CARTONI ANIMATI - KABOOM</title>
+  </programme>
+  <programme start="20261202104500 +0100" stop="20261202120000 +0100" channel="Telefriuli.it">
+    <title lang="it">Screenshot</title>
+  </programme>
+  <programme start="20261202110000 +0100" stop="20261202112000 +0100" channel="IuniorTV.it">
+    <title lang="it">TELEFILM STORY</title>
+  </programme>
+  <programme start="20261202112000 +0100" stop="20261202113000 +0100" channel="IuniorTV.it">
+    <title lang="it">IERI E OGGI</title>
+  </programme>
+  <programme start="20261202113000 +0100" stop="20261202115000 +0100" channel="IuniorTV.it">
+    <title lang="it">DOCUMENTARIO</title>
+  </programme>
+  <programme start="20261202114500 +0100" stop="20261202120000 +0100" channel="RaiItalia.it">
+    <title lang="it">Cinque Minuti</title>
+  </programme>
+  <programme start="20261202115000 +0100" stop="20261202120000 +0100" channel="IuniorTV.it">
+    <title lang="it">AROUND THE MUSIC con NEARCO - INFORMAZIONE</title>
+  </programme>
+  <programme start="20261202120000 +0100" stop="20261202123000 +0100" channel="IuniorTV.it">
+    <title lang="it">SUPER RICHIESTE</title>
+  </programme>
+  <programme start="20261202120000 +0100" stop="20261202123000 +0100" channel="Telefriuli.it">
+    <title lang="it">Messede che si tache</title>
+  </programme>
+  <programme start="20261202120000 +0100" stop="20261202130000 +0100" channel="RaiItalia.it">
+    <title lang="it">Paparazzi</title>
+  </programme>
+  <programme start="20261202123000 +0100" stop="20261202124000 +0100" channel="IuniorTV.it">
+    <title lang="it">I BON BON DI LETY</title>
+  </programme>
+  <programme start="20261202123000 +0100" stop="20261202124500 +0100" channel="Telefriuli.it">
+    <title lang="it">Telegiornale FVG – diretta</title>
+  </programme>
+  <programme start="20261202124000 +0100" stop="20261202130000 +0100" channel="IuniorTV.it">
+    <title lang="it">QUELLI ERAN GIORNI</title>
+  </programme>
+  <programme start="20261202124500 +0100" stop="20261202131500 +0100" channel="Telefriuli.it">
+    <title lang="it">A voi la linea – diretta</title>
+  </programme>
+  <programme start="20261202130000 +0100" stop="20261202133000 +0100" channel="IuniorTV.it">
+    <title lang="it">CARTONI ANIMATI - KABOOM</title>
+  </programme>
+  <programme start="20261202130000 +0100" stop="20261202133000 +0100" channel="RaiItalia.it">
+    <title lang="it">TG2</title>
+  </programme>
+  <programme start="20261202131500 +0100" stop="20261202141500 +0100" channel="Telefriuli.it">
+    <title lang="it">Vaghe Frontiere</title>
+  </programme>
+  <programme start="20261202133000 +0100" stop="20261202134500 +0100" channel="RaiItalia.it">
+    <title lang="it">TG Sport</title>
+  </programme>
+  <programme start="20261202133000 +0100" stop="20261202140000 +0100" channel="IuniorTV.it">
+    <title lang="it">CARTONI ANIMATI - KABOOM</title>
+  </programme>
+  <programme start="20261202134500 +0100" stop="20261202140000 +0100" channel="RaiItalia.it">
+    <title lang="it">TG Rai News</title>
+  </programme>
+  <programme start="20261202140000 +0100" stop="20261202143000 +0100" channel="IuniorTV.it">
+    <title lang="it">CARTONI ANIMATI - KABOOM</title>
+  </programme>
+  <programme start="20261202140000 +0100" stop="20261202151500 +0100" channel="RaiItalia.it">
+    <title lang="it">È sempre mezzogiorno</title>
+  </programme>
+  <programme start="20261202141500 +0100" stop="20261202143000 +0100" channel="Telefriuli.it">
+    <title lang="it">Telegiornale FVG</title>
+  </programme>
+  <programme start="20261202143000 +0100" stop="20261202150000 +0100" channel="IuniorTV.it">
+    <title lang="it">CARTONI ANIMATI - KABOOM</title>
+  </programme>
+  <programme start="20261202143000 +0100" stop="20261202160000 +0100" channel="Telefriuli.it">
+    <title lang="it">Lo scrigno</title>
+  </programme>
+  <programme start="20261202150000 +0100" stop="20261202160000 +0100" channel="IuniorTV.it">
+    <title lang="it">CARTOONS STORY</title>
+  </programme>
+  <programme start="20261202151500 +0100" stop="20261202153000 +0100" channel="RaiItalia.it">
+    <title lang="it">TGR Leonardo</title>
+  </programme>
+  <programme start="20261202153000 +0100" stop="20261202160000 +0100" channel="RaiItalia.it">
+    <title lang="it">Via dei Matti numero 0 5ª Stag. 12ª puntata</title>
+  </programme>
+  <programme start="20261202160000 +0100" stop="20261202162500 +0100" channel="IuniorTV.it">
+    <title lang="it">TELEFILM STORY</title>
+  </programme>
+  <programme start="20261202160000 +0100" stop="20261202163000 +0100" channel="RaiItalia.it">
+    <title lang="it">Udienza Papale</title>
+  </programme>
+  <programme start="20261202160000 +0100" stop="20261202163000 +0100" channel="Telefriuli.it">
+    <title lang="it">Telefruts – cartoni animati</title>
+  </programme>
+  <programme start="20261202162500 +0100" stop="20261202163000 +0100" channel="IuniorTV.it">
+    <title lang="it">AROUND THE MUSIC con NEARCO - INFORMAZIONE</title>
+  </programme>
+  <programme start="20261202163000 +0100" stop="20261202164500 +0100" channel="Telefriuli.it">
+    <title lang="it">Tg flash</title>
+  </programme>
+  <programme start="20261202163000 +0100" stop="20261202170000 +0100" channel="IuniorTV.it">
+    <title lang="it">ORAMUSICA</title>
+  </programme>
+  <programme start="20261202163000 +0100" stop="20261202184500 +0100" channel="RaiItalia.it">
+    <title lang="it">Casa Italia</title>
+  </programme>
+  <programme start="20261202164500 +0100" stop="20261202171500 +0100" channel="Telefriuli.it">
+    <title lang="it">Effemotori</title>
+  </programme>
+  <programme start="20261202170000 +0100" stop="20261202171500 +0100" channel="IuniorTV.it">
+    <title lang="it">DUE CHIACCHIERE CON MARIAGRAZIA CUCCHI - RUBRICA LETTERARIA</title>
+  </programme>
+  <programme start="20261202171500 +0100" stop="20261202181500 +0100" channel="Telefriuli.it">
+    <title lang="it">Rugby Magazine</title>
+  </programme>
+  <programme start="20261202171500 +0100" stop="20261202182500 +0100" channel="IuniorTV.it">
+    <title lang="it">CARTOONS STORY</title>
+  </programme>
+  <programme start="20261202181500 +0100" stop="20261202190000 +0100" channel="Telefriuli.it">
+    <title lang="it">Sportello Pensionati – diretta</title>
+  </programme>
+  <programme start="20261202182500 +0100" stop="20261202183500 +0100" channel="IuniorTV.it">
+    <title lang="it">I BON BON DI LETY</title>
+  </programme>
+  <programme start="20261202183500 +0100" stop="20261202190000 +0100" channel="IuniorTV.it">
+    <title lang="it">TELEFILM STORY</title>
+  </programme>
+  <programme start="20261202184500 +0100" stop="20261202200000 +0100" channel="RaiItalia.it">
+    <title lang="it">L'Eredità</title>
+  </programme>
+  <programme start="20261202190000 +0100" stop="20261202193000 +0100" channel="IuniorTV.it">
+    <title lang="it">TELEFILM STORY</title>
+  </programme>
+  <programme start="20261202190000 +0100" stop="20261202193000 +0100" channel="Telefriuli.it">
+    <title lang="it">Telegiornale FVG – diretta</title>
+  </programme>
+  <programme start="20261202193000 +0100" stop="20261202193500 +0100" channel="Telefriuli.it">
+    <title lang="it">Sport FVG – diretta</title>
+  </programme>
+  <programme start="20261202193000 +0100" stop="20261202200000 +0100" channel="IuniorTV.it">
+    <title lang="it">SUPER RICHIESTE</title>
+  </programme>
+  <programme start="20261202193500 +0100" stop="20261202194500 +0100" channel="Telefriuli.it">
+    <title lang="it">Meteo</title>
+  </programme>
+  <programme start="20261202194500 +0100" stop="20261202201500 +0100" channel="Telefriuli.it">
+    <title lang="it">Screenshot</title>
+  </programme>
+  <programme start="20261202200000 +0100" stop="20261202203000 +0100" channel="RaiItalia.it">
+    <title lang="it">TG1</title>
+  </programme>
+  <programme start="20261202200000 +0100" stop="20261202210000 +0100" channel="IuniorTV.it">
+    <title lang="it">CARTOONS STORY</title>
+  </programme>
+  <programme start="20261202201500 +0100" stop="20261202210000 +0100" channel="Telefriuli.it">
+    <title lang="it">Telegiornale FVG</title>
+  </programme>
+  <programme start="20261202203000 +0100" stop="20261202210000 +0100" channel="RaiItalia.it">
+    <title lang="it">Un posto al sole</title>
+  </programme>
+  <programme start="20261202210000 +0100" stop="20261202213000 +0100" channel="IuniorTV.it">
+    <title lang="it">CARTONI ANIMATI - KABOOM</title>
+  </programme>
+  <programme start="20261202210000 +0100" stop="20261202220000 +0100" channel="RaiItalia.it">
+    <title lang="it">Affari Tuoi</title>
+  </programme>
+  <programme start="20261202210000 +0100" stop="20261202220000 +0100" channel="Telefriuli.it">
+    <title lang="it">Elettroshock</title>
+  </programme>
+  <programme start="20261202213000 +0100" stop="20261202220000 +0100" channel="IuniorTV.it">
+    <title lang="it">CARTONI ANIMATI - KABOOM</title>
+  </programme>
+  <programme start="20261202220000 +0100" stop="20261202223000 +0100" channel="IuniorTV.it">
+    <title lang="it">CARTONI ANIMATI - KABOOM</title>
+  </programme>
+  <programme start="20261202220000 +0100" stop="20261202230000 +0100" channel="Telefriuli.it">
+    <title lang="it">L’ora dei dilettanti</title>
+  </programme>
+  <programme start="20261202220000 +0100" stop="20261203001500 +0100" channel="RaiItalia.it">
+    <title lang="it">Intrattenimento: Tale e Quale Duetti</title>
+  </programme>
+  <programme start="20261202223000 +0100" stop="20261202230000 +0100" channel="IuniorTV.it">
+    <title lang="it">CARTONI ANIMATI - KABOOM</title>
+  </programme>
+  <programme start="20261202230000 +0100" stop="20261202234500 +0100" channel="IuniorTV.it">
+    <title lang="it">CARTOONS STORY</title>
+  </programme>
+  <programme start="20261202230000 +0100" stop="20261202234500 +0100" channel="Telefriuli.it">
+    <title lang="it">Sportello Pensionati</title>
+  </programme>
+  <programme start="20261202234500 +0100" stop="20261203000000 +0100" channel="IuniorTV.it">
+    <title lang="it">I BON BON DI LETY</title>
+  </programme>
+  <programme start="20261202234500 +0100" stop="20261203004500 +0100" channel="Telefriuli.it">
+    <title lang="it">Telegiornale FVG</title>
+  </programme>
+  <programme start="20261203000000 +0100" stop="20261203003000 +0100" channel="IuniorTV.it">
+    <title lang="it">TELEFILM STORY</title>
+  </programme>
+  <programme start="20261203003000 +0100" stop="20261203010000 +0100" channel="IuniorTV.it">
+    <title lang="it">TELEFILM STORY</title>
+  </programme>
+  <programme start="20261203010000 +0100" stop="20261203020000 +0100" channel="IuniorTV.it">
     <title lang="it">LA NOTTE DI IUNIOR TV</title>
   </programme>
 </tv>

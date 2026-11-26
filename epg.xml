@@ -512,7 +512,7 @@
     <title lang="it">Affari tuoi</title>
     <desc lang="it">Intrattenimento.</desc>
   </programme>
-  <programme start="20261126211000 +0100" stop="20261126230200 +0100" channel="TV12.it">
+  <programme start="20261126211000 +0100" stop="20261126230900 +0100" channel="TV12.it">
     <title lang="it">RING</title>
     <desc lang="it">Tutta l’attualità, la politica e l’economia della nostra regione, a cura di Ferdinando Avarino</desc>
   </programme>
@@ -537,13 +537,13 @@
   <programme start="20261126230000 +0100" stop="20261126234500 +0100" channel="IuniorTV.it">
     <title lang="it">CARTOONS STORY</title>
   </programme>
-  <programme start="20261126230200 +0100" stop="20261126233500 +0100" channel="TV12.it">
+  <programme start="20261126230900 +0100" stop="20261126234200 +0100" channel="TV12.it">
     <title lang="it">TG UDINE</title>
   </programme>
-  <programme start="20261126233500 +0100" stop="20261126234000 +0100" channel="TV12.it">
+  <programme start="20261126234200 +0100" stop="20261126234700 +0100" channel="TV12.it">
     <title lang="it">TV12 METEO</title>
   </programme>
-  <programme start="20261126233500 +0100" stop="20261126235100 +0100" channel="TV12.it">
+  <programme start="20261126234300 +0100" stop="20261126235900 +0100" channel="TV12.it">
     <title lang="it">TG PORDENONE</title>
   </programme>
   <programme start="20261126234500 +0100" stop="20261127000000 +0100" channel="IuniorTV.it">
@@ -555,10 +555,10 @@
   <programme start="20261126234800 +0100" stop="20261127002100 +0100" channel="RaiItalia.it">
     <title lang="it">Il Confronto</title>
   </programme>
-  <programme start="20261126235100 +0100" stop="20261126235600 +0100" channel="TV12.it">
+  <programme start="20261126235900 +0100" stop="20261127000400 +0100" channel="TV12.it">
     <title lang="it">TV12 METEO</title>
   </programme>
-  <programme start="20261126235200 +0100" stop="20261127001500 +0100" channel="TV12.it">
+  <programme start="20261127000000 +0100" stop="20261127002300 +0100" channel="TV12.it">
     <title lang="it">TG REGIONALE</title>
   </programme>
   <programme start="20261127000000 +0100" stop="20261127003000 +0100" channel="IuniorTV.it">
@@ -570,12 +570,12 @@
   <programme start="20261127001500 +0100" stop="20261127002000 +0100" channel="Telefriuli.it">
     <title lang="it">Meteo</title>
   </programme>
-  <programme start="20261127001500 +0100" stop="20261127003800 +0100" channel="TV12.it">
-    <title lang="it">A TUTTO CAMPO FVG</title>
-    <desc lang="it">A TUTTO CAMPO FVG Speciale campionato calcio dilettanti</desc>
-  </programme>
   <programme start="20261127001900 +0100" stop="20261127004300 +0100" channel="Telefriuli.it">
     <title lang="it">SCREENSHOT</title>
+  </programme>
+  <programme start="20261127002300 +0100" stop="20261127004600 +0100" channel="TV12.it">
+    <title lang="it">A TUTTO CAMPO FVG</title>
+    <desc lang="it">A TUTTO CAMPO FVG Speciale campionato calcio dilettanti</desc>
   </programme>
   <programme start="20261127003000 +0100" stop="20261127010000 +0100" channel="IuniorTV.it">
     <title lang="it">TELEFILM STORY</title>
@@ -583,12 +583,12 @@
   <programme start="20261127003000 +0100" stop="20261127020000 +0100" channel="RaiItalia.it">
     <title lang="it">Porta a Porta</title>
   </programme>
-  <programme start="20261127003800 +0100" stop="20261127022000 +0100" channel="TV12.it">
-    <title lang="it">TG FRIULI IN DIRETTA – R</title>
-    <desc lang="it">Le notizie in diretta, tutto ciò che accade, quando succede</desc>
-  </programme>
   <programme start="20261127004300 +0100" stop="20261127013600 +0100" channel="Telefriuli.it">
     <title lang="it">FOCUS GRANDI OPERE NORDEST</title>
+  </programme>
+  <programme start="20261127004600 +0100" stop="20261127022700 +0100" channel="TV12.it">
+    <title lang="it">TG FRIULI IN DIRETTA – R</title>
+    <desc lang="it">Le notizie in diretta, tutto ciò che accade, quando succede</desc>
   </programme>
   <programme start="20261127010000 +0100" stop="20261127020000 +0100" channel="IuniorTV.it">
     <title lang="it">LA NOTTE DI IUNIOR TV</title>
@@ -602,31 +602,31 @@
   <programme start="20261127020400 +0100" stop="20261127022700 +0100" channel="Telefriuli.it">
     <title lang="it">A VOI LA LINEA</title>
   </programme>
-  <programme start="20261127022000 +0100" stop="20261127025300 +0100" channel="TV12.it">
-    <title lang="it">TG UDINE</title>
-  </programme>
   <programme start="20261127022700 +0100" stop="20261127025200 +0100" channel="Telefriuli.it">
     <title lang="it">SCREENSHOT</title>
+  </programme>
+  <programme start="20261127022700 +0100" stop="20261127030000 +0100" channel="TV12.it">
+    <title lang="it">TG UDINE</title>
   </programme>
   <programme start="20261127025200 +0100" stop="20261127031900 +0100" channel="Telefriuli.it">
     <title lang="it">TELEGIORNALE FVG</title>
   </programme>
-  <programme start="20261127025300 +0100" stop="20261127025800 +0100" channel="TV12.it">
+  <programme start="20261127030000 +0100" stop="20261127030500 +0100" channel="TV12.it">
     <title lang="it">TV12 METEO</title>
   </programme>
-  <programme start="20261127025400 +0100" stop="20261127031100 +0100" channel="TV12.it">
+  <programme start="20261127030100 +0100" stop="20261127031900 +0100" channel="TV12.it">
     <title lang="it">TG PORDENONE</title>
   </programme>
-  <programme start="20261127031100 +0100" stop="20261127031800 +0100" channel="TV12.it">
+  <programme start="20261127031900 +0100" stop="20261127032600 +0100" channel="TV12.it">
     <title lang="it">CASA PAPPAGALLO</title>
     <desc lang="it">Benvenuti a casa mia! Tutte le ricette che mi hanno colpito e che ho scelto di condividere con voi. – Luca Pappagallo</desc>
   </programme>
-  <programme start="20261127031800 +0100" stop="20261127041800 +0100" channel="TV12.it">
-    <title lang="it">SVEGLIA FRIULI –</title>
-    <desc lang="it">Sveglia Friuli! La rassegna stampa con ospiti, collegamenti e telefonate del pubblico. R</desc>
-  </programme>
   <programme start="20261127031900 +0100" stop="20261127034300 +0100" channel="Telefriuli.it">
     <title lang="it">A VOI LA LINEA</title>
+  </programme>
+  <programme start="20261127032600 +0100" stop="20261127042600 +0100" channel="TV12.it">
+    <title lang="it">SVEGLIA FRIULI –</title>
+    <desc lang="it">Sveglia Friuli! La rassegna stampa con ospiti, collegamenti e telefonate del pubblico. R</desc>
   </programme>
   <programme start="20261127034300 +0100" stop="20261127040700 +0100" channel="Telefriuli.it">
     <title lang="it">SCREENSHOT</title>

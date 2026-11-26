@@ -13,7 +13,7 @@ Each channel is a module in `sources/`; `build_epg.py` merges them and writes th
 - **Standard library only.** `urllib` + `re` + `xml.sax.saxutils` + `zoneinfo` are enough.
   A dependency needs a reason the stdlib cannot meet.
 - **One module per channel, one shared writer.** A source module exposes
-  `CHANNEL = {"id", "name", "icon"}` and `collect(today, days) -> [(start, stop, title)]`.
+  `CHANNEL = {"id", "name", "icon"}` and `collect(today, days) -> [(start, stop, title[, description])]`.
   Only `epg.py` builds XML. Never let a source assemble XML itself.
 - **Channel ids match iptv-org** (`Telefriuli.it`, `IuniorTV.it`) so playlists match without
   remapping; icons come from iptv-org's logo list too.
@@ -79,6 +79,18 @@ tvit/                   # git-ignored clone of github.com/leicaflorian/tvit (ref
 - A single day file carries **two near-duplicate grids** (40 overlapping pairs of 54 events,
   summing to ~49 h): keep the first event of an overlap so the day is linear.
 - `duration_in_minutes` is a string ("30 min"); fall back to 30 min when both fields are empty.
+
+### TV12 Medianordest (`TV12.it`) — verified 2026-11
+
+- `https://tv12.medianordest.it/programmazione/` is a WordPress page with one hand-edited
+  HTML table: `<h2 align='center'>26/11/2026</h2>` then `<tr>` rows of time / title /
+  description. **One day only** — no query parameter opens another day, and no multi-day feed
+  exists. 47 rows, 18 of them with a description.
+- The table is a **broadcast day starting 05:00** that wraps at `23:49 -> 00:12`: rows must be
+  taken in source order, never sorted by clock time, and a backwards jump belongs to the next
+  calendar day.
+- Not in iptv-org, so the id is our own (`TV12.it`) and the icon is the site logo
+  (`.../wp-content/uploads/2024/02/logo_sito_tv12.png`, verified image/png).
 
 ### Telefriuli (`Telefriuli.it`) — verified 2026-11
 

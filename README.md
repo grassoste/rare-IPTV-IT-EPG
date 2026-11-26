@@ -24,6 +24,7 @@ https://raw.githubusercontent.com/grassoste/rare-IPTV-IT-EPG/main/epg.xml
 | Camera dei Deputati | `CameradeiDeputati.it` | [palinsesto-webtv?data=…](https://comunicazione.camera.it/palinsesto-webtv) | event list, gaps when not sitting |
 | Senato TV | `SenatoTV.it` | [palimpsest JSON](https://webtv.senato.it/api/palimpsest) | event list, gaps when not sitting |
 | Rai Italia | `RaiItalia.it` | [raiplay palinsesto JSON](https://www.raiplay.it/palinsesto/raiitalia/Rai-Italia-Africa/) | full-day grid, exact durations |
+| TV12 Medianordest | `TV12.it` | [programmazione](https://tv12.medianordest.it/programmazione/) | today's table (05:00 → 04:00), with descriptions |
 
 Ids follow [iptv-org](https://github.com/iptv-org/database) so a playlist built from it matches
 without remapping. Icons come from iptv-org too.
@@ -67,6 +68,7 @@ sources/iuniortv.py     # Iunior TV
 sources/camera.py       # Camera dei Deputati
 sources/senato.py       # Senato TV
 sources/raiitalia.py    # Rai Italia
+sources/tv12.py         # TV12 Medianordest
 tests/                  # unittest + HTML/JSON fixtures
 PLAN.md                 # source analysis and plan
 tvit/                   # git-ignored clone of github.com/leicaflorian/tvit (reference)
@@ -75,5 +77,5 @@ tvit/                   # git-ignored clone of github.com/leicaflorian/tvit (ref
 ## Adding a channel
 
 Write `sources/<channel>.py` exposing `CHANNEL = {"id", "name", "icon"}` and
-`collect(today, days) -> [(start, stop, title)]`, add it to `SOURCES` in `sources/__init__.py`,
+`collect(today, days) -> [(start, stop, title[, description])]`, add it to `SOURCES` in `sources/__init__.py`,
 save a fixture, and test the parser offline. Nothing else changes: the XMLTV assembly is shared.

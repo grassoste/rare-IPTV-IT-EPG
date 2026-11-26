@@ -12,6 +12,7 @@ channel is a source module; `build_epg.py` merges them into a single `epg.xml`.
 | Camera dei Deputati | `CameradeiDeputati.it` | event list |
 | Senato TV | `SenatoTV.it` | event list |
 | Rai Italia | `RaiItalia.it` | full-day grid, exact durations |
+| TV12 Medianordest | `TV12.it` | today's table 05:00 → 04:00, with descriptions |
 
 Two of them are event channels: they air sittings, press conferences and events, never a 24/7
 grid. Gaps are the truth.
